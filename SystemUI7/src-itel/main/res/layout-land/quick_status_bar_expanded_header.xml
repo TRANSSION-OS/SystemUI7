@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+** Copyright 2012, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+-->
+
+<!-- Extends RelativeLayout -->
+<com.android.systemui.statusbar.phone.QuickStatusBarHeader
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:systemui="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/header"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/status_bar_header_height"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:baselineAligned="false"
+    android:clickable="false"
+    android:layoutDirection = "ltr"
+    >
+
+    <RelativeLayout
+        android:id="@+id/rly_edit_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_marginTop="@dimen/qs_head_editsetting_margin_top"
+        android:layout_marginEnd="@dimen/qs_settings_button_margin_right">
+
+        <com.android.systemui.statusbar.phone.SettingsButton
+            android:id="@+id/settings_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:padding="@dimen/qs_head_iamge_margin"
+            android:background="@drawable/ripple_drawable"
+            android:contentDescription="@string/accessibility_quick_settings_settings"
+            android:src="@drawable/itel_ic_settings" />
+
+        <com.android.systemui.statusbar.phone.MultiUserSwitch
+            android:id="@+id/multi_user_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/qs_multiuser_margin_end"
+            android:layout_toStartOf="@id/settings_button"
+            android:background="@drawable/ripple_drawable">
+
+            <ImageView
+                android:id="@+id/multi_user_avatar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_qs_multiuser"
+                android:padding="@dimen/qs_head_iamge_margin"
+                />
+        </com.android.systemui.statusbar.phone.MultiUserSwitch>
+
+        <com.android.systemui.statusbar.AlphaOptimizedImageView
+            android:id="@+id/qs_edit"
+            android:clickable="true"
+            android:layout_toStartOf="@+id/multi_user_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ripple_drawable"
+            android:layout_marginEnd="@dimen/qs_ic_edit_margin_end"
+            android:src="@drawable/itel_ic_edit"
+            android:padding="@dimen/qs_head_iamge_margin"
+            />
+    </RelativeLayout>
+    <!--talpa@andy 2017/4/27 11:46 delete @{-->
+   <!-- <include
+        layout="@layout/status_bar_alarm_group"
+        android:layout_alignBottom="@id/rly_edit_setting"
+        android:layout_alignParentStart="true"
+        />
+     -->
+    <!--@}-->
+
+    <com.android.systemui.statusbar.policy.SplitClockView
+        android:id="@+id/date_time_alarm_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/qs_time_marginstart"
+        android:layout_marginBottom="@dimen/itel_qs_head_margin_bottom"
+        android:layout_alignBottom="@id/rly_edit_setting"
+        android:layout_alignParentStart="true"
+        android:gravity="start"
+        android:orientation="horizontal">
+
+        <TextClock
+            android:layout_gravity="bottom"
+            android:id="@+id/time_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textAppearance="@style/TextAppearance.StatusBar.Expanded.Time"
+            />
+
+        <TextClock
+            android:layout_gravity="bottom"
+            android:id="@+id/am_pm_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:singleLine="true"
+            android:textAppearance="@style/TextAppearance.StatusBar.Expanded.Date"
+            android:importantForAccessibility="no"
+            android:textAllCaps="true"
+            />
+        <com.android.systemui.statusbar.policy.DateView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textAppearance="@style/TextAppearance.StatusBar.Expanded.Date"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="@dimen/qs_date_marginstart"
+            systemui:datePattern="@string/abbrev_wday_month_day_no_year_alarm" />
+
+        <TextView
+            android:id="@+id/header_emergency_calls_only"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_gravity="bottom"
+            android:textAppearance="@style/TextAppearance.StatusBar.Expanded.EmergencyCallsOnly"
+            android:text="@string/emergency_calls_only"
+            android:singleLine="true"
+            android:focusable="true" />
+
+    </com.android.systemui.statusbar.policy.SplitClockView>
+
+
+    <com.android.systemui.qs.QuickQSPanel
+        android:id="@+id/quick_qs_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentEnd="false"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="18dp"
+        android:importantForAccessibility="yes"
+        android:focusable="true"
+        android:accessibilityTraversalAfter="@+id/date_time_group"
+        />
+
+    <com.android.systemui.statusbar.AlphaOptimizedImageView
+        android:id="@+id/qs_detail_header_progress"
+        android:src="@drawable/indeterminate_anim"
+        android:alpha="0"
+        android:background="@color/qs_detail_progress_track"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        />
+
+    <TextView
+        android:id="@+id/header_debug_info"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="11dp"
+        android:textStyle="bold"
+        android:textColor="#00A040"
+        android:padding="2dp"
+        />
+
+</com.android.systemui.statusbar.phone.QuickStatusBarHeader>

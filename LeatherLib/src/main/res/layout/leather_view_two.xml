@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:leather="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center_horizontal"
+	android:orientation="vertical">
+
+<com.android.systemui.statusbar.phoneleather.LeatherTimeView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:leather="http://schemas.android.com/apk/res-auto"
+	android:layout_marginTop="@dimen/leather_margin_top"
+	leather:date_right_margin="@dimen/date_right_margin"
+	leather:date_textSize="@dimen/date_textSize"
+	leather:date_width="@dimen/date_width"
+	leather:week_bottom_margin="@dimen/week_bottom_margin"
+	leather:week_square_width="@dimen/week_square_width"
+	leather:second_top_height="@dimen/second_top_height"
+	leather:second_bottom_height="@dimen/second_bottom_height"
+	leather:up_button_margin_bottom="@dimen/up_button_margin_bottom"
+	leather:phone_margin_left="@dimen/phone_margin_left"
+	leather:phone_margin_top="@dimen/phone_margin_top"
+	leather:phone_margin_sms="@dimen/phone_margin_sms"
+	leather:phone_or_sms_num_circle_radius="@dimen/phone_or_sms_num_circle_radius"
+	leather:phone_or_sms_middle_rect_width="@dimen/phone_or_sms_middle_rect_width"
+	leather:phone_or_sms_big_rect_width="@dimen/phone_or_sms_big_rect_width"
+	leather:phone_or_sms_num_textSize="@dimen/phone_or_sms_num_textSize"
+	android:id="@+id/topic_view"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" />
+
+</LinearLayout>

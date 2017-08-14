@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyguard_domestic_zone_name">ቤጂንግ</string>
+    <string name="every_day">በየቀኑ</string>
+    <string name="never">በጭራሽ</string>
+    <string name="default_label">ማንቂያ</string>
+    <string name="voiceui_notify_string">ማለት ይችላሉ</string>
+    <string name="voiceui_control_poweroff_alarm">ኃይል ማጥፊያ ማንቂያን ለመቆጣጠር</string>
+    <string name="voiceui_or">ወይም</string>
+    <string name="keyguard_accessibility_alarm_unlock">ኃይል ማጥፊያ ማንቂያ</string>
+    <string name="alarm_alert_dismiss_text">ደምስስ</string>
+    <string name="alarm_alert_snooze_text">ፋታ ስጥ</string>
+    <string name="description_direction_left">"ለ  <xliff:g id="target_description" example="Unlock">%s</xliff:g> ወደ ግራ ያንሸራቱ</string>
+    <string name="description_direction_right">ለ  <xliff:g id="target_description" example="Unlock">%s</xliff:g> ወደ ቀኝ ያንሸራቱ</string>
+    <string name="keyguard_password_entering_puk_code">ፒዩኬ ኮድ ያስገቡ</string>
+    <string name="keyguard_password_wrong_puk_code">የተሳሳተ ፒዩኬ ኮድ!</string>
+    <string name="invalidPuk">8 አሃዞች ያስገቡ</string>
+    <string name="keyguard_password_enter_new_pin_code">አዲስ ፒን ያስገቡ</string>
+    <string name="keyguard_password_Confirm_pin_code">አዲስ ፒን ያረጋግጡ</string>
+    <string name="sim_permanently_locked">ከ10 ጊዜ በላይ የተሳሳተ ፒዩኬ ኮድ ገብቷል፣ ሲም ካርድ በቋሚነት ተዘግቷል</string>
+    <string name="retries_left">ይቀሪዎች:<xliff:g id="number">%d</xliff:g></string>
+    <string name="simlock_slot_locked_message">ማስገቢያው በቋሚነት ተቆልፏል</string>
+    <string name="simlock_entersimmelock">የሲም ME መቆለፊያ ያስገቡ</string>
+    <string name="slot_id">ማስገቢያ <xliff:g id="number">%d</xliff:g>:</string>
+    <string name="new_simcard">አዲስ ሲም ካርድ</string>
+    <string name="lockscreen_missing_sim_dialog_message">ሲም ካርድ ተነቅሏል እባክዎ ሲም ካርዶ በአግባቡ መሰካቱን ያረጋግጡ</string>
+    <string name="sim_card_changed_dialog_title">ሲም ካርድ ተለውጧል</string>
+    <string name="change_setting_for_onenewsim">አዲስ ሲም ካርድ ተገኝቷል፣ ተሰይሟል እንደ</string>
+    <string name="change_setting_for_twonewsim">አዲስ ሲም ካርድ ተገኝቷል፣ ተሰይመዋል እንደ</string>
+    <string name="sim_card_removed">ሲም ካርድ ተወግዷል</string>
+    <string name="sim_card_swapped">ሲም ካርድ ተለዋውጧል</string>
+    <string name="change_settings">ለውጥ</string>
+    <string name="keyguard_voice_call">የድምጽ ጥሪ፡</string>
+    <string name="keyguard_sms">መልእክት፡</string>
+    <string name="keyguard_data">የውሂብ ግንኙነት፡</string>
+    <string name="dismiss">ደምስስ</string>
+    <string name="keyguard_wrong_code_input">የተሳሳተ ኮድ</string>
+    <string name="keyguard_code_length_prompt">4-8 አሃዞች ያስገቡ</string>
+    <string name="keyguard_code_donnot_mismatch">አይመሳሰልም</string>
+    <string name="network_searching">አውታር መረብ በመፈለግ ላይ</string>
+    <string name="searching_simcard">በመፈለግ ላይ…</string>
+    <string name="keyguard_close">ዝጋ</string>
+    <string name="default_sim_setting_prompt">የአሁን ነባር ማስተካከያዎች፡</string>
+    <string name="keyguard_video_call">የቪዲዮ ጥሪ፡</string>
+    <string name="lockscreen_pattern_wrong">እንደገና ይሞክሩ</string>
+    <string name="invalid_sim_title">ተቀባይነት የሌለው ሲም ካርድ</string>
+    <string name="invalid_sim_message">UIM/ሲም ካርድ አልታወቀም</string>
+    <string name="lockscreen_sim_locked_message_short">ሲም ካርድ ተቆልፏል</string>
+    <string name="keyguard_alwaysask">ሁልጊዜ ጠይቅ</string>
+    <string name="keyguard_data_none">ማጥፋት</string>
+    <string name="keyguard_sim_auto">በራስ</string>
+    <string name="keyguard_internal_call">የውስጥ ጥሪ</string>
+    <string name="keyguard_not_set">አልተዘጋጀም</string>
+    <string name="voice_unlock_service_error">የድምጽ አገልግሎት ስህተት!</string>
+    <string name="voice_unlock_password_wrong">ይቅርታ፣ ድምጾን መለየት አልተቻለም</string>
+    <string name="voice_unlock_noisy">በጣም ጫጫታ በመኖሩ በግልጽ ልንሰማዎ አልቻልኩም</string>
+    <string name="voice_unlock_weak">ድምጾን መስማት አልተቻለም</string>
+    <string name="voice_unlock_media_playing">በማህደረ መረጃ መጫወት ወቅት በድምጽ መክፈት እንዳይሰራ ተደርጓል</string>
+    <string name="voiceunlock_multiple_failures">ከፍተኛው በድምጽ የመክፈት ሙከራ ጊዜ አልፏል</string>
+    <string name="voiceunlock_accessibility_voice_unlock">በድምጽ መክፈት</string>
+    <string name="dm_prompt">ተርሚናሉ ቀድሞውንም ተዘግቶ ነበር</string>
+    <string name="ppl_prompt">እባክዎ ለመክፈት የግላዊነት መጠበቂያ የይለፍ ቃሉን ያስገቡ</string>
+    <string name="sd_accessing_swtich_user_title">ተጠቃሚ ይለወጥ?</string>
+    <string name="sd_accessing_swtich_user_message">በባለቤቱ መለያ የሚገኝ ሁሉም መረጃ ይጠፋል ወይም ይጎዳል</string>
+    <string name="kg_emergency_call_label">ድንገተኛ</string>
+    <string name="kg_slot_id">ማስገቢያ <xliff:g id="number">%d</xliff:g>:\u0020</string>
+    <string name="kg_detecting_simcard">በመፈለግ ላይ…</string>
+    <string name="kg_new_simcard">አዲስ ሲም ካርድ</string>
+</resources>

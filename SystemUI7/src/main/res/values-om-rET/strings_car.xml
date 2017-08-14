@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="car_lockscreen_disclaimer_title">"Nagenyaan konkolachisii"</string>
+    <string name="car_lockscreen_disclaimer_text">"Gutuma gututtii  haalaa konkalachisummaa bekii akkasumas seroota eegi. Kallatiin sirrii ta’uu dhisuu,guutu ta’uu dhiisu, hamaa, kan namatti hin tollee, kan hin eyyamamne, ykn nannoo bulchinsaa kan addaan kuutaan ta’uu danda’uu. Odeeffaannoon daldalaa sirrii fi guutu ta’uu dhiisu danda’aa. Dataan kan yeroo isaa eggate miti akkasumas sirri ta’uun hin eyyamammu. Meshaa mobayilaa kee hin sochosiin ykn yeroo konkolachistuu andiroyidii ofnaa hin yadamne fayyadamii"</string>
+</resources>

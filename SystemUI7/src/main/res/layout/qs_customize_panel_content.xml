@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2016 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <Toolbar
+        android:id="@+id/action_bar"
+        style="?android:attr/toolbarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:navigationContentDescription="@string/action_bar_up_description"
+        android:popupTheme="@style/ToolbarPopupTheme"
+        android:contentInsetStart="0dp"
+        >
+        <!-- talpa@andy 2017/5/12 21:43 add @{-->
+        <ImageView
+            android:id="@+id/action_back"
+            android:layout_width="@dimen/itel_qs_customizer_back_width"
+            android:layout_height="@dimen/itel_qs_customizer_back_height"
+            android:src="@drawable/ic_qs_back"
+            android:scaleType="center"
+            android:background="@drawable/ripple_drawable"
+            android:layout_marginStart="@dimen/itel_qs_customizer_back_margin_left"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:visibility="visible"
+            android:text="@string/qs_edit"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:layout_marginStart="@dimen/itel_qs_customizer_edit_margin_left"
+            />
+          <!--@}-->
+    </Toolbar>
+    <FrameLayout
+        android:layout_width="@dimen/notification_panel_width"
+        android:layout_height="match_parent"
+        >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@android:id/list"
+            android:layout_width="@dimen/notification_panel_width"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:importantForAccessibility="no"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:scrollIndicators="top"
+            android:scrollbars="vertical"
+            android:clipToPadding="false"
+            android:clipChildren="false"
+            />
+
+<!--        <TextView
+            android:id="@+id/text_drag_to_remove_tiles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/itel_text_drag_margin_left"
+            android:layout_marginTop="@dimen/itel_text_drag_margin_top"
+            android:background="#00000000"
+            android:text="@string/drag_to_remove_tiles"
+            android:textColor="@color/itel_text_drag_text_color"
+            android:textSize="@dimen/itel_text_drag_size"
+            />-->
+    </FrameLayout>
+
+    <View
+        android:id="@+id/nav_bar_background"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/navigation_bar_size"
+        android:layout_gravity="bottom"
+        android:background="#ff000000"
+        android:visibility="gone"/>
+</merge>

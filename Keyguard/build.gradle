@@ -1,0 +1,44 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+    sourceSets {
+        main {
+
+            java {
+                srcDirs += 'src-itel/main/java'
+                srcDirs += 'src-mtk/main/java'
+            }
+
+            res {
+                srcDirs += 'src-itel/main/res'
+                srcDirs += 'src-mtk/main/res'
+                srcDirs += 'src-sprd/main/res'
+            }
+        }
+    }
+}
+
+dependencies {
+    compile project(':SettingsLib')
+    provided files('libs/framework.jar')
+    provided files('libs/telephony-common.jar')
+}
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- linwujia add start -->
+    <integer name="audioprofiles_fade_in_animation_duration">200</integer>
+    <integer name="leather_menu_animation_duration">300</integer>
+    <string name="leather_color_view_support_language" translatable="false">
+        ar,fa,ur
+    </string>
+    <!-- linwujia add end -->
+</resources>

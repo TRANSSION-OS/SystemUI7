@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pip_close">PIP ကိုပိတ္ပါ</string>
+    <string name="pip_fullscreen">စကရင္အျပည့္</string>
+    <string name="pip_play">ဖြင့္သည္</string>
+    <string name="pip_pause">ခဏရပ္သည္</string>
+    <string name="pip_hold_home">PIP ကိုထိန္းခ်ဳပ္ရန္ "ပင္မ"" ခလုတ္ကို ဖိထားပါ"</string>
+    <string name="pip_onboarding_title">ပံုထဲမွပံု</string>
+    <string name="pip_onboarding_description">ေနာက္တစ္ခုမဖြင့္မခ်င္း သင့္ဗီဒီယိုကို ျပသထားပါမည္။ ၎ကိုထိန္းခ်ဳပ္ရန္ "ပင္မ"" ခလုတ္ကို ႏွိပ္ျပီးဖိထားပါ။"</string>
+    <string name="pip_onboarding_button">၎ကို ရယူပါ</string>
+    <string name="recents_tv_dismiss">"ပယ္ခ်ပါ"</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="click_return_telephone">ਕਾਲ \'ਤੇ ਵਾਪਸ ਜਾਣ ਲਈ ਟੱਚ ਕਰੋ</string>
+    <string name="call_end">"ਕਾਲ ਸਮਾਪਤ ਹੋਈ"</string>
+    <string name="call_fail">ਕਾਲ ਅਸਫ਼ਲ ਹੈ</string>
+    <string name="keyguard_plugged_in_percent">ਚਾਰਜ ਹੋ ਰਿਹਾ ਹੈ <xliff:g id="number">%1$d</xliff:g>%%</string>
+    <string name="keyguard_bottom_date_day">"ਦਿਨ"</string>
+    <string name="take_screenshot">"ਸਕ੍ਰੀਨਸ਼ਾਟ"</string>
+    <string name="mem_info">RAM: <xliff:g id="ram_available">%1$s</xliff:g>MB / <xliff:g id="ram_total">%2$s</xliff:g>GB</string>
+    <string name="recents_clear_memory">ਕਾਮਯਾਬੀ ਨਾਲ <xliff:g id="number">%d</xliff:g>M ਮੈਮੋਰੀ ਸਾਫ਼ ਕੀਤੀ</string>
+    <string name="accident_touch_model">ਸਮਾਰਟ ਫਰਜ਼ੀ ਟੱਚ ਰੱਦ ਕਰਨ ਢੰਗ</string>
+    <string name="accident_touch_content">ਬਾਹਰ ਨਿਕਲਣ ਦਾ ਢੰਗ:\nਸਕਰੀਨ ਦੇ ਸਿਖਰ ਨੂੰ ਨਾ ਢੱਕੋ \nਬਾਹਰ ਜਾਣ ਲਈ ਵਾਲੀਅਮ ਘੱਟ ਬਟਨ ਨੂੰ ਲੰਮਾ ਦਬਾਓ</string>
+    <string name="qs_power_save">ਸੁਪਰ ਊਰਜਾ ਬੱਚਤ</string>
+    <string name="split_screen">ਸਕਰੀਨ ਵੰਡੋ</string>
+    <string name="lock_task">ਲਾਕ</string>
+    <string name="unlock_task">"ਅਨਲੌਕ ਕਰੋ"</string>
+</resources>

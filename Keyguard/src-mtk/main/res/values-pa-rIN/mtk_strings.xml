@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyguard_domestic_zone_name">"ਬੀਜਿੰਗ"</string>
+    <string name="every_day">"ਰੋਜ਼ਾਨਾ"</string>
+    <string name="never">"ਕਦੇ ਵੀ ਨਹੀਂ"</string>
+    <string name="default_label">"ਅਲਾਰਮ"</string>
+    <string name="voiceui_notify_string">ਤੁਹਾਨੂੰ ਕਹਿ ਸਕਦਾ ਹੈ</string>
+    <string name="voiceui_control_poweroff_alarm">ਬਿਜਲੀ ਦੀ-ਬੰਦ ਅਲਾਰਮ ਨੂੰ ਕੰਟਰੋਲ ਕਰਨ ਲਈ.</string>
+    <string name="voiceui_or">ਜ</string>
+    <string name="keyguard_accessibility_alarm_unlock">ਪਾਵਰ-ਆਫ ਅਲਾਰਮ</string>
+    <string name="alarm_alert_dismiss_text">"ਖ਼ਾਰਜ ਕਰੋ"</string>
+    <string name="alarm_alert_snooze_text">"ਸਨੂਜ਼ ਕਰੋ"</string>
+    <string name="description_direction_left">"<xliff:g id="TARGET_DESCRIPTION">%s</xliff:g> ਤੱਕ ਖੱਬੇ ਪਾਸੇ ਸਲਾਈਡ ਕਰੋ।"</string>
+    <string name="description_direction_right">"<xliff:g id="TARGET_DESCRIPTION">%s</xliff:g> ਲਈ ਸੱਜੇ ਪਾਸੇ ਸਲਾਈਡ ਕਰੋ।"</string>
+    <string name="keyguard_password_entering_puk_code">PUK ਕੋਡ ਦਰਜ ਕਰੋ</string>
+    <string name="keyguard_password_wrong_puk_code">ਗ਼ਲਤ PUK ਕੋਡ!</string>
+    <string name="invalidPuk">ਇੰਪੁੱਟ 8 ਅੰਕ.</string>
+    <string name="keyguard_password_enter_new_pin_code">ਨਵ ਿਪਨ ਦਰਜ ਕਰੋ</string>
+    <string name="keyguard_password_Confirm_pin_code">"ਨਵੇਂ PIN ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ"</string>
+    <string name="sim_permanently_locked">ਦਰਜ ਗਲਤ PUK ਕੋਡ ਵੱਧ 10 ਵਾਰ, ਿਸਮ ਕਾਰਡ ਨੂੰ ਹਮੇਸ਼ਾ ਲਈ ਨੂੰ ਲਾਕ ਕੀਤਾ ਗਿਆ ਹੈ.</string>
+    <string name="retries_left">ਖੰਡਰ: <xliff:g id="number">%d</xliff:g></string>
+    <string name="simlock_slot_locked_message">ਨੰਬਰ ਨੂੰ ਹਮੇਸ਼ਾ ਲਈ ਨੂੰ ਲਾਕ ਕੀਤਾ ਗਿਆ ਹੈ</string>
+    <string name="simlock_entersimmelock">SIM ME ਲਾਕ ਦਿਓ</string>
+    <string name="slot_id">ਸਲਾਟ <xliff:g id="number">%d</xliff:g>:</string>
+    <string name="new_simcard">ਨ੍ਯੂ ਿਸਮ ਕਾਰਡ</string>
+    <string name="lockscreen_missing_sim_dialog_message">ਿਸਮ ਕਾਰਡ ਪਲੱਗ ਹੈ. ਕਿਰਪਾ ਕਰਕੇ ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਤੁਹਾਡੇ ਿਸਮ ਕਾਰਡ ਸਹੀ ਪਲਗ ਹੈ.</string>
+    <string name="sim_card_changed_dialog_title">ਿਸਮ ਕਾਰਡ ਬਦਲ ਗਿਆ</string>
+    <string name="change_setting_for_onenewsim">ਨ੍ਯੂ ਿਸਮ ਕਾਰਡ ਖੋਜਿਆ. ਇਹ ਲੇਬਲ ਦੀ</string>
+    <string name="change_setting_for_twonewsim">ਨ੍ਯੂ ਿਸਮ ਕਾਰਡ ਖੋਜਿਆ. ਉਹ ਲੇਬਲ ਹਨ,</string>
+    <string name="sim_card_removed">ਿਸਮ ਕਾਰਡ ਨੂੰ ਹਟਾ ਦਿੱਤਾ.</string>
+    <string name="sim_card_swapped">ਿਸਮ ਕਾਰਡ ਭੇਜੇ.</string>
+    <string name="change_settings">"ਬਦਲੋ"</string>
+    <string name="keyguard_voice_call">ਵਾਇਸ ਕਾਲ:</string>
+    <string name="keyguard_sms">ਸੁਨੇਹਾ:</string>
+    <string name="keyguard_data">ਡਾਟਾ ਕੁਨੈਕਸ਼ਨ:</string>
+    <string name="dismiss">"ਖ਼ਾਰਜ ਕਰੋ"</string>
+    <string name="keyguard_wrong_code_input">ਗਲਤ ਕੋਡ.</string>
+    <string name="keyguard_code_length_prompt">ਇੰਪੁੱਟ 4-8 ਅੰਕ.</string>
+    <string name="keyguard_code_donnot_mismatch">ਮੇਲ ਨਾ ਕਰੋ.</string>
+    <string name="network_searching">ਨੈੱਟਵਰਕ ਲਈ ਭਾਲ</string>
+    <string name="searching_simcard">ਖੋਜ ...</string>
+    <string name="keyguard_close">"ਬੰਦ ਕਰੋ"</string>
+    <string name="default_sim_setting_prompt">ਹੁਣ ਡਿਫਾਲਟ ਸੈਟਿੰਗ ਹਨ:</string>
+    <string name="keyguard_video_call">ਵੀਡੀਓ ਕਾਲ:</string>
+    <string name="lockscreen_pattern_wrong">"ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ"</string>
+    <string name="invalid_sim_title">ਗਲਤ ਿਸਮ ਕਾਰਡ</string>
+    <string name="invalid_sim_message">UIM / ਿਸਮ ਕਾਰਡ ਮਾਨਤਾ ਨਾ ਗਿਆ ਹੈ.</string>
+    <string name="lockscreen_sim_locked_message_short">ਿਸਮ ਕਾਰਡ ਨੂੰ ਜਿੰਦਰਾ</string>
+    <string name="keyguard_alwaysask">ਹਮੇਸ਼ਾ ਪੁੱਛੋ ਕਿ</string>
+    <string name="keyguard_data_none">"ਬੰਦ"</string>
+    <string name="keyguard_sim_auto">"ਆਟੋ"</string>
+    <string name="keyguard_internal_call">ਅੰਦਰੂਨੀ ਕਾਲ</string>
+    <string name="keyguard_not_set">"ਸੈੱਟ ਨਹੀਂ ਕੀਤਾ"</string>
+    <string name="voice_unlock_service_error">ਵਾਇਸ ਸੇਵਾ ਗਲਤੀ!</string>
+    <string name="voice_unlock_password_wrong">ਅਫਸੋਸ ਹੈ, ਤੁਹਾਡੀ ਆਵਾਜ਼ ਦੀ ਪਛਾਣ ਨਾ ਕਰ ਸਕਦਾ ਹੈ.</string>
+    <string name="voice_unlock_noisy">ਬਹੁਤ ਰੌਲੇ ਜੋ ਕਿ ਇਸ ਲਈ ਤੁਹਾਨੂੰ ਸਪਸ਼ਟ ਸੁਣ ਨਾ ਕਰ ਸਕਦਾ ਹੈ.</string>
+    <string name="voice_unlock_weak">ਤੁਹਾਡੀ ਆਵਾਜ਼ ਨੂੰ ਸੁਣ ਨਾ ਕਰ ਸਕਦਾ ਹੈ.</string>
+    <string name="voice_unlock_media_playing">ਵਾਇਸ ਤਾਲਾ ਮੀਡੀਆ ਖੇਡਣ ਦੌਰਾਨ ਆਯੋਗ ਹੈ.</string>
+    <string name="voiceunlock_multiple_failures">ਵੱਧ ਵਾਇਸ ਲਾਕ ਦੀ ਕੋਸ਼ਿਸ਼ ਵੱਧ</string>
+    <string name="voiceunlock_accessibility_voice_unlock">ਵਾਇਸ ਤਾਲਾ.</string>
+    <string name="dm_prompt">ਟਰਮੀਨਲ ਹੀ ਤਾਲਾਬੰਦ ਹੈ</string>
+    <string name="ppl_prompt">ਤਾਲਾ ਕਰਨ ਲਈ ਪਰਦੇਦਾਰੀ ਪ੍ਰੋਟੈਕਸ਼ਨ ਪਾਸਵਰਡ ਦਿਓ ਜੀ.</string>
+    <string name="sd_accessing_swtich_user_title">ਉਪਭੋਗੀ ਨੂੰ ਜਾਓ?</string>
+    <string name="sd_accessing_swtich_user_message">ਮਾਲਕ ਨੂੰ ਖਾਤੇ ਵਿੱਚ ਸਾਰੇ ਸੰਭਾਲਿਆ ਡਾਟਾ ਖਤਮ ਹੋ ਜ ਖਰਾਬ ਹੋ ਜਾਵੇਗਾ.</string>
+    <string name="kg_emergency_call_label">"ਸੰਕਟਕਾਲ"</string>
+    <string name="kg_slot_id">ਸਲਾਟ <xliff:g id="number">%d</xliff:g>:\u0020</string>
+    <string name="kg_detecting_simcard">ਖੋਜ ...</string>
+    <string name="kg_new_simcard">ਨ੍ਯੂ ਿਸਮ ਕਾਰਡ</string>
+</resources>

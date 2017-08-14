@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (C) 2014 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+<resources>
+    <!-- linwujia add start -->
+    <dimen name="leather_margin_top">25dp</dimen>
+    <dimen name="leather_margin_left">20dp</dimen>
+    
+    <dimen name="leather_menu_radius">280dp</dimen>
+    <dimen name="leather_menu_down">20dp</dimen>
+    <dimen name="leather_menu_down_margin_top">116dp</dimen>
+    <dimen name="leather_menu_button_margin_top">12dp</dimen>
+    <dimen name="leather_menu_button_width">52dp</dimen>
+    <dimen name="leather_menu_text_margin_top">12dp</dimen>
+    <dimen name="leather_menu_textSize">12sp</dimen>
+    <dimen name="leather_menu_button_margin_start">34dp</dimen>
+    
+    <dimen name="leather_audioprofiles_button_area_width">126dp</dimen>
+    <dimen name="leather_audioprofiles_button_area_height">156dp</dimen>
+    <dimen name="leather_audioprofiles_button_area_margin_top">50dp</dimen>
+    <dimen name="leather_audioprofiles_button_width">48dp</dimen>
+    <dimen name="leather_audioprofiles_button_and_text_height">78dp</dimen>
+    <dimen name="leather_audioprofiles_text_margin_top">6dp</dimen>
+    <dimen name="leather_audioprofiles_textSize">11sp</dimen>
+    <dimen name="leather_audioprofiles_back_button_width">36dp</dimen>
+    <dimen name="leather_audioprofiles_back_button_margin_top">8dp</dimen>
+    
+    <dimen name="time_textSize">52sp</dimen>
+    <dimen name="dateweek_textSize">16sp</dimen>
+    <dimen name="up_button_margin_bottom">34dp</dimen>
+    <dimen name="phone_margin_left">101dp</dimen>
+    <dimen name="phone_margin_top">50dp</dimen>
+    <dimen name="phone_margin_sms">28dp</dimen>
+    <dimen name="sweep_gradient_width">15dp</dimen>
+    <dimen name="phone_or_sms_num_circle_radius">7dp</dimen>
+    <dimen name="phone_or_sms_middle_rect_width">8dp</dimen>
+    <dimen name="phone_or_sms_big_rect_width">14dp</dimen>
+    <dimen name="phone_or_sms_num_textSize">10sp</dimen>
+    
+    <dimen name="date_right_margin">68dp</dimen>
+    <dimen name="date_width">20dp</dimen>
+    <dimen name="date_textSize">13sp</dimen>
+    <dimen name="week_bottom_margin">64dp</dimen>
+    <dimen name="week_square_width">48dp</dimen>
+    <dimen name="second_top_height">108dp</dimen>
+    <dimen name="second_bottom_height">20dp</dimen>
+    
+    <!-- linwujia add end -->
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="click_return_telephone">กลับไปเรียก</string>
+    <string name="call_end">วางสายแล้ว</string>
+    <string name="call_fail">โทรล้มเหลว MM #5</string>
+    <string name="keyguard_plugged_in_percent">ชาร์จ  <xliff:g id="number">%1$d</xliff:g>%%</string>
+    <string name="keyguard_bottom_date_day">วัน</string>
+    <string name="take_screenshot">ภาพหน้าจอ</string>
+    <string name="mem_info">หน่วยความจำ: <xliff:g id="ram_available">%1$s</xliff:g>MB / <xliff:g id="ram_total">%2$s</xliff:g>GB</string>
+    <string name="recents_clear_memory">ล้างข้อมูลสำเร็จแล้ว <xliff:g id="number">%d</xliff:g> หน่วยความจำ M</string>
+    <string name="accident_touch_model">โหมดอย่างอิสระไม่ตั้งใจ</string>
+    <string name="accident_touch_content">วิธีออก: \n อย่าปิดด้านบนของหน้าจอ \n กดยาวไดรฟ์ - ทางออก</string>
+    <string name="qs_power_save">พลังงานพิเศษ</string>
+    <string name="split_screen">แยกหน้าจอ</string>
+    <string name="lock_task">ล็อก</string>
+    <string name="unlock_task">ยกเลิกการล็อก</string>
+</resources>

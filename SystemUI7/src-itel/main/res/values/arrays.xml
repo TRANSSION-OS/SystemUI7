@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="itel_notification_icons">
+        <!-- phone -->
+        <!--<item>com.android.dialer#itel_notification_icon_phone</item>-->
+        <!-- mms -->
+        <!--<item>com.android.mms#itel_notification_icon_message</item>-->
+        <!--truecaller-->
+        <item>com.truecaller#itel_notification_icon_truecaller</item>
+        <!--jio4gvoice-->
+        <item>com.admin.jio#itel_notification_icon_jio4gvoice</item>
+        <!--imo-->
+        <item>com.imo.android.imoim#itel_notification_icon_imo_free_video_calls_and_chat</item>
+        <!--automatic call recorder-->
+        <item>com.appstar.callrecorder#itel_notification_icon_automatic_call_recorder</item>
+        <!-- whatsapp -->
+        <item>com.whatsapp#itel_notification_icon_whatsapp</item>
+        <!-- messenger -->
+        <item>com.facebook.orca#itel_notification_icon_messenger</item>
+        <!-- facebook -->
+        <item>com.facebook.katana#itel_notification_icon_facebook</item>
+        <!-- facebook lite -->
+        <item>com.facebook.lite#itel_notification_icon_fackbook_lite</item>
+        <!-- instagram -->
+        <item>com.instagram.android#itel_notification_icon_instagram</item>
+        <!--hike-->
+        <item>com.bsb.hike#itel_notification_icon_hike_messenger</item>
+        <!--YeeCall free video call & chat-->
+        <item>com.yeecall.app#itel_notification_icon_yee_call_free_video_call_chat</item>
+        <!--Twitter-->
+        <item>com.twitter.android#itel_notification_icon_twitter</item>
+        <!--Snapchat-->
+        <item>com.snapchat.android#itel_notification_icon_snapchat</item>
+    </string-array>
+</resources>

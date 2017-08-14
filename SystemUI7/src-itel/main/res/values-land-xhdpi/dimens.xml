@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--talpa@andy add @{-->
+    <dimen name="status_bar_header_height">143dp</dimen>
+    <!--@}-->
+</resources>

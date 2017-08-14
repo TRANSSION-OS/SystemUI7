@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">"Egga furtu"</string>
+    <string name="keyguard_password_enter_pin_code">"PIN kooddii galchi"</string>
+    <string name="keyguard_password_enter_puk_code">"PUK SIM fi PIN kooddii haaraa barreessi"</string>
+    <string name="keyguard_password_enter_puk_prompt">"Kooddii PUK SIM"</string>
+    <string name="keyguard_password_enter_pin_prompt">"Kooddii PUK SIM haaraa"</string>
+    <string name="keyguard_password_entry_touch_hint">"<font size="17">Jechaa darbinsa barresuf tuqi</font>"</string>
+    <string name="keyguard_password_enter_password_code">"Banuf Jecha darbinsa barreessi"</string>
+    <string name="keyguard_password_enter_pin_password_code">"Hiikuuf PIN barreessi"</string>
+    <string name="keyguard_password_wrong_pin_code">"PIN kooddii sirrii miti."</string>
+    <string name="keyguard_charged">"Chaarjii ta'eera"</string>
+    <string name="keyguard_plugged_in">"Charjii godha jira"</string>
+    <string name="keyguard_plugged_in_charging_fast">"Hatatamaan charjii gochaa jiraa"</string>
+    <string name="keyguard_plugged_in_charging_slowly">"Suutaa charjii gochaa jiraa"</string>
+    <string name="keyguard_low_battery">"Chaarjarii kee suuqi."</string>
+    <string name="keyguard_instructions_when_pattern_disabled">"Banuuf bafataa tuqi."</string>
+    <string name="keyguard_network_locked_message">"Cimdaa sakaalamera"</string>
+    <string name="keyguard_missing_sim_message_short">"SIM kaardiin hin jiru"</string>
+    <string name="keyguard_missing_sim_message" product="default">"Bilbilaa kessaa SIM kardiin hin jiru."</string>
+    <string name="keyguard_missing_sim_instructions">"SIM kaardii galchi."</string>
+    <string name="keyguard_missing_sim_instructions_long">"SIM kaardiin hin jiru ykn hin dubbifamu. SIM kaardii galchi."</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">"SIM kaardii hin fayyadne."</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"SIM kaardiin kee dhaabbataan cufameera. \n SIM kaardii biraatif dhiyeessaa tajaajilaa wadaroo malee dubbisi."</string>
+    <string name="keyguard_sim_locked_message">"SIM kardiin cufameera."</string>
+    <string name="keyguard_sim_puk_locked_message">"SIM kaardiin PUK-sakaalamera."</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">"SIM kaardii bana jira\u2026"</string>
+    <string name="keyguard_accessibility_pattern_unlock">"Sarxaa hiikuu."</string>
+    <string name="keyguard_accessibility_pin_unlock">"Pin hiikuu."</string>
+    <string name="keyguard_accessibility_password_unlock">"Jecha darbinsa hiikuu."</string>
+    <string name="keyguard_accessibility_pattern_area">"Bakka sarxaa."</string>
+    <string name="keyguard_accessibility_slide_area">"Bakka mucicechisu."</string>
+    <string name="keyguard_accessibility_pin_area">"Bakka PIN"</string>
+    <string name="keyguard_accessibility_sim_pin_area">"Bakka SIM PIN"</string>
+    <string name="keyguard_accessibility_sim_puk_area">"Bakka SIM PUK"</string>
+    <string name="keyguard_accessibility_next_alarm">"Damaqsittun itti anu kan mijjate <xliff:g id="alarm" example="Fri8:30AM">%1$s</xliff:g>"</string>
+    <string name="keyboardview_keycode_delete">"Balessii"</string>
+    <string name="keyboardview_keycode_enter">"Galchi"</string>
+    <string name="kg_forgot_pattern_button_text">"Sarxaa irraanfadhu"</string>
+    <string name="kg_wrong_pattern">"Sarxxa dogoggoraa"</string>
+    <string name="kg_wrong_password">"Jecha darbinsa dogoggoraa"</string>
+    <string name="kg_wrong_pin">"PIN dogoggoraa"</string>
+    <string name="kg_too_many_failed_attempts_countdown">"Sekoondiiwwan  <xliff:g id="number">%d</xliff:g> booda debisi yaali."</string>
+    <string name="kg_pattern_instructions">"Sarxaa kee kaasi"</string>
+    <string name="kg_sim_pin_instructions">"PIN SIM galchi"</string>
+    <string name="kg_pin_instructions">"PIN galchi"</string>
+    <string name="kg_password_instructions">"Jecha darbinsa galchi"</string>
+    <string name="kg_puk_enter_puk_hint">"SIM amma hojji dhabsifamera. Itti fufuuf kooddii PUK galchi. Ibsa gadi fageenyaaf baata dubbisi."</string>
+    <string name="kg_puk_enter_pin_hint">"PIN kooddii barbaadame galchi"</string>
+    <string name="kg_enter_confirm_pin_hint">"PIN kooddii barbaadame mirkaneessi"</string>
+    <string name="kg_sim_unlock_progress_dialog_message">"SIM kaardii bana jira\u2026"</string>
+    <string name="kg_invalid_sim_pin_hint">"PIN lakkoofsoota 4 fi 8 gidduu ta'e barreessi."</string>
+    <string name="kg_invalid_sim_puk_hint">"PUK lakkoofsota 8 ykn calaan ta'uu mala."</string>
+    <string name="kg_invalid_puk">"Kooddii PUK sirrii tahe deebisii galchi. Yaaliin daddabalatni SIM dhabatan akka cufamu taasisa."</string>
+    <string name="kg_invalid_confirm_pin_hint" product="default">"PIN kooddiin walhin simatu"</string>
+    <string name="kg_login_too_many_attempts">"Yaaliiwwan sarxaa baay'ee"</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message">"PIN  sirrii hin tanee yerowwaan <xliff:g id="number">%1$d</xliff:g> barresitetta. \n\n Sekondiwwaan <xliff:g id="number">%2$d</xliff:g>kessattii debi'ii yaali."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message">"Jechaa darbiinsa  sirrii hin tanee yerowwaan <xliff:g id="number">%1$d</xliff:g> barresitetta. \n\n Sekondiwwaan <xliff:g id="number">%2$d</xliff:g>kessattii"</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message">"Sarxaa baniinsaa sirrii hin tanee yerowwaan <xliff:g id="number">%1$d</xliff:g>kastettaa.  \n\n Sekondiwwaan <xliff:g id="number">%2$d</xliff:g>kessattii debi'ii yaali."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" product="default">"Yeroo <xliff:g id="number">%1$d</xliff:g> bilbilla karra doggogora hikkuf yaltee jirta. Yalli doggogora dabbalata <xliff:g id="number">%2$d</xliff:g> bodda fayyadaman kun kan daata fayyadama hunda qabbate waliin haqqama."</string>
+    <string name="kg_failed_attempts_now_wiping" product="default">"Bilbila kee banuf yeroo<xliff:g id="number">%d</xliff:g>  yaaliwwan hin milkoofne goteta.Danaan hojii ni haqamaa kun ammo, daataa danaa hunda ni haqa."</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" product="default">"Yeroo <xliff:g id="number">%1$d</xliff:g> bilbilla karra doggogora hikkuf yaltee jirta. Yalli doggogora dabbalata <xliff:g id="number">%2$d</xliff:g> bodda fayyadaman kun kan daata fayyadama hunda qabbate waliin haqqama."</string>
+    <string name="kg_failed_attempts_now_erasing_user" product="default">"Bilbila kee banuf yeroo<xliff:g id="number">%d</xliff:g>  yaaliwwan hin milkoofne goteta. Fayadaman kun ni haqama kun amoo akka daataan fayadama badu godha."</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" product="default">"Yeroo <xliff:g id="number">%1$d</xliff:g> bilbilla karra doggogora hikkuf yaltee jirta. Yalli doggogora dabbalata <xliff:g id="number">%2$d</xliff:g> bodda daanan hojji kan daata daana hunda qabbate waliin haqqama."</string>
+    <string name="kg_failed_attempts_now_erasing_profile" product="default">"Bilbila kee banuf yeroo<xliff:g id="number">%d</xliff:g>  yaaliwwan hin milkoofne goteta.Danaan hojii ni haqamaa kun ammo, daataa danaa hunda ni haqa."</string>
+    <string name="kg_failed_attempts_almost_at_login" product="default">"Yerowwaan <xliff:g id="number">%1$d</xliff:g> tiif sarxaa baninsaa sirrii hin tanee kastetta. Yaliwwaan hin milkofne <xliff:g id="number">%2$d</xliff:g> boodaa, Bilbilaa kee banuuf enyumessaa ergaa-e fayyadamuun akka bantuu gafatamtaa. \n\n sekondiwwaan <xliff:g id="number">%3$d</xliff:g>  kessatii debi’ii yaalii."</string>
+    <string name="kg_password_wrong_pin_code_pukked">"SIM PIN sirrii hin taane waan taheef amma baataa kee dubbisuun meeshaa kee banuu qabda."</string>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="one">"Kooddi PIN SIM sirrii hin taane, amma yaaliin hafe  <xliff:g id="number">%d</xliff:g>waan taheef kanaan dura meeshaa kee banuuf baataa kee dubbisi"</item>
+        <item quantity="other">"SIM PIN sirrii miti, yaaliin siif hafe  <xliff:g id="number">%d</xliff:g> dha"</item>
+    </plurals>
+    <string name="kg_password_wrong_puk_code_dead">"SIM hin tajaajilu; baataa kee dubbisi"</string>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="one">"PUK SIM  sirii hin tane. SIM dhabataan akka hin hojane gochuuun dura  yaaliwwan <xliff:g id="number">%d</xliff:g>si haafe"</item>
+        <item quantity="other">"Kooddii PUK SIM sirrii hin taane, amma yaaliin hafe  <xliff:g id="number">%d</xliff:g> waan taheef kanaan dura meeshaa kee banuuf baataa kee dubbisi"</item>
+    </plurals>
+    <string name="kg_password_pin_failed">"Hojiin PIN SIM dhaabateera!"</string>
+    <string name="kg_password_puk_failed">"Hojiin PUK SIM dhaabateera!"</string>
+    <string name="kg_pin_accepted">"Kooddiin fudhatameera!"</string>
+    <string name="keyguard_carrier_default">"Tajaajilli hin jiru"</string>
+    <string name="accessibility_ime_switch_button">"Toftaa galinsaa jijjiri"</string>
+    <string name="airplane_mode">"Toftaa xayyara"</string>
+    <string name="kg_prompt_reason_restart_pattern">"Ergaa meshaan debi'ee ka'ee boodaa sarxaan ni barbachiisa"</string>
+    <string name="kg_prompt_reason_restart_pin">"Ergaa meshaan debi'ee ka'ee boodaa PIN ni barbachiisa"</string>
+    <string name="kg_prompt_reason_restart_password">"Ergaa meshaan debi'ee ka'ee boodaa jechii darbiinsaa ni barbachiisa"</string>
+    <string name="kg_prompt_reason_timeout_pattern">"Nagenyaa dabalatatiif sarxaan ni barbachiisa"</string>
+    <string name="kg_prompt_reason_timeout_pin">"Nagenyaa dabalatatiif PIN ni barbachiisa"</string>
+    <string name="kg_prompt_reason_timeout_password">"Nagenyaa dabalatatiif jechii darbinsaa ni barbachiisa"</string>
+    <string name="kg_prompt_reason_switch_profiles_pattern">"Yeroo danaalee kee jijjirtuu sarxaan ni barbachiisa"</string>
+    <string name="kg_prompt_reason_switch_profiles_pin">"Yeroo danaalee kee jijjirtuu PIN ni barbachiisa"</string>
+    <string name="kg_prompt_reason_switch_profiles_password">"Yeroo danaalee kee jijjirtuu jechii darbiinsaa ni barbachiisa"</string>
+    <string name="kg_prompt_reason_device_admin">"Bulchaan meeshaa meshaa cufeeraa"</string>
+    <string name="kg_prompt_reason_user_request">"Meshaan harkaan cufameera"</string>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="one">"Meshaan Sa'aati <xliff:g id="number">%d</xliff:g> hin banamnee. Sarxaa mirkanessi."</item>
+        <item quantity="other">"Meshaan Sa'aati <xliff:g id="number">%d</xliff:g> hin banamnee. Sarxaa mirkanessi."</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="one">"Meshaan Sa'aati <xliff:g id="number">%d</xliff:g> hin banamnee. PIN mirkanessi."</item>
+        <item quantity="other">"Meshaan Sa'aati  <xliff:g id="number">%d</xliff:g> hin banamnee. PIN mirkanessi."</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="one">"Meshaan Sa'aati <xliff:g id="number">%d</xliff:g>  hin banamnee. Jechaa darbinsaa mirkanessi."</item>
+        <item quantity="other">"Meshaan Sa'aati <xliff:g id="number">%d</xliff:g> hin banamnee. Jechaa darbinsaa mirkanessi."</item>
+    </plurals>
+    <string name="fingerprint_not_recognized">"Fudhatama hin argane"</string>
+    <!-- no translation found for kg_sim_pin_verify_success -->
+    <string name="kg_sim_pin_instructions_multi">"PIN <xliff:g id="carrier">%1$s</xliff:g> galchi"</string>
+    <!-- no translation found for kg_puk_enter_puk_hint_multi -->
+</resources>

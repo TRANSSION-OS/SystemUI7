@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="together" >
+    <objectAnimator 
+        android:propertyName="PhoneAndSmsScale" 
+        android:duration="100"
+        android:valueFrom="0.0"
+        android:valueTo="1.0"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:valueType="floatType"/>
+    
+    <objectAnimator 
+        android:propertyName="PhoneAndSmsNumberScale" 
+        android:duration="100"
+        android:valueFrom="0.0"
+        android:valueTo="1.0"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:valueType="floatType"/>
+            
+    <set android:ordering="together">
+        <objectAnimator 
+	         android:propertyName="UpTranslate" 
+	         android:duration="1000"
+	         android:valueFrom="1"
+	         android:valueTo="60"
+	         android:repeatMode="restart"
+	         android:repeatCount="2"
+	         android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+	         android:valueType="intType"/>
+        <objectAnimator 
+	         android:propertyName="UpAlpha" 
+	         android:duration="1000"
+	         android:valueFrom="0.0"
+	         android:valueTo="1.0"
+	         android:repeatMode="restart"
+	         android:repeatCount="2"
+	         android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+	         android:valueType="floatType"/>
+    </set>
+	<objectAnimator android:propertyName="BgOneRunTranslate" 
+		android:duration="960"
+		android:valueFrom="0.0"
+		android:valueTo="@dimen/leather_color_run_translate"
+		android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+		android:valueType="floatType"
+		android:repeatMode="reverse"
+		android:repeatCount="infinite"/>
+	
+	<objectAnimator android:propertyName="BgThreeRunTranslate" 
+		android:duration="960"
+		android:startOffset="200"
+		android:valueFrom="0.0"
+		android:valueTo="@dimen/leather_color_run_translate"
+		android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+		android:valueType="floatType"
+		android:repeatMode="reverse"
+		android:repeatCount="infinite"/>
+	
+	<objectAnimator android:propertyName="BgFourRunTranslate" 
+		android:duration="960"
+		android:startOffset="300"
+		android:valueFrom="0.0"
+		android:valueTo="@dimen/leather_color_run_translate"
+		android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+		android:valueType="floatType"
+		android:repeatMode="reverse"
+		android:repeatCount="infinite"/>
+
+</set>

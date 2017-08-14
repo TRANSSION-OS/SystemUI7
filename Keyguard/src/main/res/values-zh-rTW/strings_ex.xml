@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="lockscreen_no_available_network">"無可用網絡"</string>
+    <!-- SPRD:add PUK verify success prompt -->
+    <string name="kg_sim_puk_verify_success">PUK驗證成功</string>
+</resources>

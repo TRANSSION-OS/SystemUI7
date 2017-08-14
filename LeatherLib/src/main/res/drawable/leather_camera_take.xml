@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval"
+    android:useLevel="false">
+ 
+    <solid android:color="#9AFFFFFF"/>
+    <size android:width="@dimen/leather_menu_radius"
+          android:height="@dimen/leather_menu_radius"/>
+</shape>

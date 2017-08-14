@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/leather_topic_bg"
+    android:layout_marginTop="@dimen/leather_margin_top"
+    android:layout_gravity="center_horizontal"
+    android:id="@+id/audioprofiles_setting"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    <RelativeLayout 
+        android:layout_width="@dimen/leather_audioprofiles_button_area_width"
+        android:layout_height="@dimen/leather_audioprofiles_button_area_height"
+        android:layout_marginTop="@dimen/leather_audioprofiles_button_area_margin_top">
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/leather_audioprofiles_button_and_text_height"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+            <Button 
+	            android:layout_width="@dimen/leather_audioprofiles_button_width"
+	            android:layout_height="@dimen/leather_audioprofiles_button_width"            
+	            android:background="@drawable/audioprofiles_general_button_bg"
+	            android:id="@+id/audio_general" />
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:id="@+id/leather_audioprofiles_normal_text"
+	            android:textColor="@color/leather_audioprofiles_textColor"
+	            android:textSize="@dimen/leather_audioprofiles_textSize"
+	            android:layout_marginTop="@dimen/leather_audioprofiles_text_margin_top"
+	            android:singleLine="true"
+	            android:ellipsize="end"
+	            android:maxWidth="@dimen/leather_audioprofiles_button_width"
+	            android:layout_gravity="center_horizontal"
+	            android:text="@string/normal" />
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/leather_audioprofiles_button_and_text_height"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+	        <Button 
+	            android:layout_width="@dimen/leather_audioprofiles_button_width"
+	            android:layout_height="@dimen/leather_audioprofiles_button_width"
+	            android:background="@drawable/audioprofiles_silent_button_bg"
+	            android:id="@+id/audio_silent" />
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:id="@+id/leather_audioprofiles_mute_text"
+	            android:textColor="@color/leather_audioprofiles_textColor"
+	            android:textSize="@dimen/leather_audioprofiles_textSize"
+	            android:layout_marginTop="@dimen/leather_audioprofiles_text_margin_top"
+	            android:singleLine="true"
+	            android:ellipsize="end"
+	            android:maxWidth="@dimen/leather_audioprofiles_button_width"
+	            android:layout_gravity="center_horizontal"
+	            android:text="@string/mute" />
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/leather_audioprofiles_button_and_text_height"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+	        <Button 
+	            android:layout_width="@dimen/leather_audioprofiles_button_width"
+	            android:layout_height="@dimen/leather_audioprofiles_button_width"	            
+	            android:background="@drawable/audioprofiles_meeting_button_bg"
+	            android:id="@+id/audio_meeting" />
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:id="@+id/leather_audioprofiles_meeting_text"
+	            android:textColor="@color/leather_audioprofiles_textColor"
+	            android:textSize="@dimen/leather_audioprofiles_textSize"
+	            android:layout_marginTop="@dimen/leather_audioprofiles_text_margin_top"
+	            android:singleLine="true"
+	            android:ellipsize="end"
+	            android:maxWidth="@dimen/leather_audioprofiles_button_width"
+	            android:layout_gravity="center_horizontal"
+	            android:text="@string/meeting" />
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/leather_audioprofiles_button_and_text_height"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+	        <Button 
+	            android:layout_width="@dimen/leather_audioprofiles_button_width"
+	            android:layout_height="@dimen/leather_audioprofiles_button_width"
+	            android:background="@drawable/audioprofiles_outdoor_button_bg"
+	            android:id="@+id/audio_outdoor" />
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:id="@+id/leather_audioprofiles_outdoor_text"
+	            android:textColor="@color/leather_audioprofiles_textColor"
+	            android:textSize="@dimen/leather_audioprofiles_textSize"
+	            android:layout_marginTop="@dimen/leather_audioprofiles_text_margin_top"
+	            android:singleLine="true"
+	            android:ellipsize="end"
+	            android:maxWidth="@dimen/leather_audioprofiles_button_width"
+	            android:layout_gravity="center_horizontal"
+	            android:text="@string/outdoor" />
+        </LinearLayout>        
+        
+    </RelativeLayout>
+    <Button 
+        android:layout_width="@dimen/leather_audioprofiles_back_button_width"
+        android:layout_height="@dimen/leather_audioprofiles_back_button_width"
+        android:layout_marginTop="@dimen/leather_audioprofiles_back_button_margin_top"
+        android:id="@+id/audio_back"
+        android:background="@drawable/audioprofiles_back" />
+</LinearLayout>

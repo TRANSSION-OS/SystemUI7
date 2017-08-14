@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="kg_password_failed_attempts_message">ਤੁਹਾਡੇ ਕੋਲ <xliff:g id="number">%d</xliff:g> ਮੌਕਾ ਹੈ</string>
+</resources>

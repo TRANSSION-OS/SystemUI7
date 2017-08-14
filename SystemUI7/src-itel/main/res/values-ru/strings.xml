@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+* add new string defined by itel
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- linwujia add begin -->
+    <string name="keyguard_plugged_in_percent">Зарядка <xliff:g id="number">%1$d</xliff:g>%%</string>
+    <string name="click_return_telephone">Нажмите, чтобы вернуться позвонить</string>
+    <string name="call_end">Звонок окончен</string>
+    <string name="call_fail">Звонок не удался</string>
+    <!-- linwujia add end -->
+    <string name="take_screenshot">Скриншот</string>
+    <string name="recents_clear_memory">Успешно очистили <xliff:g id="number">%d</xliff:g>M памяти</string>
+    <!-- Winner add begin -->
+    <string name="accident_touch_model">Режим Smart Отторжение ложное касание</string>
+    <string name="accident_touch_content">Путь выхода: \nНе закрывайте верхнюю часть экрана\nДлительное нажатие громкости вниз кнопку для выхода из</string>
+    <!-- Winner add end -->
+    <!--talpa@andy 2017/4/13 21:14 add begin-->
+    <string name="quick_settings_data_connection_label">Данные</string>
+    <!--talpa@andy 2017/4/13 21:14 add end-->
+    !-- bo.yang add begin -->
+    <!-- recent task-->
+    <string name="split_screen">Разделенный экран</string>
+    <string name="lock_task">Замок</string>
+    <string name="unlock_task">Разблокировать</string>
+    <!-- bo.yang add end -->
+    <string name="keyguard_bottom_date_day">"дн."</string>
+    <string name="mem_info">RAM: <xliff:g id="ram_available">%1$s</xliff:g>MB / <xliff:g id="ram_total">%2$s</xliff:g>GB</string>
+    <string name="qs_power_save">Супер Энергосбережение</string>
+</resources>

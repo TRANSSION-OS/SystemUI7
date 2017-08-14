@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pip_close">পিআইপি বন্ধ করুন</string>
+    <string name="pip_fullscreen">পূর্ণাঙ্গ স্ক্রিন</string>
+    <string name="pip_play">বাজান</string>
+    <string name="pip_pause">বিরতি দিন</string>
+    <string name="pip_hold_home">পিআইপি নিয়ন্ত্রণ করতে <b>হোম</b> ধরুন</string>
+    <string name="pip_onboarding_title">ছবির মধ্যে ছবি</string>
+    <string name="pip_onboarding_description">আপনি অন্য একটি প্লে করা পর্যন্ত এটাই আপনার ভিডিওকে নজরে রাখে। এটা নিয়ন্ত্রণ করতে <b>হোম</b> টিপুন ও ধরে থাকুন।</string>
+    <string name="pip_onboarding_button">বুঝেছি</string>
+    <string name="recents_tv_dismiss">বাতিল করুন</string>
+</resources>

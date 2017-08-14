@@ -1,0 +1,95 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+    }
+
+    defaultConfig {
+        applicationId "com.android.systemui"
+    }
+
+    // 签名配置
+    signingConfigs {
+        release {
+            storeFile file('../itel-tools/debug.keystore')
+            storePassword '123456'
+            keyAlias 'androiddebug'
+            keyPassword '123456'
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            signingConfig signingConfigs.release
+        }
+        // debug版本也加统一签名
+        debug {
+            signingConfig signingConfigs.release
+        }
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile '../src/AndroidManifest.xml'
+            jniLibs.srcDir 'libs'
+            java {
+                srcDirs += 'src-sprd/main/java'
+                srcDirs += 'src-itel/main/java'
+                srcDirs += 'src-mtk/main/java'
+            }
+            res {
+                srcDirs += 'src-sprd/main/res'
+                srcDirs += 'src-itel/main/res'
+                srcDirs += 'src-mtk/main/res'
+            }
+            assets {
+                srcDirs += 'src-itel/main/assets'
+                srcDirs += 'src-mtk/main/assets'
+            }
+            aidl {
+                srcDirs += 'src-mtk/main/java'
+            }
+        }
+    }
+
+    // 修改apk输出名字
+    productFlavors {
+        itel {}
+    }
+    android.applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            def outputFile = output.outputFile
+            if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                def fileName = "SystemUI.apk"
+               output.outputFile = new File(outputFile.parent, fileName)
+            }
+        }
+    }
+    dexOptions {
+        preDexLibraries = false
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+}
+
+dependencies {
+    compile project(':Keyguard')
+    compile project(':LeatherLib')
+    compile 'com.android.support:leanback-v17:24.0.+'
+    provided files('libs/ims-common.jar')
+    provided files('libs/telephony-common.jar')
+    provided files('libs/libcore.jar')
+    provided files('libs/mediatek-common.jar')
+    provided files('libs/framework.jar')
+}
+

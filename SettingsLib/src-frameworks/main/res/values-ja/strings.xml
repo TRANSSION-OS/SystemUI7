@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android" 
+ xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="lockscreen_emergency_call" msgid="5298642613417801888">"緊急通報"</string>
+<string name="emergency_calls_only" msgid="6733978304386365407">"緊急通報のみ"</string>
+<string name="volume_unknown" msgid="1400219669770445902">"音量"</string>
+<string name="ime_action_send" msgid="2316166556349314424">"送信"</string>
+<string name="action_bar_up_description" msgid="2237496562952152589">"上へ移動"</string>
+<string name="media_route_controller_disconnect" msgid="8966120286374158649">"接続を解除"</string>
+</resources>

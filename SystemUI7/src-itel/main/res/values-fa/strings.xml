@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+* add new string defined by itel
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- linwujia add begin -->
+    <string name="keyguard_plugged_in_percent">در حال شارژ شدن <xliff:g id="number">%1$d</xliff:g>٪</string>
+    <string name="click_return_telephone">لمس برای بازگشت به پاسخ</string>
+    <string name="call_end">مکالمه تلفنی تمام شد</string>
+    <string name="call_fail">تماس ناموفق بود</string>
+    <!-- linwujia add end -->
+    <string name="take_screenshot">عکس صفحه</string>
+    <string name="recents_clear_memory">موفقیت پاک <xliff:g id="number">%d</xliff:g>M حافظه</string>
+    <!-- Winner add begin -->
+    <string name="accident_touch_model">حالت هوشمند رد لمسی کاذب</string>
+    <string name="accident_touch_content">راه خروج: \nآیا بالای صفحه نمایش را پوشش نمی دهد\nطولانی فشار دهید حجم پایین دکمه برای خروج</string>
+    <!-- Winner add end -->
+    <string name="qs_power_save">حالت ذخیره نیروی زیاد</string>
+    <!--talpa@andy 2017/4/13 21:14 add begin-->
+    <string name="quick_settings_data_connection_label">داده ها</string>
+    <!--talpa@andy 2017/4/13 21:14 add end-->
+    <!-- bo.yang add begin -->
+    <!-- recent task-->
+    <string name="split_screen">تقسیم صفحه نمایش</string>
+    <string name="lock_task">قفل کردن</string>
+    <string name="unlock_task">باز کردن</string>
+    <!-- bo.yang add end -->
+    <string name="keyguard_bottom_date_day">"روز"</string>
+    <string name="mem_info">RAM: <xliff:g id="ram_available">%1$s</xliff:g>MB / <xliff:g id="ram_total">%2$s</xliff:g>GB</string>
+</resources>

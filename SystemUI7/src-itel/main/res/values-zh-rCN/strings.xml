@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+* add new string defined by itel
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- linwujia add begin -->
+    <string name="keyguard_plugged_in_percent">正在充电  <xliff:g id="number">%1$d</xliff:g>%%</string>
+    <string name="keyguard_bottom_date_day">"日"</string>
+    <string name="click_return_telephone">点击返回通话</string>
+    <string name="call_end">通话结束</string>
+    <string name="call_fail">呼叫失败</string>
+    <!-- linwujia add end -->
+    <string name="take_screenshot">截屏</string>
+
+	<!-- bo.yang1 modify mem_info hint-->
+    <string name="mem_info"><xliff:g id="ram_available">%1$s</xliff:g>MB 可用 | 共 <xliff:g id="ram_total">%2$s</xliff:g>GB</string>
+    <string name="recents_clear_memory">已清理 <xliff:g id="number">%d</xliff:g> M内存</string>
+    <!-- Winner add begin -->
+    <string name="accident_touch_model">智能防误触模式</string>
+    <string name="accident_touch_content">退出方式: \n请勿遮挡屏幕顶端\n长按音量-退出</string>
+    <!-- Winner add end -->
+
+    <!--added by chen zhengjun-->
+    <string name="qs_power_save">超级省电</string> <!-- Super Power Saving -->
+    <!-- recent task-->
+    <string name="split_screen">分屏</string>
+    <string name="lock_task">锁定任务</string>
+    <string name="unlock_task">解锁任务</string>
+</resources>

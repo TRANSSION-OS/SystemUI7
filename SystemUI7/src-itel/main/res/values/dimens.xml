@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--added by chenzhengjun start -->
+    <!--dimens about Quick status bar header-->
+    <dimen name="qs_time_collapsed_date_size">18sp</dimen>
+    <dimen name="qs_emergency_calls_only_paddingstart">18dp</dimen>
+    <dimen name="qs_time_marginstart">18dp</dimen>
+    <dimen name="qs_imageview_width">20dp</dimen>
+    <dimen name="qs_imageview_height">20dp</dimen>
+    <dimen name="qs_emergincy_call_only_margintop">1dp</dimen>
+
+    <dimen name="qs_expand_indicator_margintop">16dp</dimen>
+    <dimen name="qs_time_date_margintop">16dp</dimen>
+    <dimen name="qs_expand_indicator_paddingstart">10dp</dimen>
+    <dimen name="qs_expand_indicator_paddingend">10dp</dimen>
+    <dimen name="qs_edit_paddingstart">10dp</dimen>
+    <dimen name="qs_edit_paddingend">10dp</dimen>
+    <dimen name="qs_setting_paddingstart">10dp</dimen>
+    <dimen name="qs_setting_paddingend">10dp</dimen>
+    <dimen name="qs_date_marginstart">8dp</dimen>
+    <dimen name="qs_date_marginbottom">2dp</dimen>
+    <dimen name="qs_ampm_marginstart">7dp</dimen>
+    <dimen name="qs_multiuser_margin_end">22dp</dimen>
+    <dimen name="qs_ic_edit_margin_end">22dp</dimen>
+    <dimen name="qs_expand_indicator_marginend">16dp</dimen>
+    <dimen name="qs_ic_edit_width">20dp</dimen>
+    <dimen name="qs_ic_edit_height">20dp</dimen>
+    <dimen name="qs_ic_setting_size">30dp</dimen>
+    <!-- Quick switch  custom sorting relevant units 快捷开关自定义相关单位 -->
+    <dimen name="qs_edit_divder_height">0.5dp</dimen>
+
+    <!--chenzhengjun added start-->
+    <dimen name="itel_text_drag_margin_left">25dp</dimen>
+    <dimen name="itel_text_drag_margin_top">292dp</dimen>
+    <dimen name="itel_text_drag_size">12sp</dimen>
+    <!--chenzhengjun added end-->
+    <!--added by chenzhengjun end-->
+
+    <!-- recents-->
+    <dimen name="recents_task_view_page_width">174.67dp</dimen>
+    <dimen name="recents_task_view_page_height">296dp</dimen>
+    <dimen name="recents_task_view_page_margin">9dp</dimen>
+    <!-- recents divider mode-->
+    <dimen name="recents_task_view_divider_page_width">130dp</dimen>
+    <dimen name="recents_task_view_divider_page_height">222.3dp</dimen>
+    <dimen name="recents_task_view_divider_page_margin">9dp</dimen>
+
+    <dimen name="recents_talpa_task_view_header_width">24dp</dimen>
+    <dimen name="recents_talpa_task_view_header_height">24dp</dimen>
+    <dimen name="recents_talpa_task_view_header_title_margin">12dp</dimen>
+    <dimen name="recents_talpa_task_view_header_margin_bottom">12dp</dimen>
+    <dimen name="recents_talpa_task_view_memory_show_margin_top">10dp</dimen>
+    <dimen name="recents_talpa_task_view_memory_txt_size">11sp</dimen>
+    <dimen name="recents_talpa_task_view_operate_btn_move_h">20dp</dimen>
+    <dimen name="recents_talpa_task_view_operate_swipe_h">88dp</dimen>
+    <dimen name="recents_talpa_list_view_margin_top">-12dp</dimen>
+    <!--linwujia add begin -->
+    <dimen name="return_call_size">150dp</dimen>
+    <dimen name="itel_battery_height">32px</dimen>
+    <dimen name="itel_battery_width">52px</dimen>
+    <dimen name="itel_battery_height_dimen">16dp</dimen>
+    <dimen name="itel_battery_width_dimen">26dp</dimen>
+    <dimen name="itel_status_bar_clock_starting_padding">0dp</dimen>
+    <dimen name="itel_status_bar_icon_size">18dp</dimen>
+    <!-- size at which Notification icons will be drawn in the status bar -->
+    <dimen name="itel_status_bar_icon_drawing_size">16dip</dimen>
+    <!-- Margin on the right side of the system icon group on Keyguard. -->
+    <dimen name="itel_system_icons_keyguard_padding_end">8dp</dimen>
+    <!--linwujia add end-->
+    <!--tj add start-->
+	<dimen name="itel_arrow_layout_height">16dip</dimen>
+    <dimen name="itel_footer_layout_margin_top">8dip</dimen>
+    <dimen name="itel_notification_radius">8dp</dimen>
+    <dimen name="itel_notification_side_padding">8dp</dimen>
+    <dimen name="itel_notification_indicator_textsize">14sp</dimen>
+    <dimen name="itel_notification_indicator_padding">20dp</dimen>
+    <!--tj add end-->
+
+    <!--wangying add begin-->
+    <dimen name="keyguard_accident_touch_icon_width">200dp</dimen>
+    <dimen name="keyguard_accident_touch_icon_height">200dp</dimen>
+    <dimen name="keyguard_accident_touch_icon_top">114dp</dimen>
+    <dimen name="keyguard_accident_touch_text_width">236dp</dimen>
+    <dimen name="keyguard_accident_touch_text_margin_right">64dp</dimen>
+    <dimen name="keyguard_accident_touch_text_line_space">2dp</dimen>
+    <dimen name="keyguard_accident_touch_text_size_model">14dp</dimen>
+    <dimen name="keyguard_accident_touch_text_size_content">12dp</dimen>
+    <dimen name="keyguard_accident_touch_text_model_top">44dp</dimen>
+    <dimen name="keyguard_accident_touch_text_content_top">34dp</dimen>
+    <integer name="keyguard_charging_frame_width">380</integer>
+    <integer name="keyguard_charging_frame_height">206</integer>
+    <integer name="keyguard_charging_circle_width">180</integer>
+    <integer name="keyguard_charging_circle_Height">180</integer>
+    <dimen name="keyguard_charging_particle_width">320dp</dimen>
+    <dimen name="keyguard_charging_particle_height">569dp</dimen>
+    <dimen name="keyguard_charging_particle_init_size">560.7dp</dimen>
+    <!--wangying add end-->
+    <!--andy add start-->
+    <dimen name="itel_text_drag_offset_top">5dp</dimen>
+    <dimen name="itel_text_drag_offset_bottom">40dp</dimen>
+    <dimen name="itel_text_drag_offset_driver">60dp</dimen>
+    <dimen name="itel_text_drag_text_top">10dp</dimen>
+    <dimen name="notification_stack_layout_margin_bottom">64dp</dimen>
+    <dimen name="notification_stack_layout_padding_top">0dp</dimen>
+    <dimen name="notification_stack_layout_padding_bottom">72dp</dimen>
+    <dimen name="notification_clear_all_button_height">64dp</dimen>
+    <dimen name="itel_qs_time_collapsed_size">18sp</dimen>
+    <dimen name="itel_qs_time_ampm_size">18sp</dimen>
+    <dimen name="qs_settings_button_margin_right">11dp</dimen>
+    <dimen name="qs_edit_margin_end">32dp</dimen>
+    <dimen name="qs_head_margin_top">20dp</dimen>
+    <dimen name="qs_head_iamge_padding">5dp</dimen>
+    <dimen name="qs_head_iamge_margin">5dp</dimen>
+    <dimen name="qs_content_brightness_view_height">64dp</dimen>
+    <dimen name="qs_head_editsetting_margin_top">11dp</dimen>
+    <dimen name="qs_setting_brightness_padding_top">6dp</dimen>
+    <dimen name="qs_setting_brightness_padding_bottom">6dp</dimen>
+    <dimen name="qs_setting_brightness_margin_left">18dp</dimen>
+    <dimen name="qs_setting_brightness_margin_right">18dp</dimen>
+    <dimen name="qs_setting_brightness_dialog_padding_top">18dp</dimen>
+    <dimen name="qs_content_item_margin_top">12dp</dimen>\
+    <dimen name="qs_customize_drag_text_size">12dp</dimen>
+    <dimen name="qs_customize_drag_text_padding_top">16dp</dimen>
+    <dimen name="qs_customize_drag_text_padding_bottom">4dp</dimen>
+    <dimen name="itel_qs_tile_text_size">12dp</dimen>
+    <dimen name="itel_qs_tile_image_size">20dp</dimen>
+    <dimen name="itel_qs_tile_btn_size">34dp</dimen>
+    <dimen name="itel_qs_head_margin_top">20dp</dimen>
+    <dimen name="itel_qs_head_margin_bottom">5dp</dimen>
+    <dimen name="itel_qs_customizer_back_margin_left">8dp</dimen>
+    <dimen name="itel_qs_customizer_edit_margin_left">8dp</dimen>
+    <dimen name="itel_qs_customizer_back_width">40dp</dimen>
+    <dimen name="itel_qs_customizer_back_height">40dp</dimen>
+    <dimen name="itel_qs_customizer_divider_left">-16dp</dimen>
+    <dimen name="itel_qs_customizer_divider_right">-16dp</dimen>
+    <!--andy add end-->
+    
+    <!--/// George add for notification count size -->
+    <dimen name="itel_text_size_notification_count">9sp</dimen>
+      <!-- add by lych for fix cdn#10053 this valume must larger than itel_arrow_layout_height -->
+    <dimen name="itel_qs_bounds_hide_offset">20dip</dimen>
+    <!-- /// George padding for notification number view -->
+    <dimen name="itel_padding_for_notification_number_view">1dp</dimen>
+</resources>

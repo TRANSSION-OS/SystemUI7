@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--linwujia edit begin-->
+    <dimen name="keyguard_cell_grid_padding">42dp</dimen>
+    <dimen name="itel_keyguard_pattern_radius">12dp</dimen>
+    <!--linwujia edit end-->
+</resources>

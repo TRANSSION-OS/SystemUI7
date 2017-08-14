@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:leather="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center_horizontal"
+	android:orientation="vertical">
+
+<com.android.systemui.statusbar.phoneleather.LeatherGoldenTimeView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/leather_margin_top"
+	android:id="@+id/topic_view"
+    leather:left_clock_margin_left="@dimen/left_clock_margin_left"
+    leather:left_clock_radius="@dimen/left_clock_radius"
+    leather:right_clock_margin_right="@dimen/right_clock_margin_right"
+    leather:right_clock_radius="@dimen/right_clock_radius"
+    leather:left_clock_second_top_height="@dimen/left_clock_second_top_height" />
+
+</LinearLayout>

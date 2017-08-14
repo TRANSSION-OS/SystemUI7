@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_gravity="center" >
+    <GridLayout
+        android:id="@+id/key_panel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:alignmentMode="alignBounds"
+        android:background="@drawable/float_round_background"
+        android:columnCount="3"
+        android:elevation="1dp"
+        android:orientation="horizontal"
+        android:rowCount="3"
+        android:rowOrderPreserved="true" >
+
+        <Space style="@style/FloatGridItem" />
+
+        <com.android.systemui.statusbar.floatkeyview.FloatKeyButton
+            android:id="@+id/btn_top_key"
+            style="@style/FloatGridItem"
+            android:background="@drawable/float_ripple_drawable" />
+
+        <Space style="@style/FloatGridItem" />
+
+        <com.android.systemui.statusbar.floatkeyview.FloatKeyButton
+            android:id="@+id/btn_left_key"
+            style="@style/FloatGridItem"
+            android:background="@drawable/float_ripple_drawable" />
+
+        <ImageButton
+            android:id="@+id/btn_center_key"
+            style="@style/FloatGridItem"
+            android:background="@drawable/float_ripple_drawable"
+            android:src="@drawable/ic_floatkey_app" />
+
+        <com.android.systemui.statusbar.floatkeyview.FloatKeyButton
+            android:id="@+id/btn_right_key"
+            style="@style/FloatGridItem"
+            android:background="@drawable/float_ripple_drawable" />
+
+        <Space style="@style/FloatGridItem" />
+
+        <com.android.systemui.statusbar.floatkeyview.FloatKeyButton
+            android:id="@+id/btn_bottom_key"
+            style="@style/FloatGridItem"
+            android:background="@drawable/float_ripple_drawable" />
+
+        <Space style="@style/FloatGridItem" />
+
+    </GridLayout>
+</LinearLayout>

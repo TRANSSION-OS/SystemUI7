@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="click_return_telephone">কলে ফিরে যেতে স্পর্শ করুন</string>
+    <string name="call_end">কল শেষ</string>
+    <string name="call_fail">কল ব্যর্থ হয়েছে</string>
+    <string name="keyguard_plugged_in_percent"><xliff:g id="number">%1$d</xliff:g>%% চার্জ করা হচ্ছে</string>
+    <string name="keyguard_bottom_date_day">দিন</string>
+    <string name="take_screenshot">স্ক্রিনশট</string>
+    <string name="mem_info">র্যাম: <xliff:g id="ram_available">%1$s</xliff:g>MB / <xliff:g id="ram_total">%2$s</xliff:g>GB</string>
+    <string name="recents_clear_memory">সফলভাবে <xliff:g id="number">%d</xliff:g>M মেমরি পরিষ্কার করা হয়েছে</string>
+    <string name="accident_touch_model">স্মার্ট ফলস্ টাচ রিজেকশন মোড</string>
+    <string name="accident_touch_content">প্রস্থান করার উপায়:\n স্ক্রিনের উপরে ঢেকে রাখবেন না \n প্রস্থান করার জন্য ভলিউমের নীচের বাটনে দীর্ঘক্ষণ চাপুন</string>
+    <string name="qs_power_save">সুপার পাওয়ার সেভিং</string>
+    <string name="split_screen">স্প্লিট স্ক্রিন</string>
+    <string name="lock_task">লক করুন</string>
+    <string name="unlock_task">আনলক করুন</string>
+</resources>

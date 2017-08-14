@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<itel.transsion.systemui.accidenttouch.AccidentTouchWindowView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#FF000000">
+    
+    <View 
+        android:layout_width="@dimen/keyguard_accident_touch_icon_width"
+        android:layout_height="@dimen/keyguard_accident_touch_icon_height"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/ic_qs_accident_touch"
+        android:layout_marginTop="@dimen/keyguard_accident_touch_icon_top"/>
+    
+     <TextView 
+        android:id="@+id/accident_touch_model"
+        android:layout_width="@dimen/keyguard_accident_touch_text_width"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/keyguard_accident_touch_text_margin_right"
+        android:textSize="@dimen/keyguard_accident_touch_text_size_model"
+        android:text="@string/accident_touch_model"
+        android:gravity="center"
+        android:maxLines="3"
+        android:layout_marginTop="@dimen/keyguard_accident_touch_text_model_top"
+        android:ellipsize="end"
+        android:textColor="#FFFFFFFF"
+        android:lineSpacingExtra="@dimen/keyguard_accident_touch_text_line_space"/>
+     
+     <TextView 
+        android:id="@+id/accident_touch_content"
+        android:layout_width="@dimen/keyguard_accident_touch_text_width"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/keyguard_accident_touch_text_margin_right"
+        android:text="@string/accident_touch_content"
+        android:gravity="center"
+        android:textSize="@dimen/keyguard_accident_touch_text_size_content"
+        android:maxLines="8"
+        android:layout_marginTop="@dimen/keyguard_accident_touch_text_content_top"
+        android:ellipsize="end"
+        android:textColor="@color/keyguard_accident_touch_text_color"
+        android:lineSpacingExtra="@dimen/keyguard_accident_touch_text_line_space"/>
+    
+
+</itel.transsion.systemui.accidenttouch.AccidentTouchWindowView>

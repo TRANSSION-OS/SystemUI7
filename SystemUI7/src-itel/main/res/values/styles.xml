@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--talpa@andy 2017/5/10 21:13  add @{-->
+    <!-- toolbar弹出菜单样式 -->
+    <style name="ToolbarPopupTheme">
+        <item name="android:colorBackground">@color/qs_customizer_menu_bg</item>
+    </style>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    <!-- @}-->
+</resources>

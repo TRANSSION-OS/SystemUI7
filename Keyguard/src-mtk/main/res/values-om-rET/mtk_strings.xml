@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyguard_domestic_zone_name">"Beijing"</string>
+    <string name="every_day">"Guyyaa hunda"</string>
+    <string name="never">"Gonkumaa"</string>
+    <string name="default_label">"Dammaqsitu"</string>
+    <string name="voiceui_notify_string">"Jechuu dandeessa"</string>
+    <string name="voiceui_control_poweroff_alarm">"To'achuuf damaqsituu cufii"</string>
+    <string name="voiceui_or">"Yokkan"</string>
+    <string name="keyguard_accessibility_alarm_unlock">"Damaqsituu cufii"</string>
+    <string name="alarm_alert_dismiss_text">"Balleessi"</string>
+    <string name="alarm_alert_snooze_text">"Isnoozii"</string>
+    <string name="description_direction_left">"<xliff:g id="target_description" example="Unlock">%s</xliff:g> dhaf bitaatti mucicheesisi."</string>
+    <string name="description_direction_right">"<xliff:g id="target_description" example="Unlock">%s</xliff:g> dhaf mirgatti mucicheesisi."</string>
+    <string name="keyguard_password_entering_puk_code">"Kooddii PUK galchi"</string>
+    <string name="keyguard_password_wrong_puk_code">"Kooddii PUK sirrrii miti!"</string>
+    <string name="invalidPuk">"Dijitiwwaan 8 galchii."</string>
+    <string name="keyguard_password_enter_new_pin_code">"PIN haaraa galchi"</string>
+    <string name="keyguard_password_Confirm_pin_code">"PIN haarawaa mirkaneessi"</string>
+    <string name="sim_permanently_locked">"Kooddii PUK yeroo 10 caalaa sirriitti argachuu dhabuun dhaabbataan cufamaa."</string>
+    <string name="retries_left">"Kan hafe:  <xliff:g id="number">%d</xliff:g>"</string>
+    <string name="simlock_slot_locked_message">"Slootiin dhaabbataan cuffameera"</string>
+    <string name="simlock_entersimmelock">"Sakaalaa SIM ME galchi"</string>
+    <string name="slot_id">"Bakka <xliff:g id="number">%d</xliff:g>:"</string>
+    <string name="new_simcard">"SIM kaardii haaraa"</string>
+    <string name="lockscreen_missing_sim_dialog_message">"SIM kaardiin buqqa'era. SIM kaardiin sirriitti suuqamuu isaa mirkaneessi"</string>
+    <string name="sim_card_changed_dialog_title">"SIM kaardiin jijjirame"</string>
+    <string name="change_setting_for_onenewsim">"SIM kaardii haaraan argame. Akka kanaatti dibameera"</string>
+    <string name="change_setting_for_twonewsim">"SIM kaardii haaraan argame. Akka kanaatti dibameera"</string>
+    <string name="sim_card_removed">"SIM kaardiin baheera"</string>
+    <string name="sim_card_swapped">"SIM kaardiin waal jijjirera"</string>
+    <string name="change_settings">"Jijjiri"</string>
+    <string name="keyguard_voice_call">"Waamicha sagalee:"</string>
+    <string name="keyguard_sms">"Ergaan ergama jira:"</string>
+    <string name="keyguard_data">"Quunamtii daata:"</string>
+    <string name="dismiss">"Balleessi"</string>
+    <string name="keyguard_wrong_code_input">"Kooddii dogonggoraa"</string>
+    <string name="keyguard_code_length_prompt">"Dijiitii 4-8 galchi"</string>
+    <string name="keyguard_code_donnot_mismatch">"Kan walii hin fakanee"</string>
+    <string name="network_searching">"Cimda barbadda jira"</string>
+    <string name="searching_simcard">"Argachaa jira…"</string>
+    <string name="keyguard_close">"Cufi"</string>
+    <string name="default_sim_setting_prompt">"Ammaa hojimaatawwaan baramaan:"</string>
+    <string name="keyguard_video_call">"Waamicha viidiyoo:"</string>
+    <string name="lockscreen_pattern_wrong">"Deebisii yaali"</string>
+    <string name="invalid_sim_title">"SIM Kaardii  hin hojjane"</string>
+    <string name="invalid_sim_message">"UIM/SIM kaardiin hin beekamne"</string>
+    <string name="lockscreen_sim_locked_message_short">"SIM kaardiin sakaalamera"</string>
+    <string name="keyguard_alwaysask">"Yeroo mara gaafadhu"</string>
+    <string name="keyguard_data_none">"Cuffi"</string>
+    <string name="keyguard_sim_auto">"Ofnan"</string>
+    <string name="keyguard_internal_call">"Waamicha keessaa"</string>
+    <string name="keyguard_not_set">"Hin ergamne"</string>
+    <string name="voice_unlock_service_error">"Dogoggora tajaajila sagalee"</string>
+    <string name="voice_unlock_password_wrong">"Dhiffama, saggale kee mirkannesu hin dandenye."</string>
+    <string name="voice_unlock_noisy">"Waca baay'ee waan jiruuf sirnaan hin dhagayu"</string>
+    <string name="voice_unlock_weak">"Sagalee kee hin dhagayu"</string>
+    <string name="voice_unlock_media_playing">"Sagaleen hiikuun yeroo miidiyaan taphatu cufame"</string>
+    <string name="voiceunlock_multiple_failures">"Yaaliin sagaleen hiikuun olaanaan caalameera"</string>
+    <string name="voiceunlock_accessibility_voice_unlock">"Sagalee hiikuu."</string>
+    <string name="dm_prompt">"Tarminaaliin duraanu sakaalameera"</string>
+    <string name="ppl_prompt">"Hiikuuf cuftuu eegumsa birmadummaa galchi"</string>
+    <string name="sd_accessing_swtich_user_title">"Fayyadamaa geddaru?"</string>
+    <string name="sd_accessing_swtich_user_message">"Daataan hin kuufamne enyuumesi abbaa qabeenyaa hundi badeera ykn cabeera."</string>
+    <string name="kg_emergency_call_label">"Yerro balla"</string>
+    <string name="kg_slot_id">"Bakka <xliff:g id="number">%d</xliff:g>:\u0020"</string>
+    <string name="kg_detecting_simcard">"Argachaa jira…"</string>
+    <string name="kg_new_simcard">"SIM kaardii haaraa"</string>
+</resources>

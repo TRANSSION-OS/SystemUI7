@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wifi_fail_to_scan">ကြန္ယက္မ်ားအတြက္ စကန္ဖတ္မရႏိုင္ပါ</string>
+    <string name="wifi_security_none">အသံတိတ္</string>
+    <string name="wifi_remembered">သိမ္းဆည္းၿပီးၿပီ</string>
+    <string name="wifi_disabled_generic">ပိတ္ထားျပီး</string>
+    <string name="wifi_disabled_network_failure">IP ပုံေဖာ္ျခင္း မေအာင္ျမင္ပါ</string>
+    <string name="wifi_disabled_wifi_failure">WiFi ဆက္သြယ္မႈ မေအာင္ျမင္ပါ</string>
+    <string name="wifi_disabled_password_failure">အတည္ျပဳျခင္း အခက္အခဲ</string>
+    <string name="wifi_not_in_range">သတ္မွတ္ေနရာတြင္း မရွိေနပါ</string>
+    <string name="wifi_no_internet">အင္တာနက္ ဝင္ေရာက္အသုံးျပဳႏိုင္မႈ မေတြ႔ပါ။ အလိုအေလ်ာက္ျပန္ဆက္သြယ္မည္ မဟုတ္ပါ။</string>
+    <string name="saved_network"><xliff:g id="name">%1$s</xliff:g>မွ သိမ္းဆည္းၿပီးၿပီ</string>
+    <string name="connected_via_wfa">Wi\u2011Fi အကူအညီ မွတစ္ဆင့္ ဆက္သြယ္ၿပီးၿပီ</string>
+    <string name="connected_via_passpoint">%1$s မွ တစ္ဆင့္ ဆက္သြယ္ၿပီးၿပီ</string>
+    <string name="available_via_passpoint">%1$s မွတစ္ဆင့္ ရႏိုင္ပါသည္</string>
+    <string name="wifi_connected_no_internet">ဆက္သြယ္ၿပီးၿပီ၊ အင္တာနက္မရွိပါ</string>
+    <string name="bluetooth_disconnected">ခ်ိတ္ဆက္မႈျပတ္ေတာက္ခဲ့သည္</string>
+    <string name="bluetooth_disconnecting">အဆက္အသြယ္ျဖတ္ေနပါသည္\u2026</string>
+    <string name="bluetooth_connecting">ဆက္သြယ္ေနပါသည္\u2026</string>
+    <string name="bluetooth_connected">ခ်ိတ္ဆက္ထားသည္</string>
+    <string name="bluetooth_pairing">ခ်ိတ္ဆက္ေနပါသည္\u2026</string>
+    <string name="bluetooth_connected_no_headset">ဆက္သြယ္ၿပီးၿပီ(ဖုန္းမရွိပါ)</string>
+    <string name="bluetooth_connected_no_a2dp">ဆက္သြယ္ၿပီးၿပီ (မီဒီယာမရွိပါ)</string>
+    <string name="bluetooth_connected_no_map">ဆက္သြယ္ၿပီးၿပီ (မက္ေဆ့ခ်္ဝင္ေရာက္အသုံးျပဳႏိုင္မႈ မရွိပါ)</string>
+    <string name="bluetooth_connected_no_headset_no_a2dp">ဆက္သြယ္ၿပီးၿပီ (ဖုန္း သို႔မဟုတ္ မီဒီယာ မရွိပါ)</string>
+    <string name="bluetooth_profile_a2dp">မီဒီယာ အသံ</string>
+    <string name="bluetooth_profile_headset">ဖုန္း အသံ</string>
+    <string name="bluetooth_profile_opp">ဖိုင္ေျပာင္းျခင္း</string>
+    <string name="bluetooth_profile_hid">အဝင္ စက္ကိရိယာ</string>
+    <string name="bluetooth_profile_pan">အင္တာနက္ ဝင္ေရာက္အသုံးျပဳမႈ</string>
+    <string name="bluetooth_profile_pbap">ဆက္သြယ္မႈ မွ်ေဝျခင္း</string>
+    <string name="bluetooth_profile_pbap_summary">ဆက္သြယ္မႈ မွ်ေဝျခင္းအတြက္ သုံးမည္</string>
+    <string name="bluetooth_profile_pan_nap">အင္တာနက္ ဆက္သြယ္မႈ မွ်ေဝျခင္း</string>
+    <string name="bluetooth_profile_map">မက္ေဆ့ခ်္ ဝင္ေရာက္အသုံးျပဳမႈ</string>
+    <string name="bluetooth_profile_sap">SIM ဝင္ေရာက္အသုံးျပဳမႈ</string>
+    <string name="bluetooth_a2dp_profile_summary_connected">မီဒီယာအသံသို႔ ဆက္သြယ္ၿပီးၿပီ</string>
+    <string name="bluetooth_headset_profile_summary_connected">ဖုန္း အသံ သို႔ ဆက္သြယ္ၿပီးၿပီ</string>
+    <string name="bluetooth_opp_profile_summary_connected">ဖိုင္ လႊဲေျပာင္းဆာဗာ သို႔ ဆက္သြယ္ၿပီးၿပီ</string>
+    <string name="bluetooth_map_profile_summary_connected">ေျမပုံ သို႔ဆက္သြယ္ၿပီးၿပီ</string>
+    <string name="bluetooth_sap_profile_summary_connected">SAP သို႔ဆက္သြယ္ၿပီးၿပီ</string>
+    <string name="bluetooth_opp_profile_summary_not_connected">ဖိုင္လ္ ေျပာင္းေရႊ႕ဆာဗာ သို႔ ဆက္သြယ္မရပါ</string>
+    <string name="bluetooth_hid_profile_summary_connected">အဝင္ စက္ကိရိယာ သို႔ ဆက္သြယ္ၿပီးၿပီ</string>
+    <string name="bluetooth_pan_user_profile_summary_connected">အင္တာနက္ ဝင္ေရာက္အသုံးျပဳျခင္းအတြက္ ဆက္သြယ္ၿပီးၿပီ</string>
+    <string name="bluetooth_pan_nap_profile_summary_connected">စက္ကိရိယာႏွင့္ ေဒသခံ အင္တာနက္ဆက္သြယ္မႈကို မွ်ေဝမည္</string>
+    <string name="bluetooth_pan_profile_summary_use_for">အင္တာနက္ဝင္ေရာက္အသုံးျပဳမႈအတြက္ အသုံးျပဳမည္</string>
+    <string name="bluetooth_map_profile_summary_use_for">ေျမပုံအတြက္အသုံးျပဳမည္</string>
+    <string name="bluetooth_sap_profile_summary_use_for">SIM ဝင္ေရာက္အသုံးျပဳမႈအတြက္ သုံးမည္</string>
+    <string name="bluetooth_a2dp_profile_summary_use_for">မီဒီယာ အသံအတြက္ သုံးမည္</string>
+    <string name="bluetooth_headset_profile_summary_use_for">ဖုန္းအသံအတြက္ သုံးမည္</string>
+    <string name="bluetooth_opp_profile_summary_use_for">ဖိုင္ လႊဲေျပာင္းျခင္းအတြက္ သုံးမည္</string>
+    <string name="bluetooth_hid_profile_summary_use_for">အထြက္အတြက္ သုံးမည္</string>
+    <string name="bluetooth_pairing_accept">ခ်ိတ္ဆက္မည္</string>
+    <string name="bluetooth_pairing_accept_all_caps">ခ်ိတ္ဆက္မည္</string>
+    <string name="bluetooth_pairing_decline">မလုပ္ပါ</string>
+    <string name="bluetooth_pairing_will_share_phonebook">ခ်ိတ္ဆက္ခြင့္ျပဳျခင္းျဖင့္ သင့္ဆက္သြယ္မႈမ်ားႏွင့္ ေခၚဆိုရာဇဝင္ကို ဆက္သြယ္လိုက္ခ်ိန္တြင္ ဝင္ေရာက္အသုံးျပဳႏိုင္သြားမည္ ျဖစ္ပါသည္။</string>
+    <string name="bluetooth_pairing_error_message"><xliff:g id="device_name">%1$s</xliff:g>ျဖင့္ ဆက္သြယ္မရႏိုင္ပါ။</string>
+    <string name="bluetooth_pairing_pin_error_message">မမွန္ကန္သည့္ PIN သို႔မဟုတ္ ျဖတ္သန္းကီး ေၾကာင့္ <xliff:g id="device_name">%1$s</xliff:g>ျဖင့္ ခ်ိတ္ဆက္မရႏိုင္ပါ။</string>
+    <string name="bluetooth_pairing_device_down_error_message"><xliff:g id="device_name">%1$s</xliff:g>ျဖင့္ ဆက္သြယ္မရႏိုင္ပါ။</string>
+    <string name="bluetooth_pairing_rejected_error_message"><xliff:g id="device_name">%1$s</xliff:g>မွ ခ်ိတ္ဆက္ျခင္းကို ျငင္းဆိုပါသည္။</string>
+    <string name="accessibility_wifi_off">Wifi ပိတ္ထားသည္။</string>
+    <string name="accessibility_no_wifi">Wifi အဆက္အသြယ္ျဖတ္ၿပီးၿပီ</string>
+    <string name="accessibility_wifi_one_bar">Wifi တစ္ဘား။</string>
+    <string name="accessibility_wifi_two_bars">Wifi ႏွစ္ဘား။</string>
+    <string name="accessibility_wifi_three_bars">Wifi သုံးဘား။</string>
+    <string name="accessibility_wifi_signal_full">Wifi လိုင္းအျပည့္။</string>
+    <string name="process_kernel_label">အန္းဒရြိဳက္ OS</string>
+    <string name="data_usage_uninstalled_apps">ဖယ္ရွားခံရသည့္ အက္ပ္စ္မ်ား</string>
+    <string name="data_usage_uninstalled_apps_users">ဖယ္ရွားခံရသည့္ အက္ပ္စ္မ်ား ႏွင့္ အသုံးျပဳသူမ်ား</string>
+    <string name="tether_settings_title_usb">USB တီတားရင္း</string>
+    <string name="tether_settings_title_wifi">ေနရာမေရြး ေဟာ့စေပါ့</string>
+    <string name="tether_settings_title_bluetooth">ဘလူးတုခ္ တီတားရင္း</string>
+    <string name="tether_settings_title_usb_bluetooth">လႊင့္ထားျခင္း</string>
+    <string name="tether_settings_title_all">တီးတားရင္း ႏွင့္ ေနရာမေရြး ေဟာ့စေပါ့</string>
+    <string name="managed_user_title">အလုပ္အက္ပ္စ္မ်ားအားလုံး</string>
+    <string name="user_guest">ဧည့္သည္</string>
+    <string name="unknown">မသိေသာ</string>
+    <string name="running_process_item_user_label">အသုံးျပဳသူ။ ။: <xliff:g id="user_name">%1$s</xliff:g></string>
+    <string name="launch_defaults_some">အခ်ိဳ႕မူရင္းမ်ား သတ္မွတ္မႈ</string>
+    <string name="launch_defaults_none">မူရင္းသတ္မွတ္မႈ မရွိပါ</string>
+    <string name="tts_settings">စာသား-မွ-စကား ဆက္တင္မ်ား</string>
+    <string name="tts_settings_title">စာသား-မွ-စကား အထြက္</string>
+    <string name="tts_default_rate_title">စကားေျပာႏႈန္း</string>
+    <string name="tts_default_rate_summary">စာသားကို ဖတ္ျပသည့္ အျမန္ႏႈန္း</string>
+    <string name="tts_default_pitch_title">ပစ္ရွ္သံ</string>
+    <string name="tts_default_pitch_summary">ေပါင္းစပ္စကားေျပာ၏ အသံကို သက္ေရာက္သည္</string>
+    <string name="tts_default_lang_title">ဘာသာစကား</string>
+    <string name="tts_lang_use_system">စနစ္ ဘာသာစကားကို သုံးမည္</string>
+    <string name="tts_lang_not_selected">ဘာသာစကားကို မေရြးခ်ယ္ထားပါ</string>
+    <string name="tts_default_lang_summary">ေျပာဆိုမည့္စာသားအတြက္ ဘာသာစကား သီးသန္႔ အသံကို သတ္မွတ္မည္</string>
+    <string name="tts_play_example_title">ဥပမာ နားေထာင္မည္</string>
+    <string name="tts_play_example_summary">စကားဖြဲ႔စည္းျခင္းအေၾကာင္း သရုပ္ျပျခင္းကို ဖြင့္မည္</string>
+    <string name="tts_install_data_title">အသံေဒတာ ထည့္မည္</string>
+    <string name="tts_install_data_summary">စကားဖြဲ႔စည္းရန္အတြက္ လိုအပ္သည့္ အသံေဒတာကို ထည့္သြင္းမည္</string>
+    <string name="tts_engine_security_warning">ဤစကားဖြဲ႔စည္းအင္ဂ်င္သည္ လ်ိဳ႕ဝွက္စကားလုံးမ်ား၊ အေၾကြးဝယ္ကဒ္ နံပါတ္မ်ားစသည့္ ပုဂိၢဳလ္ေရးရာအခ်က္မ်ားအပါအဝင္ ေျပာဆိုမည့္ စာသားေဒတာအားလုံးကို ရယူႏိုင္ပါသည္။ ယင္းသည္ <xliff:g id="tts_plugin_engine_name">%s</xliff:g>အင္ဂ်င္မွ လာပါသည္။ ဤစကားဖြဲ႔စည္းအင္ဂ်င္ကို ဖြင့္မည္လား။</string>
+    <string name="tts_engine_network_required">ဤဘာသာစကားအား စာသား-မွ-စကား အထြက္ရရန္အတြက္ ေဒတာရွိသည့္ ကြန္ယက္လိုပါသည္။</string>
+    <string name="tts_default_sample_string">စကားဖြဲ႔စည္းမႈ ဥပမာ ျဖစ္ပါသည္</string>
+    <string name="tts_status_title">မူရင္းဘာသာစကား အေနအထား</string>
+    <string name="tts_status_ok"><xliff:g id="locale" example="English (United States)">%1$s</xliff:g>ကို အျပည့္ေထာက္ခံပါသည္။</string>
+    <string name="tts_status_requires_network"><xliff:g id="locale" example="English (United States)">%1$s</xliff:g>က ကြန္ယက္ဆက္သြယ္မႈ လိုအပ္ပါသည္</string>
+    <string name="tts_status_not_supported"><xliff:g id="locale" example="English (United States)">%1$s</xliff:g>ကို လုပ္မရပါ။</string>
+    <string name="tts_status_checking">စစ္ေဆးေနပါသည္…</string>
+    <string name="tts_engine_settings_title"><xliff:g id="tts_engine_name">%s</xliff:g>အတြက္ ဆက္တင္မ်ား</string>
+    <string name="tts_engine_settings_button">အင္ဂ်င္ဆက္တင္မ်ားကို ဖြင့္မည္</string>
+    <string name="tts_engine_preference_section_title">ပိုလိုလားသည့္ အင္ဂ်င္</string>
+    <string name="tts_general_section_title">အေထြေထြ</string>
+    <string name="tts_reset_speech_pitch_title">စကားေျပာသံ ကို ျပန္သတ္မွတ္မည္</string>
+    <string name="tts_reset_speech_pitch_summary">စာသားကို မူရင္းအတိုင္းေျပာမည့္ အသံ သို႔ ျပန္သတ္မွတ္မည္</string>
+    <string-array name="tts_rate_entries">
+        <item>အလြန္ေႏွးေသာ</item>
+        <item>ေႏွး</item>
+        <item>ပံုမွန္</item>
+        <item>ျမန္</item>
+        <item>ပိုျမန္</item>
+        <item>အရမ္းျမန္</item>
+        <item>အလြန္အမင္းျမန္</item>
+        <item>အလြန္႔အလြန္ျမန္</item>
+        <item>အျမန္ဆုံး</item>
+    </string-array>
+    <string name="choose_profile">ပရိုဖိုင္းလ္ေရြးပါ</string>
+    <string name="category_personal">ပုဂၢိဳလ္ေရး</string>
+    <string name="category_work">အလုပ္</string>
+    <string name="development_settings_title">ဖန္တီးသူေရြးခ်ယ္ခ်က္</string>
+    <string name="development_settings_enable">ထုတ္လုပ္သူေရြးခ်ယ္စရာမ်ားကို ဖြင့္မည္</string>
+    <string name="development_settings_summary">အက္ပ္စ္ထုတ္လုပ္မႈအတြက္ ေရြးခ်ယ္စရာမ်ား သတ္မွတ္မည္</string>
+    <string name="development_settings_not_available">ဤအသုံးျပဳသူအတြက္ ထုတ္လုပ္သူေရြးစရာမ်ား မရွိပါ</string>
+    <string name="vpn_settings_not_available">ဤအသုံးျပဳသူအတြက္ VPN ဆက္တင္မ်ား မရွိပါ</string>
+    <string name="tethering_settings_not_available">ဤအသုံးျပဳသူအတြက္ တီသားရင္း ဆက္တင္မ်ား မရွိပါ</string>
+    <string name="apn_settings_not_available">ဤအသုံးျပဳသူအတြက္ ဝင္ေရာက္အသုံးျပဳပြိဳင့္အမည္ ဆက္တင္မ်ားသည္ မရႏိုင္ပါ</string>
+    <string name="enable_adb">USB ဒီဘတ္ဂင္း</string>
+    <string name="enable_adb_summary">USB ကို ဆက္သြယ္ထားပါက ဒီဘတ္ ပုံစံ</string>
+    <string name="clear_adb_keys">USB ဒီဘတ္ဂင္း ခြင့္ျပဳခ်က္မ်ားကို ျပန္သုံးမည္</string>
+    <string name="bugreport_in_power">ဘတ္ အစီရင္ခံစာ ေရွာ့ကပ္</string>
+    <string name="bugreport_in_power_summary">ဘတ္အစီရင္ခံစာ ယူရန္အတြက္ ပါဝါမန္ႏ်ဴးတြင္ ခလုတ္တစ္ခုျပမည္</string>
+    <string name="keep_screen_on">ႏိုးႏိုးၾကားၾကားေနမည္</string>
+    <string name="keep_screen_on_summary">အားသြင္းေနခ်ိန္တြင္ မ်က္ႏွာျပင္ကို ဘယ္ေတာ့မွ မပိတ္ပါ</string>
+    <string name="bt_hci_snoop_log">ဘလူးတုခ္ HCI  စႏုေလာ့ ကို ဖြင့္မည္</string>
+    <string name="bt_hci_snoop_log_summary">ဘလူးတုခ္ HCI ပက္ကတ္မ်ားကို ဖိုင္တစ္ခုထဲတြင္ သိမ္းဆည္းမည္</string>
+    <string name="oem_unlock_enable">OEM ေလာ့ဖြင့္ျခင္း</string>
+    <string name="oem_unlock_enable_summary">ဘုလုပ္ဒ္ဒါအား ေလာ့ဖြင့္ေပးရန္ ခြင့္ျပဳမည္</string>
+    <string name="confirm_enable_oem_unlock_title">OEM ေလာ့ဖြင့္ျခင္းကို ခြင့္ျပဳမည္လား။</string>
+    <string name="confirm_enable_oem_unlock_text">သတိေပးခ်က္။ ။ ဆက္တင္မ်ားကို ဖြင့္ထားပါက စက္ကိရိယာကာကြယ္ေရးသြင္ျပင္မ်ားသည္ ဤစက္ကိရိယာေပၚတြင္ အလုပ္လုပ္မည္ မဟုတ္ပါ။</string>
+    <string name="mock_location_app">ေမာ့ခ္ တည္ေနရာ အက္ပ္စ္ ကို ေရြးခ်ယ္မည္</string>
+    <string name="mock_location_app_not_set">ေမာ့ တည္ေနရာ အက္ပ္စ္ကို သတ္မွတ္ထားျခင္း မရွိပါ</string>
+    <string name="mock_location_app_set">ေမာ့တည္ေနရာ အက္ပစ္။ ။ <xliff:g id="app_name">%1$s</xliff:g></string>
+    <string name="debug_networking_category">ကြန္ယက္ဆက္သြယ္ျခင္း</string>
+    <string name="wifi_display_certification">ႀကိဳးမဲ့ ျပသမႈ အေထာက္အထားရယူျခင္း</string>
+    <string name="wifi_verbose_logging">Wi\u2011Fi ဗာဗို႔စ္ ဝင္ေရာက္မႈကို ဖြင့္မည္</string>
+    <string name="wifi_aggressive_handover">စြမ္းေဆာင္အားျမင့္ Wi\u2011Fi မွ ဆဲလ္လူးလားသို႔ လႊဲေျပာင္းေပးမႈ</string>
+    <string name="wifi_allow_scan_with_traffic">Wi\u2011Fi ရြန္းစကန္ဖတ္မႈအား အၿမဲခြင့္ျပဳမည္</string>
+    <string name="mobile_data_always_on">ဆဲလ္လူးလားေဒတာအား မၿမဲဖြင့္ထားမည္</string>
+    <string name="bluetooth_disable_absolute_volume">အသံအက်ယ္ဆုံးအား ပိတ္မည္</string>
+    <string name="wifi_display_certification_summary">ႀကိဳးမဲ့ ျပသမႈ အေထာက္အထားရယူျခင္းအတြက္ ေရြးခ်ယ္စရာမ်ား ျပမည္</string>
+    <string name="wifi_verbose_logging_summary">Wi\u2011 ဝင္ေရာက္မႈအဆင့္ကို တိုးမည္၊ Wi\u2011Fi ေကာက္စက္ထဲတြင္ SSID RSSI အတိုင္းျပသမည္</string>
+    <string name="wifi_aggressive_handover_summary">ဖြင့္ထားၿပီး Wi\u2011FI လိုင္းအားနည္းေနခ်ိန္တြင္ Wi\u2011Fi မွ ေဒတာဆက္သြယ္မႈကို ဆဲလ္လူးလား ႏွင့္ ဆက္သြယ္ျခင္းအား ပိုမိုတက္ႀကြစြာ လုပ္ေဆာင္ပါမည္</string>
+    <string name="wifi_allow_scan_with_traffic_summary">လုပ္ေဆာင္ရသည့္ေနရာတြင္ ရွိေန႔သည့္ ေဒတာအသြားအလာ ပမာဏေပၚမူတည္ၿပီး Wi\u2011Fi ရြန္းစကန္ဖတ္ျခင္းကို ခြင့္ျပဳ/ခြင့္မျပဳပါ</string>
+    <string name="select_logd_size_title">ဝင္ေရာက္သူ ၾကားခံ အရြယ္အစားမ်ား</string>
+    <string name="select_logd_size_dialog_title">ေလာ့ ၾကားခံ အတိုင္း ဝင္ေရာက္သူ အရြယ္အစားကို ေရြးခ်ယ္ပါ</string>
+    <string name="select_usb_configuration_title">USB ပုံေဖာ္မႈကို ေရြးမည္</string>
+    <string name="select_usb_configuration_dialog_title">USB ပုံေဖာ္မႈကို ေရြးမည္</string>
+    <string name="allow_mock_location">ေမာ့ တည္ေနရာကို ခြင့္ျပဳမည္</string>
+    <string name="allow_mock_location_summary">ေမာ့ တည္ေနရာကို ခြင့္ျပဳမည္</string>
+    <string name="debug_view_attributes">အျမင္ပိုင္း စစ္ေဆးမႈကို ဖြင့္မည္</string>
+    <string name="legacy_dhcp_client_summary">အန္းဒရြိဳက္ DHCP ေဖာက္သည္အသစ္အစား ေလာ္လီေပါ့မွ DHCP ေဖာက္သည္အား အသုံးျပဳမည္</string>
+    <string name="mobile_data_always_on_summary">Wi\u2011Fi အား ဖြင့္ထားခ်ိန္တြင္ပင္လွ်င္ (ပိုျမန္ေသာ ကြန္ယက္ေျပာင္းလဲႏိုင္ရန္အတြက္) မိုဘိုင္းလ္ေဒတာကို အၿမဲဖြင့္ထားမည္။</string>
+    <string name="adb_warning_title">USB ခ်ဳိ႕ယြင္းခ်က္ ဖယ္ရွားျခင္းကို ခြင့္ျပဳမလား။</string>
+    <string name="adb_warning_message">USB ဒီဘတ္ကင္းသည္ ထုတ္လုပ္သူအသုံးျပဳရန္အတြက္သာ ရည္ရြယ္ပါသည္။ သင့္ကြန္ျပဴတာႏွင့္ သင့္စက္ကိရိယာၾကား ေဒတာမ်ားကို ကူးယူရန္၊ သင့္အားအသိမေပးဘဲ အက္ပ္စ္မ်ားကို ထည့္သြင္းရန္ ႏွင့္ ေလာ့ေဒတာမ်ားကို ဖတ္ရန္အတြက္ ယင္းကို သုံးပါသည္။</string>
+    <string name="adb_keys_warning_message">သင္ယခင္ကခြင့္ျပဳခဲ့သည့္ ကြန္ျပဴတာအားလုံးမွ USB ဒီဘတ္ကင္းမ်ား ဝင္ေရာက္အသုံးျပဳမႈကို ျပန္ရုပ္သိမ္းမည္လား။</string>
+    <string name="dev_settings_warning_title">ထုတ္္လုပ္မႈ ဆက္တင္မ်ားကို ခြင့္ျပဳမည္လား။</string>
+    <string name="dev_settings_warning_message">ယင္းဆက္တင္မ်ားသည္ ထုတ္လုပ္မႈအတြက္သာ ရည္ရြယ္ပါသည္။ ယင္းတို႔က သင့္စက္ကိရိယာ ႏွင့္ ယင္းေပၚရွိ အက္ပလီေကးရွင္းမ်ားအား ထိခိုက္ျခင္း သို႔မဟုတ္ မမွန္မကန္လုပ္ေဆာင္ျခင္းမ်ား ျဖစ္ေစႏိုင္ပါသည္။</string>
+    <string name="verify_apps_over_usb_title">USB ေပၚမွ အက္ပ္စ္မ်ားကို အတည္ျပဳမည္</string>
+    <string name="verify_apps_over_usb_summary">ADB/ADT မွတစ္ဆင့္ ထည့္သြင္းထားသည့္ အက္ပ္စ္မ်ားအား ေဘးျဖစ္ေစႏိုင္သည့္ လုပ္ေဆာင္ခ်က္မ်ား ရွိမရွိစစ္ေဆးမည္</string>
+    <string name="bluetooth_disable_absolute_volume_summary">လက္မခံႏိုင္သည့္ က်ယ္ေလာင္မႈ သို႔မဟုတ္ မထိန္းခ်ဳပ္ႏိုင္သည့္အေျခအေနစသည့္ အေဝးထိန္း စက္ကိရိယာမ်ားႏွင့္ ပက္သက္ၿပီး အသံပိုင္းဆိုင္ရာ အခက္အခဲျဖစ္ေနသည့္ အခ်ိန္တြင္ ဘလူးတုခ္ အဆင့္မမီသည့္ အသံ သြင္ျပင္ကို ပိတ္မည္။</string>
+    <string name="enable_terminal_title">ေဒသခံ ထြက္ေပါက္</string>
+    <string name="enable_terminal_summary">ေဒသခံအခြံအား ဝင္ေရာက္အသုံးျပဳေစႏိုင္သည့္ အက္ပစ္အား ဖြင့္မည္</string>
+    <string name="hdcp_checking_title">HDCP စစ္ေဆးမႈ</string>
+    <string name="hdcp_checking_dialog_title">HDCP စစ္ေဆးျခင္း အျပဳအမူမ်ားအား သတ္မွတ္မည္</string>
+    <string name="debug_debugging_category">ခ်ဳိ႕ယြင္းခ်က္ ဖယ္ရွားျခင္း</string>
+    <string name="debug_app">ဒီဘတ္ အက္ပ္စ္ေရြးမည္</string>
+    <string name="debug_app_not_set">ဒီဘတ္အက္ပလီေကးရွင္း မသတ္မွတ္ရေသးပါ</string>
+    <string name="debug_app_set">ဒီဘတ္ကင္း အက္ပလီေကးရွင္း။ ။ <xliff:g id="app_name">%1$s</xliff:g></string>
+    <string name="select_application">အက္ပလီေကးရွင္း ေရြးမည္</string>
+    <string name="no_application">ဘာမွမရွိပါ</string>
+    <string name="wait_for_debugger">ဒီဘတ္ လုပ္မည့္သူကို ေစာင့္ေနပါသည္</string>
+    <string name="wait_for_debugger_summary">ဒီဘတ္ လုပ္ၿပီးသည့္ အက္ပလီေကးရွင္းက မလုပ္ေဆာင္မီ တြဲဆက္ရန္အတြက္ ဒီဘတ္လုပ္မည့္သူကို ေစာင့္ေနပါသည္</string>
+    <string name="debug_input_category">အဝင္</string>
+    <string name="debug_drawing_category">ေရးဆြဲသည္</string>
+    <string name="debug_hw_drawing_category">ဟတ္ဝဲလ္အားျဖင့္ အရွိန္ျမွင့္တင္ေပးသည့္ လုပ္ေဆာင္မႈ</string>
+    <string name="media_category">က႑မ်ား</string>
+    <string name="debug_monitoring_category">ေစာင့္ၾကည့္ေနမႈ</string>
+    <string name="strict_mode">တင္းၾကပ္သည့္ ပုံစံကို ဖြင့္ထားသည္</string>
+    <string name="strict_mode_summary">ပင္မအလုပ္ေပၚတြင္ အက္ပ္စ္မ်ားက လုပ္ငန္းစဥ္အၾကားႀကီးလုပ္ပါက မ်က္ႏွာျပင္ကို မီးထြန္းမည္။</string>
+    <string name="pointer_location">ပြိဳင့္တာ တည္ေနရာ</string>
+    <string name="pointer_location_summary">လက္ရွိထိေတြ႔ေဒတာကို ျပသသည့္ မ်က္ႏွာျပင္</string>
+    <string name="show_touches">ေခါက္မႈမ်ား ကို ျမမည္</string>
+    <string name="show_touches_summary">ေခါက္မႈမ်ားအတြက္ အျမင္ေဝဖန္မႈမ်ားကို ျပမည္</string>
+    <string name="show_screen_updates">မ်က္ႏွာျပင္ အသစ္မြမ္းမံမႈမ်ားကို ျပမည္</string>
+    <string name="show_screen_updates_summary">အသစ္မြမ္းမံပါက ဝင္းဒိုး မ်က္ႏွာျပင္တစ္ခုလုံးကို မီးထြန္းမည္</string>
+    <string name="show_hw_screen_updates">GPU အျမင္ အသစ္မြမ္းမံျခင္းမ်ားကို ျပမည္</string>
+    <string name="show_hw_screen_updates_summary">GPU ႏွင့္ ခ်ိတ္မိခ်ိန္တြင္ ဝင္းဒိုးအတြင္းပိုင္း မီးထြန္းအျမင္မ်ား</string>
+    <string name="show_hw_layers_updates">ဟတ္ဝဲလ္ အလႊာမ်ား အသစ္မြမ္းမံျခင္းကို ျပမည္</string>
+    <string name="show_hw_layers_updates_summary">အသစ္မြမ္းမံေနခ်ိန္တြင္ ဟတ္ဝဲလ္ အလႊာမ်ားအား အစိမ္းေရာင္ မီးထြန္းမည္</string>
+    <string name="debug_hw_overdraw">ပိုလုပ္ထားသည့္ GPU ကို ဒီဘတ္ လုပ္မည္</string>
+    <string name="disable_overlays">HW အပိုလႊာကို ပိတ္မည္</string>
+    <string name="disable_overlays_summary">မ်က္ႏွာျပင္ေပါင္းစပ္ျခင္းအတြက္ GPU ကို အၿမဲသုံးမည္</string>
+    <string name="simulate_color_space">အေရာင္ေနရာကို ႏိႈးဆြမည္</string>
+    <string name="enable_opengl_traces_title">OpenGL ေျခရာခံမ်ားကို ဖြင့္မည္</string>
+    <string name="usb_audio_disable_routing">USB အသံ လိုင္းခ်ျခင္းကို ပိတ္မည္</string>
+    <string name="usb_audio_disable_routing_summary">USB အသံ ေဘးဘက္မ်ားသို႔ အလိုအေလ်ာက္ လိုင္းခ်ျခင္းကို ပိတ္မည္</string>
+    <string name="debug_layout">ျပသမႈေပါင္းစပ္ျခင္းကို ျပမည္</string>
+    <string name="debug_layout_summary">ကလစ္ ေပါင္းစပ္ျခင္း၊ အနားသတ္မ်ား စသည္တို႔ကို ျပမည္</string>
+    <string name="force_rtl_layout_all_locales">RTL ျပသမႈ ဦးတည္ရာကို အတင္းလုပ္ခိုင္းမည္</string>
+    <string name="force_rtl_layout_all_locales_summary">ေနရာတြင္ရွိေနသူမ်ားအားလုံးအတြက္ မ်က္ႏွာျပင္ ျပသမႈ ဦးတည္ရာကို RTL သို႔ အတင္းလုပ္ခိုင္းမည္</string>
+    <string name="show_cpu_usage">CPU အသုံးခ်မႈကို ျပမည္</string>
+    <string name="show_cpu_usage_summary">လက္ရွိ CPU အသုံးခ်မႈကို ျပေနသည့္ မ်က္ႏွာျပင္ ျပသမႈ</string>
+    <string name="force_hw_ui">GPU လုပ္ေဆာင္ခ်က္ကို အတင္းလုပ္ခိုင္းမည္</string>
+    <string name="force_hw_ui_summary">2d ေရးဆြဲျခင္းအတြက္ GPU အား အတင္းလုပ္ခိုင္းမည္</string>
+    <string name="force_msaa">4x MSAA ကို အတင္းလုပ္ခိုင္းမည္</string>
+    <string name="force_msaa_summary">OpenGL ES 2.0 အက္ပ္စ္ တြင္ 4x MSAA ကို ဖြင့္မည္</string>
+    <string name="show_non_rect_clip">ေထာင္မွန္မဟုတ္သည့္ ကလစ္လုပ္ေဆာင္ခ်က္မ်ားကို ဒီဘတ္ လုပ္မည္</string>
+    <string name="track_frame_time">GPU လုပ္ေဆာင္ခ်က္ ပရိုဖိုင္းလ္</string>
+    <string name="window_animation_scale_title">ဝင္းဒိုး သက္ဝင္ရုပ္ အခ်ိဳး</string>
+    <string name="transition_animation_scale_title">သက္ဝင္ရုပ္အခ်ိဳး ေျပာင္းလဲမႈ</string>
+    <string name="animator_duration_scale_title">သက္ဝင္ရုပ္ၾကာခ်ိန္ အခ်ိဳး</string>
+    <string name="overlay_display_devices_title">ဒုတိယျပသမႈမ်ားကို ႏိႈးဆြမည္</string>
+    <string name="debug_applications_category">လုပ္ငန္းသံုး ပ႐ိုဂရမ္</string>
+    <string name="immediately_destroy_activities">လႈပ္ရွားမႈမ်ားကို ဆက္မလုပ္ပါႏွင့္</string>
+    <string name="immediately_destroy_activities_summary">အသုံးျပဳသူထြက္သြားလွ်င္သြားခ်င္း လႈပ္ရွားမႈတိုင္းကို ဖ်က္ဆီးပစ္မည္</string>
+    <string name="app_process_limit_title">ေနာက္ခံ လုပ္ငန္းစဥ္ ကန္႔သတ္ခ်က္</string>
+    <string name="show_all_anrs">ANRs အားလုံးကို ျပမည္</string>
+    <string name="show_all_anrs_summary">ေနာက္ခံအက္ပ္စ္မ်ားအတြက္ တုန္႔ျပန္မႈမရွိသည့္ အက္ပ္စ္မ်ားကို ျပမည္</string>
+    <string name="force_allow_on_external">ျပင္ပရွိ အက္ပ္စ္မ်ားကို ခြင့္ျပဳရန္ အတင္းလုပ္ခုိင္းမည္</string>
+    <string name="force_allow_on_external_summary">ျပသတန္ဖိုးကိုမၾကည့္ဘဲ အက္ပ္စ္အားလုံးအား ျပင္ပသိုေလွာင္မႈေပၚတြင္ ထားႏိုင္ရန္ ျပဳလုပ္မည္</string>
+    <string name="force_resizable_activities">လႈပ္ရွားမႈမ်ားကို အရြယ္အစားျပန္သတ္မွတ္ႏိုင္ရန္ အတင္းလုပ္ခိုင္းမည္</string>
+    <string name="force_resizable_activities_summary">ျပသတန္ဖိုးကို မၾကည့္ဘဲ လႈပ္ရွားမႈတိုင္းကို ဝင္းဒိုးအမ်ိဳးမ်ိဳးအတြက္ အရြယ္အစားျပန္သတ္မွတ္ႏိုင္ရန္ လုပ္မည္</string>
+    <string name="enable_freeform_support">အလြတ္ပုံစံ ဝင္းဒိုးမ်ား ကို ဖြင့္မည္</string>
+    <string name="enable_freeform_support_summary">စမ္းသပ္ဆဲ အလြတ္ဝင္္းဒိုးမ်ားအတြက္ အေထာက္အပံ့ေပးမည္</string>
+    <string name="local_backup_password_title">ဒက္ရွ္ေတာ့ ေနာက္ခံ လ်ိဳ႕ဝွက္စကားလုံး</string>
+    <string name="local_backup_password_summary_none">ဒက္ရွ္ေတာ့ အပိုသိမ္းဆည္းထားမႈအားလုံးအား လက္ရွိတြင္ မကာကြယ္ထားပါ</string>
+    <string name="local_backup_password_summary_change">ဒက္ရွ္ေတာ့ အပိုသိမ္းဆည္းထားမႈအားလုံးအတြက္ လ်ိဳ႕ဝွက္စကားလုံးကို ေျပာင္းလဲရန္ သို႔မဟုတ္ ဖယ္ရွားရန္ ေခါက္ပါ</string>
+    <string name="local_backup_password_toast_success">အပိုသိမ္းဆည္းမႈ လ်ိဳ႕ဝွက္စကားလုံး အသစ္ သတ္မွတ္ၿပီးၿပီ</string>
+    <string name="local_backup_password_toast_confirmation_mismatch">လ်ိဳ႕ဝွက္စကားလုံး အသစ္ႏွင့္ အတည္ျပဳခ်က္မ်ား မကိုက္ညီပါ</string>
+    <string name="local_backup_password_toast_validation_failure">အပိုသိမ္းဆည္မႈ လ်ိဳ႕ဝွက္စကားလုံး သတ္မွတ္ျခင္း မေအာင္ျမင္ပါ</string>
+    <string-array name="color_mode_names">
+        <item>ေတာက္ပေသာ (မူရင္း)</item>
+        <item>သဘာဝ</item>
+        <item>စံ</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>ပိုမိုလွပေအာင္လုပ္ထားသည့္ အေရာင္မ်ား</item>
+        <item>မ်က္လုံးမွျမင္သည့္အတိုင္း သဘာဝအေရာင္မ်ား</item>
+        <item>ဒီဂ်စ္တယ္လ္ပါဝင္မႈအတြက္ အေကာင္ဆုံးလုပ္ထားသည့္ အေရာင္မ်ား</item>
+    </string-array>
+    <string name="inactive_apps_title">အသက္မဝင္ေသာ အက္ပ္စ္မ်ား</string>
+    <string name="inactive_app_inactive_summary">အသက္မဝင္ေသာ၊ သိေစရန္ ေခါက္ပါ။</string>
+    <string name="inactive_app_active_summary">အသက္ဝင္ေနပါသည္၊ သိေစရန္ ေခါက္ပါ။</string>
+    <string name="runningservices_settings_title">လုပ္ေဆာင္ေနသာ ဝန္ေဆာင္မႈမ်ား</string>
+    <string name="runningservices_settings_summary">လက္ရွိလုပ္ေဆာင္ေနေသာ ဝန္ေဆာင္မႈမ်ားအား ၾကည့္ရွဳ႕ထိန္းခ်ဳပ္မည္</string>
+    <string name="enable_webview_multiprocess">လုပ္ငန္းစဥ္အမ်ားအျပား WebView</string>
+    <string name="enable_webview_multiprocess_desc">WebView လုပ္ေဆာင္သူမ်ားအား သီးသန္႔ လုပ္ေဆာင္ေစမည္</string>
+    <string name="select_webview_provider_title">WebView လုပ္ေဆာင္ခ်က္</string>
+    <string name="select_webview_provider_dialog_title">WebView လုပ္ေဆာင္ခ်က္ သတ္မွတ္မည္</string>
+    <string name="select_webview_provider_toast_text">ဤေရြးခ်ယ္မႈသည္ တရားမဝင္ေတာ့ပါ၊ ထပ္ႀကိဳးစားေပးပါ။</string>
+    <string name="convert_to_file_encryption">ဖိုင္ ကုဒ္ဖြဲ႔ျခင္းသို႔ ေျပာင္းမည္</string>
+    <string name="convert_to_file_encryption_enabled">ေျပာင္းမည္\u2026</string>
+    <string name="convert_to_file_encryption_done">ဖိုင္ ကုဒ္ဖြဲ႔ၿပီးၿပီ</string>
+    <string name="title_convert_fbe">ဖိုင္အေျခခံ ကုဒ္ဖြဲ႔မႈသို႔ ေျပာင္းေနသည္</string>
+    <string name="convert_to_fbe_warning">ေဒတာခြဲျခားမႈကို ဖိုင္အေျခခံကုဒ္ဖြဲ႕မႈသို႔ေျပာင္းမည္။\nသတိေပးခ်က္ ယင္းက သင့္ေဒတာမ်ားကို ပ်က္သြားေစႏိုင္ပါသည္။\n ဤသြင္ျပင္သည္ အယ္လ္ဖာ ျဖစ္ၿပီး ေကာင္းမြန္စြာ အလုပ္လုပ္ခ်င္မွလုပ္ပါမည္။\nဆက္လုပ္ရန္ ထိၿပီး ေျပာင္းမည္ကို ဖိ\u2026ပါ။</string>
+    <string name="button_convert_fbe">ထိၿပီး ေျပာင္းမည္\u2026</string>
+    <string name="picture_color_mode">ပုံ အေရာင္ပုံစံ</string>
+    <string name="picture_color_mode_desc">sRGB ကို သုံးမည္</string>
+    <string name="daltonizer_mode_disabled">ပိတ္ထားျပီး</string>
+    <string name="daltonizer_mode_monochromacy">တစ္ေရာင္တည္း</string>
+    <string name="daltonizer_mode_deuteranomaly">ဒူတိုအႏိုမလီ(နီ-စိမ္း)</string>
+    <string name="daltonizer_mode_protanomaly">ပေရာ့အႏိုမလီ (နီ-စိမ္း)</string>
+    <string name="daltonizer_mode_tritanomaly">ထရိုင္အႏိုမလီ (ျပာ-ဝါ)</string>
+    <string name="accessibility_display_daltonizer_preference_title">အေရာင္ ျပဳျပင္ျခင္း</string>
+    <string name="accessibility_display_daltonizer_preference_subtitle">ဤသြင္ျပင္သည္ စမ္းသပ္ဆဲျဖစ္ၿပီး စြမ္းေဆာင္ရည္ကို ထိခိုက္ေစႏိုင္ပါသည္။</string>
+    <string name="daltonizer_type_overridden"><xliff:g id="title" example="Simulate color space">%1$s</xliff:g>မွ ထပ္လုပ္ေဆာင္မည္</string>
+    <string name="power_remaining_duration_only">မွန္းေျခ <xliff:g id="time">%1$s</xliff:g>သာက်န္ေတာ့သည္</string>
+    <string name="power_remaining_duration_only_short"><xliff:g id="time">%1$s</xliff:g>သာက်န္ေတာ့သည္</string>
+    <string name="power_discharging_duration"><xliff:g id="level">%1$s</xliff:g> - မွန္းေျခ <xliff:g id="time">%2$s</xliff:g>သာက်န္ေတာ့သည္</string>
+    <string name="power_discharging_duration_short"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="time">%2$s</xliff:g> သာက်န္ေတာ့သည္</string>
+    <string name="power_charging"><xliff:g id="level">%1$s</xliff:g> - <xliff:g id="state">%2$s</xliff:g></string>
+    <string name="power_charging_duration"><xliff:g id="level">%1$s</xliff:g> - မျပည့္မီ <xliff:g id="time">%2$s</xliff:g></string>
+    <!-- no translation found for power_charging_duration_short -->
+    <string name="power_charging_duration_ac"><xliff:g id="level">%1$s</xliff:g> - AC တြင္းမျပည့္မီ<xliff:g id="time">%2$s</xliff:g></string>
+    <!-- no translation found for power_charging_duration_ac_short -->
+    <string name="power_charging_duration_usb"><xliff:g id="level">%1$s</xliff:g> - USB တြင္းမျပည့္မီ<xliff:g id="time">%2$s</xliff:g></string>
+    <!-- no translation found for power_charging_duration_usb_short -->
+    <string name="power_charging_duration_wireless"><xliff:g id="level">%1$s</xliff:g> - ႀကိဳးမဲတြင္း မျပည့္မီ<xliff:g id="time">%2$s</xliff:g></string>
+    <!-- no translation found for power_charging_duration_wireless_short -->
+    <string name="battery_info_status_unknown">မသိေသာ</string>
+    <string name="battery_info_status_charging">အားသြင္းေနသည္</string>
+    <string name="battery_info_status_charging_ac">AC ျဖင့္အားသြင္းေနပါသည္</string>
+    <string name="battery_info_status_charging_ac_short">အားသြင္းေနသည္</string>
+    <string name="battery_info_status_charging_usb">USB ျဖင့္အားသြင္းေနပါသည္</string>
+    <string name="battery_info_status_charging_usb_short">အားသြင္းေနသည္</string>
+    <string name="battery_info_status_charging_wireless">ႀကိဳးမဲ့ျဖင့္ အားသြင္းေနပါသည္</string>
+    <string name="battery_info_status_charging_wireless_short">အားသြင္းေနသည္</string>
+    <string name="battery_info_status_discharging">အားသြင္းမေနပါ</string>
+    <string name="battery_info_status_not_charging">အားသြင္းမေနပါ</string>
+    <string name="battery_info_status_full">အျပည့္</string>
+    <string name="disabled_by_admin_summary_text">စီမံမွ ထိန္းခ်ဳပ္ထားသည့္</string>
+    <string name="enabled_by_admin">စီမံခန္႔ခြဲသူမွ ဖြင့္ထားသည့္</string>
+    <string name="disabled_by_admin">စီမံခန္႔ခြဲသူမွ ပိတ္ထားသည့္</string>
+    <string name="home">ဆက္တင္ မူရင္း</string>
+    <string name="charge_length_format">လြန္ခဲ့ေသာ <xliff:g name="time" example="3 hours">%1$s</xliff:g> က</string>
+    <string name="remaining_length_format"><xliff:g name="time" example="3 hours">%1$s</xliff:g>သာက်န္သည္</string>
+    <string name="screen_zoom_summary_small">ေသးငယ္</string>
+    <string name="screen_zoom_summary_default">မူလပံုစံ</string>
+    <string name="screen_zoom_summary_large">ႀကီး</string>
+    <string name="screen_zoom_summary_very_large">ပိုႀကီးေသာ</string>
+    <string name="screen_zoom_summary_extremely_large">အႀကီးဆုံး</string>
+    <string name="screen_zoom_summary_custom">စိတ္ႀကိဳက္ (<xliff:g id="densityDpi" example="160">%d</xliff:g>)</string>
+    <string name="help_feedback_label">အကူအညီ</string>
+    <!-- no translation found for wifi_secured_first_item -->
+    <!-- no translation found for wifi_secured_second_item -->
+    <string name="wifi_wps_available_first_item">ရႏိုင္သည့္ WPS</string>
+    <string name="wifi_wps_available_second_item">\u0020(ရႏိုင္သည့္ WPS)</string>
+</resources>

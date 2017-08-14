@@ -1,0 +1,41 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+    sourceSets {
+        main {
+            java {
+                srcDirs += 'src-itel/main/java'
+            }
+            res {
+                srcDirs += 'src-frameworks/main/res'
+            }
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:24.2.1'
+    compile 'com.android.support:recyclerview-v7:24.2.+'
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    compile 'com.android.support:preference-v14:24.0.+'
+    provided files('libs/framework.jar')
+    provided files('libs/libcore.jar')
+}

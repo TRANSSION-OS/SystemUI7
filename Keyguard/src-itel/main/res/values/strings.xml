@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+* add new string defined by itel
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="kg_password_failed_attempts_message">You still have <xliff:g id="number">%d</xliff:g> chance</string>
+    <!-- add by lych for fixing bug zcd#29289: try again in 1 seconds -->
+    <string name="kg_too_many_failed_attempts_countdown_singular">Try again in <xliff:g id="number">%d</xliff:g> second.</string>
+</resources>

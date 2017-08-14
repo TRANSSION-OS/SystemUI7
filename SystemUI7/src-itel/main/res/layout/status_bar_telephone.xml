@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Extends RelativeLayout -->
+<com.android.systemui.telephone.TelephoneBackView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:returnbar="http://schemas.android.com/apk/res-auto"
+	android:layout_width="fill_parent"
+	android:layout_height="@dimen/status_bar_height"
+	android:orientation="horizontal"
+	android:background="@color/status_bar_green" >
+	<ImageView android:id="@+id/telephone_back_image"
+		android:layout_alignParentStart="true"
+		android:layout_width="22dp"
+		android:layout_height="22dp"
+		android:gravity="start|center_vertical"
+		android:src="@drawable/ic_audio_phone"
+		android:layout_marginTop="@dimen/battery_level_padding_end"
+		android:paddingStart="@dimen/battery_level_padding_end"
+		/>
+	<TextView android:id="@+id/telephone_back_text"
+		android:layout_toEndOf="@id/telephone_back_image"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:singleLine="true"
+		android:maxWidth="@dimen/return_call_size"
+		android:gravity="start|center_vertical"
+		android:paddingStart="@dimen/battery_level_padding_end"
+		android:text="@string/click_return_telephone"
+		android:textColor="@color/qs_text" />
+	<Chronometer android:id="@+id/telephone_chronometer"
+		android:layout_toEndOf="@id/telephone_back_text"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:gravity="start|center_vertical"
+		android:visibility="invisible"
+		android:paddingStart="3dp"
+		android:textColor="@color/qs_text" />
+
+	<com.android.systemui.statusbar.policy.Clock
+		android:id="@+id/telephone_back_clock"
+		android:textAppearance="@style/TextAppearance.StatusBar.Clock"
+		android:layout_alignParentEnd="true"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:singleLine="true"
+		android:paddingEnd="@dimen/header_battery_margin_keyguard"
+		android:gravity="center_vertical|start" />
+	<!-- linwujia add begin -->
+
+	<ImageView
+		android:id="@+id/itel_returnCall_battery_charging"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerVertical="true"
+		android:layout_marginTop="4dp"
+		android:layout_toStartOf="@id/telephone_back_clock"
+		android:layout_marginEnd="3dp"
+		android:src="@drawable/itel_stat_battery_charging"
+		android:importantForAccessibility="noHideDescendants"/>
+	<!-- linwujia add end -->
+	<com.android.systemui.BatteryMeterView
+		android:id="@+id/telephone_back_battery"
+		android:layout_height="16dp"
+		android:layout_width="26dp"
+		android:layout_toStartOf="@id/itel_returnCall_battery_charging"
+		android:gravity="center_vertical"
+		android:layout_marginTop="5dp"
+		returnbar:returncall_enabled="true"
+		android:layout_marginBottom="@dimen/battery_margin_bottom"
+		android:layout_marginEnd="3dp"/>
+
+	<TextView android:id="@+id/battery_level_back"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:layout_toStartOf="@id/telephone_back_battery"
+        android:paddingStart="@dimen/battery_level_padding_end"
+		android:layout_marginEnd="3dp"
+        android:textColor="#ffffff"
+        android:visibility="gone"
+        android:textSize="@dimen/itel_battery_level_text_size"
+        android:importantForAccessibility="noHideDescendants"/>
+		<!--android:layout_marginEnd="@dimen/header_battery_margin_keyguard"-->
+</com.android.systemui.telephone.TelephoneBackView>

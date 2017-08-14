@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LeatherClockView">
+        <attr name="time_textSize" format="dimension|reference" />
+        <attr name="dateweek_textSize" format="dimension|reference" />
+        <attr name="up_button_margin_bottom" format="dimension|reference" />
+        <attr name="phone_margin_left" format="dimension|reference" />
+        <attr name="phone_margin_top" format="dimension|reference" />
+        <attr name="phone_margin_sms" format="dimension|reference" />
+        <attr name="sweep_gradient_width" format="dimension|reference" />
+        <attr name="phone_or_sms_num_circle_radius" format="dimension|reference" />
+        <attr name="phone_or_sms_middle_rect_width" format="dimension|reference" />
+        <attr name="phone_or_sms_big_rect_width" format="dimension|reference" />
+        <attr name="phone_or_sms_num_textSize" format="dimension|reference" />
+
+    </declare-styleable>
+
+    <declare-styleable name="LeatherTimeView">
+        <attr name="date_right_margin" format="dimension|reference" />
+        <attr name="date_width" format="dimension|reference" />
+        <attr name="date_textSize" format="dimension|reference" />
+
+        <attr name="week_bottom_margin" format="dimension|reference" />
+        <!-- 星期圆盘的内接正方形宽度 -->
+        <attr name="week_square_width" format="dimension|reference" />
+
+        <attr name="second_top_height" format="dimension|reference" />
+        <attr name="second_bottom_height" format="dimension|reference" />
+
+    </declare-styleable>
+
+    <declare-styleable name="LeatherGoldenTimeView">
+        <attr name="left_clock_margin_left" format="dimension|reference" />
+        <attr name="left_clock_radius" format="dimension|reference" />
+        <attr name="right_clock_margin_right" format="dimension|reference" />
+        <attr name="right_clock_radius" format="dimension|reference" />
+        <attr name="left_clock_second_top_height" format="dimension|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="LeatherMusicProgressBar">
+        <attr name="progressbar_width"  format="dimension|reference" />
+        <attr name="progressbar_background_color" format="color|reference" />
+        <attr name="progressbar_front_start_color" format="color|reference" />
+        <attr name="progressbar_front_end_color" format="color|reference" />
+        <attr name="progressbar_max" format="float" />
+        <attr name="progressbar_progress" format="float" />
+    </declare-styleable>
+</resources>

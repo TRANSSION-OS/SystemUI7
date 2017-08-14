@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="softap_need_mobile_data_enabled">Điểm truy cập Wi-Fi di động cần kết nối dữ liệu di động, điều này có thể tạo thêm chi phí khi sử dụng.</string>
+    <string name="softap_bt_cannot_coexist">Khi Bluetooth đã được kích hoạt hoặc đang bật, Softap không thể hoạt động, nếu bạn muốn sử dụng Softap, xin vui lòng đảm bảo rằng Bluetooth đã tắt.</string>
+    <string name="bt_softap_cannot_coexist">Khi Softap được kích hoạt hoặc bật lên, Bluetooth không thể hoạt động, nếu bạn muốn sử dụng Bluetooth, hãy đảm bảo rằng Softap đã tắt.</string>
+</resources>

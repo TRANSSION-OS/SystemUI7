@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="softap_need_mobile_data_enabled">ਪੋਰਟੇਬਲ Wi-Fi ਹਾਟਸਪਾਟ ਲਈ ਮੋਬਾਈਲ ਡਾਟਾ ਕਨੈਕਟ ਚਾਹੀਦਾ ਹੈ, ਵਾਧੂ ਖ਼ਰਚੇ ਹੋ ਸਕਦੇ ਹਨ।</string>
+    <string name="softap_bt_cannot_coexist">ਜਦੋਂ Bluetooth ਸਮਰੱਥ ਹੈ ਜਾਂ ਚਾਲੂ ਹੁੰਦਾ ਹੈ ਤਾਂ SoftAP ਕੰਮ ਨਹੀਂ ਕਰ ਸਕਦਾ ਹੈ, ਜੇ ਤੁਸੀਂ SoftAP ਨੂੰ ਵਰਤਣਾ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਯਕੀਨੀ ਬਣਾਓ ਕਿ Bluetooth ਅਸਮਰੱਥ ਹੈ।</string>
+    <string name="bt_softap_cannot_coexist">ਜਦੋਂ SoftAP ਸਮਰੱਥ ਹੈ ਜਾਂ ਚਾਲੂ ਹੁੰਦਾ ਹੈ ਤਾਂ Bluetooth ਕੰਮ ਨਹੀਂ ਕਰ ਸਕਦਾ ਹੈ, ਜੇ ਤੁਸੀਂ Bluetooth ਨੂੰ ਵਰਤਣਾ ਚਾਹੁੰਦੇ ਹੋ ਤਾਂ ਯਕੀਨੀ ਬਣਾਓ ਕਿ SoftAP ਅਸਮਰੱਥ ਹੈ।</string>
+</resources>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="wifi_status">
+        <item></item>
+        <item>"Xinxala jira\u2026"</item>
+        <item>"Quunnamti uuma jira\u2026"</item>
+        <item>"Mirkaneessaa jira\u2026"</item>
+        <item>"Teessoo IP argachaa jira\u2026"</item>
+        <item>"Quunnameera"</item>
+        <item>"Rarraafameera"</item>
+        <item>"Qunnamttin addaan citaa jira\u2026"</item>
+        <item>"Addan cittera"</item>
+        <item>"Kan hin milkoofne"</item>
+        <item>"Sakaalameera"</item>
+        <item>"Yeroof quunnamtii dadhabaa dhiisa jira"</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>"Xinxala jira\u2026"</item>
+        <item>"<xliff:g id="network_name">%1$s</xliff:g> quunnamaa jira\u2026"</item>
+        <item>"<xliff:g id="network_name">%1$s</xliff:g>wajjin wal-mirkaneessaa jira\u2026"</item>
+        <item>"Teessoo IP  <xliff:g id="network_name">%1$s</xliff:g>irraa %1$sargachaa jira\u2026"</item>
+        <item>"<xliff:g id="network_name">%1$s</xliff:g> tti quunnameera"</item>
+        <item>"Rarraafameera"</item>
+        <item>"<xliff:g id="network_name">%1$s</xliff:g> irraa qunnamttin addaan citaa jira\u2026"</item>
+        <item>"Addan cittera"</item>
+        <item>"Kan hin milkoofne"</item>
+        <item>"Sakaalameera"</item>
+        <item>"Yeroof quunnamtii dadhabaa dhiisa jira"</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>"Gonkumaa hin mirkaneessiin"</item>
+        <item>"Qabiyyee DRM qofaa ilaali"</item>
+        <item>"Yeroo hundaa mirkanessi"</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>"Gonkumaa HDCP mirkaneessuu hin fayyadamiin"</item>
+        <item>"HDCP mirkaneessuu qabiyee DRM qofaf fayyadamii"</item>
+        <item>"Yeroo hundaa HDCP mirkaneessu fayyadami"</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>"Cuffi"</item>
+        <item>"64K"</item>
+        <item>"256K"</item>
+        <item>"1M"</item>
+        <item>"4M"</item>
+        <item>"16M"</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>"Cuffi"</item>
+        <item>"64K"</item>
+        <item>"256K"</item>
+        <item>"1M"</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>"Cuffi"</item>
+        <item>"64K dilbaa sanduuqa yerommaa irra"</item>
+        <item>"256K dilbaa sanduuqa yerommaa irra"</item>
+        <item>"1M dilbaa sanduuqa yerommaa irra"</item>
+        <item>"4M dilbaa sanduuqa yerommaa irra"</item>
+        <item>"16M dilbaa sanduuqa yerommaa irra"</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>"Sochi fakkina cufaa"</item>
+        <item>"Iskeelii sochii fakkinaa .5x"</item>
+        <item>"Iskeelii sochii fakkinaa 1x"</item>
+        <item>"Iskeelii sochii fakkinaa 1.5x"</item>
+        <item>"Iskeelii sochii fakkinaa 2x"</item>
+        <item>"Iskeelii sochii fakkinaa 5x"</item>
+        <item>"Iskeelii sochii fakkinaa 10x"</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>"Sochi fakkina cufaa"</item>
+        <item>"Iskeelii sochii fakkinaa .5x"</item>
+        <item>"Iskeelii sochii fakkinaa 1x"</item>
+        <item>"Iskeelii sochii fakkinaa 1.5x"</item>
+        <item>"Iskeelii sochii fakkinaa 2x"</item>
+        <item>"Iskeelii sochii fakkinaa 5x"</item>
+        <item>"Iskeelii sochii fakkinaa 10x"</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>"Sochi fakkina cufaa"</item>
+        <item>"Iskeelii sochii fakkinaa .5x"</item>
+        <item>"Iskeelii sochii fakkinaa 1x"</item>
+        <item>"Iskeelii sochii fakkinaa 1.5x"</item>
+        <item>"Iskeelii sochii fakkinaa 2x"</item>
+        <item>"Iskeelii sochii fakkinaa 5x"</item>
+        <item>"Iskeelii sochii fakkinaa 10x"</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>"Homaa"</item>
+        <item>"480p"</item>
+        <item>"480p (egamaa)"</item>
+        <item>"720p"</item>
+        <item>"720p (egamaa)"</item>
+        <item>"1080p"</item>
+        <item>"1080p (egamaa)"</item>
+        <item>"4K"</item>
+        <item>"4K (egamaa)"</item>
+        <item>"4K (kan oll gudatee)"</item>
+        <item>"4K (kan oll gudatee, egumssaa)"</item>
+        <item>"720p, 1080p (argii lama)"</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>"Homaa"</item>
+        <item>"Kutaa dilba"</item>
+        <item>"Systrace (Saxaatoo)"</item>
+        <item>"Waamicha qabame glargadhudogoggoraa"</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>"Cuffi"</item>
+        <item>"Halluu samiin naannoo muraa rogafree hin taane irrati kaasi"</item>
+        <item>"Yaalii kaasuu ajajjoota magariisaan adda basi"</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>"Cuffi"</item>
+        <item>"Argii irra akka kabalotati"</item>
+        <item>"In adb shell dumpsys gfxinfo"</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>"Cuffi"</item>
+        <item>"Bakkeewwan irraati kaasuu agarsiisi"</item>
+        <item>"Bakkeewwan diiwtiraanoomaalii agarsiisi"</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>"Daangaa bekamtii"</item>
+        <item>"Adeemsi duubduube hin jiru"</item>
+        <item>"Yoo baay'ate adeemsa 1"</item>
+        <item>"Yoo baay'ate adeemsa 2"</item>
+        <item>"Yoo baay'ate adeemsa 3"</item>
+        <item>"Yoo baay'ate adeemsa 4"</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>"Charjii godha jira"</item>
+        <item>"MTP(Seraa dabarssaa sabqunamtii)"</item>
+        <item>"PTP(Seraa dabarssaa suuraa)"</item>
+        <item>"RNDIS(Itarnetii USB)"</item>
+        <item>"Madda sagallee"</item>
+        <item>"MIDI"</item>
+    </string-array>
+</resources>

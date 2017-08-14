@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <bool name="config_showEmergencyBtnInLockScreen">false</bool>
+    <!-- SPRD: Feature 478361,[CUCC] NO Sim card,Do not show emergency button -->
+    <string name="plugin_keyguard_operator" translatable="false">plugin.sprd.keyguardTelephonyAddon.KeyguardFeaturesForOperator</string>
+    <bool name="config_show_rat_append_operator">true</bool>
+    <bool name="config_show_2g">false</bool>
+    <bool name="config_show_4g">true</bool>
+</resources>

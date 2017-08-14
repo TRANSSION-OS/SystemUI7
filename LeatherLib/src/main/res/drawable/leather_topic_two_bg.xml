@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>       
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- 当当前的状态是点击的,那么就显示这张图片 -->
+    <item android:state_pressed="true" android:drawable="@drawable/leather_topic_two_selected" />
+    <item android:state_selected="true" android:drawable="@drawable/leather_topic_two_selected" />
+    <!--当前的状态没有任何时间,就显示这张图片 -->
+     <item android:drawable="@drawable/leather_topic_two_normal" />
+</selector>

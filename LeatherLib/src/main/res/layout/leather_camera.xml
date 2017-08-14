@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/camera_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal" >
+    <com.android.systemui.statusbar.phoneleather.CameraSurfaceView
+        android:id="@+id/cameraSurfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:background="#0fff"/>
+
+    <ImageButton
+        android:id="@+id/leather_camera_takepic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:src="@drawable/leather_camera_button"
+        android:layout_marginTop="@dimen/leather_camera_button_margin_top"
+        android:visibility="gone"
+        android:background="@null"/>
+
+    <ImageView
+        android:layout_width="@dimen/leather_menu_radius"
+        android:layout_height="@dimen/leather_menu_radius"
+        android:src="@drawable/leather_camera_preview"
+        android:layout_marginTop="@dimen/leather_margin_top"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/leather_camera_preview"/>
+
+    <ImageView
+        android:id="@+id/leather_camera_take_bg"
+        android:layout_width="@dimen/leather_menu_radius"
+        android:layout_height="@dimen/leather_menu_radius"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/leather_margin_top"
+        android:src="@drawable/leather_camera_take"
+        android:visibility="gone"/>
+
+</FrameLayout>
+

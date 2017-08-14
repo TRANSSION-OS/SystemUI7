@@ -1,0 +1,222 @@
+/*
+ * Copyright (C) 2012 The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.android.keyguard;
+
+import android.app.ActivityManager;
+import android.content.Context;
+import android.util.AttributeSet;
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+
+import com.android.settingslib.animation.AppearAnimationUtils;
+import com.android.settingslib.animation.DisappearAnimationUtils;
+
+/**
+ * Displays a PIN pad for unlocking.
+ */
+public class KeyguardPINView extends KeyguardPinBasedInputView {
+
+    private final AppearAnimationUtils mAppearAnimationUtils;
+    private final DisappearAnimationUtils mDisappearAnimationUtils;
+    private ViewGroup mContainer;
+    private ViewGroup mRow0;
+    private ViewGroup mRow1;
+    private ViewGroup mRow2;
+    private ViewGroup mRow3;
+    private View mDivider;
+    private int mDisappearYTranslation;
+    private View[][] mViews;
+
+	private ImageView mKeyguardLockView;
+    private LinearLayout mKeyguardLockLayout;
+    public KeyguardPINView(Context context) {
+        this(context, null);
+    }
+
+    public KeyguardPINView(Context context, AttributeSet attrs) {
+        super(context, attrs);
+        mAppearAnimationUtils = new AppearAnimationUtils(context);
+        mDisappearAnimationUtils = new DisappearAnimationUtils(context,
+                125, 0.6f /* translationScale */,
+                0.45f /* delayScale */, AnimationUtils.loadInterpolator(
+                        mContext, android.R.interpolator.fast_out_linear_in));
+        mDisappearYTranslation = getResources().getDimensionPixelSize(
+                R.dimen.disappear_y_translation);
+    }
+
+    @Override
+    protected void resetState() {
+        super.resetState();
+
+        //linwujia change
+        mSecurityMessageDisplay.setMessage(R.string.keyguard_password_enter_pin_code, true);
+
+        long deadline = mLockPatternUtils.getLockoutAttemptDeadline(ActivityManager.getCurrentUser());
+        if (deadline == 0) {
+            mContainer.setVisibility(View.VISIBLE);
+            mKeyguardLockView.setVisibility(View.GONE);
+            //linwujia add begin
+            LayoutParams layoutParams = (LayoutParams) mKeyguardLockLayout.getLayoutParams();
+            layoutParams.height = LayoutParams.WRAP_CONTENT;
+            layoutParams.weight = 0;
+            mKeyguardLockLayout.setLayoutParams(layoutParams);
+            //linwujia add end
+        }else{
+            mContainer.setVisibility(View.GONE);
+            mKeyguardLockView.setVisibility(View.VISIBLE);
+        }
+
+    }
+
+    @Override
+    protected int getPasswordTextViewId() {
+        return R.id.pinEntry;
+    }
+
+    @Override
+    protected void onFinishInflate() {
+        super.onFinishInflate();
+
+		mKeyguardLockView = (ImageView) findViewById(R.id.keyguard_lock_icon);
+        mKeyguardLockLayout = (LinearLayout)findViewById(R.id.keyguard_lock_head_layout);
+        mContainer = (ViewGroup) findViewById(R.id.container);
+        mRow0 = (ViewGroup) findViewById(R.id.row0);
+        mRow1 = (ViewGroup) findViewById(R.id.row1);
+        mRow2 = (ViewGroup) findViewById(R.id.row2);
+        mRow3 = (ViewGroup) findViewById(R.id.row3);
+        mDivider = findViewById(R.id.divider);
+        mViews = new View[][]{
+                new View[]{
+                        mRow0, null, null
+                },
+                new View[]{
+                        findViewById(R.id.key1), findViewById(R.id.key2),
+                        findViewById(R.id.key3)
+                },
+                new View[]{
+                        findViewById(R.id.key4), findViewById(R.id.key5),
+                        findViewById(R.id.key6)
+                },
+                new View[]{
+                        findViewById(R.id.key7), findViewById(R.id.key8),
+                        findViewById(R.id.key9)
+                },
+                new View[]{
+                        /*zhw null*/ findViewById(R.id.delete_button), findViewById(R.id.key0), findViewById(R.id.key_enter)
+                },
+                new View[]{
+                        null, mEcaView, null
+                }};
+        //zhw add
+        mSecurityMessageDisplay.setDefaultMessage(R.string.keyguard_password_enter_pin_code, true);
+        //zhw add end
+    }
+
+    @Override
+    public void showUsabilityHint() {
+    }
+
+    @Override
+    public int getWrongPasswordStringId() {
+        return R.string.kg_wrong_pin;
+    }
+
+    @Override
+    public void startAppearAnimation() {
+        enableClipping(false);
+        setAlpha(1f);
+        setTranslationY(mAppearAnimationUtils.getStartTranslation());
+        AppearAnimationUtils.startTranslationYAnimation(this, 0 /* delay */, 500 /* duration */,
+                0, mAppearAnimationUtils.getInterpolator());
+        mAppearAnimationUtils.startAnimation2d(mViews,
+                new Runnable() {
+                    @Override
+                    public void run() {
+                        enableClipping(true);
+                    }
+                });
+    }
+
+    @Override
+    public boolean startDisappearAnimation(final Runnable finishRunnable) {
+        enableClipping(false);
+        setTranslationY(0);
+        AppearAnimationUtils.startTranslationYAnimation(this, 0 /* delay */, 280 /* duration */,
+                mDisappearYTranslation, mDisappearAnimationUtils.getInterpolator());
+        mDisappearAnimationUtils.startAnimation2d(mViews,
+                new Runnable() {
+                    @Override
+                    public void run() {
+                        enableClipping(true);
+                        if (finishRunnable != null) {
+                            finishRunnable.run();
+                        }
+                    }
+                });
+        return true;
+    }
+
+    private void enableClipping(boolean enable) {
+        mContainer.setClipToPadding(enable);
+        mContainer.setClipChildren(enable);
+        mRow1.setClipToPadding(enable);
+        mRow2.setClipToPadding(enable);
+        mRow3.setClipToPadding(enable);
+        setClipChildren(enable);
+    }
+
+    @Override
+    public boolean hasOverlappingRendering() {
+        return false;
+    }
+
+   /* @Override
+    public void performDeleteButtonAnimator(final View view) {
+        super.performDeleteButtonAnimator(view);
+        performAnimator(view);
+    }
+
+    @Override
+    public void performEnterButtonAnimator(View view) {
+        super.performEnterButtonAnimator(view);
+        performAnimator(view);
+    }
+
+    private void performAnimator(final View view) {
+        view.animate().cancel();
+        view.animate().scaleX(1.2f).scaleY(1.2f).setDuration(100)
+                .withEndAction(new Runnable() {
+
+                    @Override
+                    public void run() {
+                        view.animate().scaleX(1.0f).scaleY(1.0f)
+                                .setDuration(50).start();
+                    }
+                }).start();
+    }*/
+
+    @Override
+    public void resetLockedView() {
+        LayoutParams layoutParams = (LayoutParams) mKeyguardLockLayout.getLayoutParams();
+        layoutParams.height = 0;
+        layoutParams.weight = 1;
+        mKeyguardLockLayout.setLayoutParams(layoutParams);
+    }
+}

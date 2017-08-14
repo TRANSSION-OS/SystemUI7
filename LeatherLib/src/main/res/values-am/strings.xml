@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- no translation found for app_name -->
+    <string name="leather_theme">ቴም</string>
+    <string name="audio_profile">የኦዲዮ መገለጫዎች</string>
+    <string name="normal">አጠቃላይ</string>
+    <string name="meeting">ስብሰባ</string>
+    <string name="mute">ድምጽ አልባ</string>
+    <string name="outdoor">ከቤት ውጪ</string>
+</resources>

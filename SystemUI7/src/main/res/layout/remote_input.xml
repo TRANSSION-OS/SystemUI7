@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Copyright (C) 2015 The Android Open Source Project
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License
+  -->
+
+<!-- LinearLayout -->
+<com.android.systemui.statusbar.policy.RemoteInputView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/remote_input"
+        android:background="@drawable/itel_notification_msg_layout_bg"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="@drawable/itel_notification_msg_edit_bg"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp">
+
+    <view class="com.android.systemui.statusbar.policy.RemoteInputView$RemoteEditText"
+            android:id="@+id/remote_input_text"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:paddingTop="2dp"
+            android:paddingBottom="4dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="12dp"
+            android:gravity="start|center_vertical"
+            android:textAppearance="?android:attr/textAppearance"
+            android:textColor="@color/itel_notification_msg_txt_color"
+            android:textColorHint="@color/itel_remote_input_hint"
+            android:textSize="16sp"
+            android:background="@null"
+            android:singleLine="true"
+            android:ellipsize="start"
+            android:inputType="textShortMessage|textAutoCorrect|textCapSentences"
+            android:textIsSelectable="true"
+            android:imeOptions="actionNone|flagNoExtractUi" />
+
+    <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical">
+
+        <ImageButton
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                android:layout_gravity="center"
+                android:id="@+id/remote_input_send"
+                android:src="@drawable/itel_ic_send"
+                android:scaleType="centerCrop"
+                android:background="@null"
+                android:contentDescription="@string/ime_action_send" />
+
+        <ProgressBar
+                android:id="@+id/remote_input_progress"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginEnd="6dp"
+                android:layout_gravity="center"
+                android:visibility="invisible"
+                android:indeterminate="true"
+                style="?android:attr/progressBarStyleSmall" />
+
+    </FrameLayout>
+    </LinearLayout>
+</com.android.systemui.statusbar.policy.RemoteInputView>

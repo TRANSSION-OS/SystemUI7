@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="call_end">ဖုန္းေခၚဆိုမႈျပီးဆံုး</string>
+    <string name="keyguard_bottom_date_day">ရက္</string>
+    <string name="take_screenshot">စကရင္အား ဓာတ္ပံု႐ိုက္ကူးခ်က္</string>
+    <string name="mem_info">မှတ်ဉာဏ်: <xliff:g id="ram_available">%1$s</xliff:g>MB / <xliff:g id="ram_total">%2$s</xliff:g>GB</string>
+    <string name="recents_clear_memory">အောင်မြင်စွာရှင်းလင်း <xliff:g id="number">%d</xliff:g> M ကမှတ်ဉာဏ်</string>
+    <string name="accident_touch_model">မူမမွန္သည့္ ပုံစံ</string>
+    <string name="qs_power_save">အလြန္ပါဝါနည္း</string>
+    <string name="split_screen">Split ကိုဖန်သားပြင်</string>
+    <string name="lock_task">ေလာ့</string>
+    <string name="unlock_task">ဖြင့္ပါ</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- SPRD: Add for wlan or bt @{ -->
+    <string name="softap_need_mobile_data_enabled">"可攜式 Wi-Fi 無線基地台需開啟移動數據連接，可能會產生額外費用。"</string>
+    <string name="softap_bt_cannot_coexist">"藍牙開啟時可攜式 Wi-Fi 無線基地台不可用，如果您想使用可攜式 Wi-Fi 無線基地台請關閉藍牙。"</string>
+    <string name="bt_softap_cannot_coexist">"可攜式 Wi-Fi 無線基地台開啟時藍牙不可用，如果您想使用藍牙請關閉可攜式 Wi-Fi 無線基地台。"</string>
+    <!-- @} -->
+</resources>
+

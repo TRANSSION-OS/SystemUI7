@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+* add new string defined by itel
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="take_screenshot">স্ক্রিনশট</string>
+    <!-- linwujia add begin -->
+    <string name="keyguard_plugged_in_percent">চার্জ হচ্ছে <xliff:g id="number">%1$d</xliff:g>%%</string>
+    <string name="click_return_telephone">কল ফিরে যেতে স্পর্শ</string>
+    <string name="call_end">সংযোগ বিচ্ছিন্ন</string>
+    <string name="call_fail">কল ব্যর্থ হয়েছে</string>
+    <!-- linwujia add end -->
+    <string name="recents_clear_memory">সফলভাবে <xliff:g id="number">%d</xliff:g>M মেমরি সাফ</string>
+
+    <!-- Winner add begin -->
+    <string name="accident_touch_model">স্মার্ট মিথ্যা টাচ প্রত্যাখ্যান মোড</string>
+    <string name="accident_touch_content">থেকে প্রস্থান করার জন্য উপায়: \nপর্দার উপরের আবরণ না\nলং প্রেস নিচে ভলিউম বোতাম থেকে প্রস্থান করার জন্য</string>
+    <!-- Winner add end -->
+    <string name="qs_power_save">আল্ট্রা শক্তি সংরক্ষণ</string>
+    <!--talpa@andy 2017/4/13 21:14 add begin-->
+    <string name="quick_settings_data_connection_label">উপাত্ত</string>
+    <!--talpa@andy 2017/4/13 21:14 add end-->
+    <!-- bo.yang add begin -->
+    <!-- recent task-->
+    <string name="split_screen">বিভক্ত পর্দা</string>
+    <string name="lock_task">তালা</string>
+    <string name="unlock_task">আনলক করুন</string>
+    <!-- bo.yang add end -->
+</resources>

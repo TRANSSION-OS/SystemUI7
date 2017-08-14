@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/notification_clear_all_button_height"
+    android:layout_gravity="center_horizontal|bottom"
+    android:background="@color/notification_shade_background_color"
+    android:orientation="vertical"
+    >
+
+    <!--<itel.transsion.systemui.View.NotificationLineView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/qs_edit_divder_height" />-->
+    <include
+        android:id="@+id/clear_all_bottom_split"
+        layout="@layout/double_split_line_layout"
+        ></include>
+
+    <itel.transsion.systemui.View.NotificationClearAllViewButton
+        android:id="@+id/ib_clear_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/accessibility_clear_all"
+        android:src="@drawable/btn_clear_all"
+        android:layout_centerInParent="true"
+        />
+</RelativeLayout>

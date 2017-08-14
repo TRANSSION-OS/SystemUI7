@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:ordering="together">
+    <objectAnimator android:propertyName="OverlayAlpha" 
+        android:duration="1000"
+        android:valueFrom="255"
+        android:valueTo="0"
+        android:interpolator="@android:anim/linear_interpolator"
+        android:valueType="intType"/>
+    <objectAnimator android:propertyName="HoleScale" 
+        android:duration="1200"
+        android:valueFrom="1.0"
+        android:valueTo="0.0"
+        android:interpolator="@android:anim/decelerate_interpolator"
+        android:valueType="floatType"/>
+	<objectAnimator android:propertyName="BgOneTranslateRate" 
+        android:duration="1200"
+        android:valueFrom="0.0"
+        android:valueTo="1.0"
+        android:interpolator="@android:anim/decelerate_interpolator"
+        android:valueType="floatType"/>
+	<objectAnimator android:propertyName="BgTwoTranslateRate" 
+        android:duration="1080"
+        android:startOffset="120"
+        android:valueFrom="0.0"
+        android:valueTo="1.0"
+        android:interpolator="@android:anim/decelerate_interpolator"
+        android:valueType="floatType"/>
+	<set android:ordering="sequentially">
+		<objectAnimator android:propertyName="BgThreeTranslateRate" 
+	        android:duration="1020"
+	        android:startOffset="180"
+	        android:valueFrom="0.0"
+	        android:valueTo="1.0"
+	        android:interpolator="@android:anim/decelerate_interpolator"
+	        android:valueType="floatType"/>
+		<set android:ordering="together">
+		    <objectAnimator android:propertyName="BgOneRunTranslate" 
+		        android:duration="1000"
+		        android:valueFrom="0.0"
+		        android:valueTo="@dimen/leather_color_three_run_translate"
+		        android:interpolator="@android:anim/decelerate_interpolator"
+		        android:valueType="floatType"
+		        android:repeatMode="reverse"
+		        android:repeatCount="infinite"/>
+			<objectAnimator android:propertyName="BgTwoRunTranslate" 
+		        android:duration="1200"
+		        android:valueFrom="0.0"
+		        android:valueTo="@dimen/leather_color_three_run_translate"
+		        android:interpolator="@android:anim/decelerate_interpolator"
+		        android:valueType="floatType"
+		        android:repeatMode="reverse"
+		        android:repeatCount="infinite"/>
+			<objectAnimator android:propertyName="BgThreeRunTranslate" 
+		        android:duration="1400"
+		        android:valueFrom="0.0"
+		        android:valueTo="@dimen/leather_color_three_run_translate"
+		        android:interpolator="@android:anim/decelerate_interpolator"
+		        android:valueType="floatType"
+		        android:repeatMode="reverse"
+		        android:repeatCount="infinite"/>
+		</set>
+	</set>	
+	
+	<set android:ordering="together">
+        <set android:ordering="together">
+            <objectAnimator 
+	            android:propertyName="alphaOne" 
+	            android:duration="150"
+	            android:startOffset="1100"
+	            android:valueFrom="0"
+	            android:valueTo="255"
+	            android:interpolator="@android:anim/linear_interpolator"
+	            android:valueType="intType"/>
+            <objectAnimator 
+	            android:propertyName="translateOne" 
+	            android:duration="150"
+	            android:valueFrom="0.0"
+	            android:valueTo="1.0"
+	            android:interpolator="@android:anim/linear_interpolator"
+	            android:valueType="floatType"/>
+        </set>
+        <set android:ordering="together">
+            <objectAnimator 
+	            android:propertyName="alphaTwo" 
+	            android:duration="150"
+	            android:startOffset="1150"
+	            android:valueFrom="0"
+	            android:valueTo="255"
+	            android:interpolator="@android:anim/linear_interpolator"
+	            android:valueType="intType"/>
+            <objectAnimator 
+	            android:propertyName="translateTwo" 
+	            android:duration="150"
+	            android:valueFrom="0.0"
+	            android:valueTo="1.0"
+	            android:interpolator="@android:anim/linear_interpolator"
+	            android:valueType="floatType"/>
+        </set>
+        <set android:ordering="together">
+            <objectAnimator 
+	            android:propertyName="alphaThree" 
+	            android:duration="150"
+	            android:startOffset="1200"
+	            android:valueFrom="0"
+	            android:valueTo="255"
+	            android:interpolator="@android:anim/linear_interpolator"
+	            android:valueType="intType"/>
+            <objectAnimator 
+	            android:propertyName="translateThree" 
+	            android:duration="150"
+	            android:valueFrom="0.0"
+	            android:valueTo="1.0"
+	            android:interpolator="@android:anim/linear_interpolator"
+	            android:valueType="floatType"/>
+        </set>
+        <set android:ordering="together">
+            <objectAnimator 
+	            android:propertyName="alphaFour" 
+	            android:duration="150"
+	            android:startOffset="1250"
+	            android:valueFrom="0"
+	            android:valueTo="255"
+	            android:interpolator="@android:anim/linear_interpolator"
+	            android:valueType="intType"/>
+            <objectAnimator 
+	            android:propertyName="translateFour" 
+	            android:duration="150"
+	            android:valueFrom="0.0"
+	            android:valueTo="1.0"
+	            android:interpolator="@android:anim/linear_interpolator"
+	            android:valueType="floatType"/>
+        </set>
+        <set android:ordering="together">
+            <objectAnimator 
+	            android:propertyName="alphaFive" 
+	            android:duration="150"
+	            android:startOffset="1300"
+	            android:valueFrom="0"
+	            android:valueTo="255"
+	            android:interpolator="@android:anim/linear_interpolator"
+	            android:valueType="intType"/>
+            <objectAnimator 
+	            android:propertyName="translateFive" 
+	            android:duration="150"
+	            android:valueFrom="0.0"
+	            android:valueTo="1.0"
+	            android:interpolator="@android:anim/linear_interpolator"
+	            android:valueType="floatType"/>
+        </set>
+    </set>
+    <set android:ordering="sequentially">
+        <objectAnimator 
+		    android:propertyName="WeekAndDayAlpha" 
+		    android:duration="300"
+		    android:startOffset="1400"
+		    android:valueFrom="0"
+		    android:valueTo="255"
+		    android:interpolator="@android:anim/linear_interpolator"
+		    android:valueType="intType"/>
+        <objectAnimator 
+            android:propertyName="PhoneAndSmsScale" 
+            android:duration="100"
+            android:valueFrom="0.0"
+            android:valueTo="1.0"
+            android:interpolator="@android:anim/linear_interpolator"
+            android:valueType="floatType"/>
+        
+        <objectAnimator 
+            android:propertyName="PhoneAndSmsNumberScale" 
+            android:duration="100"
+            android:valueFrom="0.0"
+            android:valueTo="1.0"
+            android:interpolator="@android:anim/linear_interpolator"
+            android:valueType="floatType"/>
+                
+        <set android:ordering="together">
+            <objectAnimator 
+	            android:propertyName="UpTranslate" 
+	            android:duration="1000"
+	            android:valueFrom="1"
+	            android:valueTo="60"
+	            android:repeatMode="restart"
+	            android:repeatCount="2"
+	            android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+	            android:valueType="intType"/>
+            <objectAnimator 
+	            android:propertyName="UpAlpha" 
+	            android:duration="1000"
+	            android:valueFrom="0.0"
+	            android:valueTo="1.0"
+	            android:repeatMode="restart"
+	            android:repeatCount="2"
+	            android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+	            android:valueType="floatType"/>
+        </set>
+    </set>
+</set>

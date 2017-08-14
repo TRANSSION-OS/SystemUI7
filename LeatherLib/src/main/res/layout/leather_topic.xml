@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.phoneleather.LeatherTopicView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/leather_menu_radius"  
+    android:layout_height="@dimen/leather_menu_radius"
+    android:id="@+id/leather_topic"
+    android:visibility="gone"
+    android:layout_marginStart="@dimen/leather_margin_left"
+    android:layout_marginTop="@dimen/leather_margin_top"
+    android:layout_gravity="center_horizontal"
+    android:clipChildren="false"
+    android:background="@drawable/leather_topic_bg">  
+  
+    <android.support.v4.view.ViewPager
+        android:id="@+id/leather_topic_viewPager"  
+        android:layout_width="194dp"  
+        android:layout_height="184dp"
+        android:layout_marginTop="58dp"
+        android:clipChildren="false"
+        android:overScrollMode="never"
+        android:layout_centerHorizontal="true" >
+    </android.support.v4.view.ViewPager>
+  
+    <LinearLayout android:id="@+id/dotLayout"  
+        android:layout_width="wrap_content"  
+        android:layout_height="wrap_content"  
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true"	      
+        android:orientation="horizontal">
+    </LinearLayout>  
+    
+    <ImageButton android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/leather_topic_back"
+        android:src="@drawable/audioprofiles_back"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/leather_topic_viewPager"
+        android:layout_marginTop="10dp"
+        android:background="#00000000"/>
+    <ImageView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/leather_topic_front"/>
+</com.android.systemui.statusbar.phoneleather.LeatherTopicView>

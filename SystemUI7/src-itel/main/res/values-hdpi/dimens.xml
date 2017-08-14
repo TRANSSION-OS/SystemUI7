@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--linwujia add begin -->
+    <dimen name="itel_status_bar_icon_padding">1dp</dimen>
+    <!--linwujia add end -->
+</resources>

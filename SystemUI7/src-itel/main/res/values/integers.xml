@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--chenzhengjun added start-->
+    <integer name="qspanel_qs_count">12</integer>
+    <!--chenzhengjun added end-->
+
+    <!--add by lych 20170313 -->
+    <integer name="notification_clear_all_button_duration">320</integer>
+
+</resources>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="sequentially">
+    <objectAnimator
+		android:propertyName="HoleAlpha"  
+		android:duration="400"
+		android:valueFrom="255"  
+		android:valueTo="0"  
+		android:valueType="intType"
+		android:interpolator="@android:anim/linear_interpolator"  />
+    <set android:ordering="together">
+        <objectAnimator
+	        android:propertyName="HandleRotate"  
+	        android:duration="400"
+		    android:valueFrom="0.0"  
+		    android:valueTo="75.0"  
+		    android:valueType="floatType"
+		    android:interpolator="@android:anim/linear_interpolator"  />
+	    <objectAnimator
+	        android:propertyName="BitmapIndex"  
+	        android:duration="1430"
+	        android:startOffset="260"        
+		    android:valueFrom="0"  
+		    android:valueTo="22"  
+		    android:valueType="intType"
+		    android:interpolator="@android:anim/linear_interpolator"  />
+	    <set android:ordering="sequentially">
+	        <objectAnimator
+		        android:propertyName="DoorTranslate"  
+		        android:duration="360"
+		        android:startOffset="440"
+			    android:valueFrom="0.0"  
+			    android:valueTo="@dimen/door_first_translate"  
+			    android:valueType="floatType"
+			    android:interpolator="@android:anim/linear_interpolator"  />
+	        <objectAnimator
+		        android:propertyName="DoorTranslate"  
+		        android:duration="180"
+			    android:valueFrom="@dimen/door_first_translate"  
+			    android:valueTo="@dimen/door_second_translate"  
+			    android:valueType="floatType"
+			    android:interpolator="@android:anim/linear_interpolator"  />
+	        <objectAnimator
+		        android:propertyName="DoorTranslate"  
+		        android:duration="900"
+		        android:startOffset="160"
+			    android:valueFrom="@dimen/door_second_translate"  
+			    android:valueTo="@dimen/door_three_translate"  
+			    android:valueType="floatType"
+			    android:interpolator="@android:anim/accelerate_decelerate_interpolator"  />
+	    </set>
+	    <objectAnimator
+			android:propertyName="LigthAlpha"  
+			android:duration="900"
+			android:startOffset="520"
+			android:valueFrom="0"  
+			android:valueTo="255"  
+			android:valueType="intType"
+			android:repeatMode="reverse"
+			android:repeatCount="1"
+			android:interpolator="@android:anim/linear_interpolator"  />
+	    <set android:ordering="sequentially">
+	        <objectAnimator
+				android:propertyName="BgAlpha"  
+				android:duration="800"
+				android:startOffset="1020"
+				android:valueFrom="255"  
+				android:valueTo="204"  
+				android:valueType="intType"
+				android:interpolator="@android:anim/linear_interpolator"  />
+	        <objectAnimator
+				android:propertyName="BgAlpha"  
+				android:duration="1000"
+				android:valueFrom="204"  
+				android:valueTo="0"  
+				android:valueType="intType"
+				android:interpolator="@android:anim/linear_interpolator"  />
+	    </set>
+	    <set android:ordering="together">
+	        <objectAnimator
+				android:propertyName="BgScale"  
+				android:duration="800"
+				android:startOffset="1520"
+				android:valueFrom="0.85"  
+				android:valueTo="1.0"  
+				android:valueType="floatType"
+				android:interpolator="@android:anim/accelerate_decelerate_interpolator"  />
+	    </set>
+	    <set android:ordering="together">
+	        <objectAnimator
+				android:propertyName="MinuteAlpha"  
+				android:duration="600"
+				android:startOffset="1520"
+				android:valueFrom="0"  
+				android:valueTo="255"  
+				android:valueType="intType"
+				android:interpolator="@android:anim/linear_interpolator"  />
+	        <objectAnimator
+				android:propertyName="MinuteRotate"  
+				android:duration="600"
+				android:valueFrom="0.0"  
+				android:valueTo="30.0"  
+				android:valueType="floatType"
+				android:interpolator="@android:anim/decelerate_interpolator"  />
+	        <objectAnimator
+				android:propertyName="TrayAlpha"  
+				android:duration="150"
+				android:valueFrom="0"  
+				android:valueTo="255"  
+				android:valueType="intType"
+				android:interpolator="@android:anim/linear_interpolator"  />
+	    </set>
+	    <set android:ordering="together">
+	        <objectAnimator
+				android:propertyName="HourAlpha"  
+				android:duration="600"
+				android:startOffset="1620"
+				android:valueFrom="0"  
+				android:valueTo="255"  
+				android:valueType="intType"
+				android:interpolator="@android:anim/linear_interpolator"  />
+	        <objectAnimator
+				android:propertyName="HourRotate"  
+				android:duration="600"
+				android:valueFrom="0.0"  
+				android:valueTo="30.0"  
+				android:valueType="floatType"
+				android:interpolator="@android:anim/decelerate_interpolator"  />
+	    </set>
+	    <set android:ordering="together">
+	        <objectAnimator
+				android:propertyName="HourOf24Alpha"  
+				android:duration="600"
+				android:startOffset="1720"
+				android:valueFrom="0"  
+				android:valueTo="255"  
+				android:valueType="intType"
+				android:interpolator="@android:anim/linear_interpolator"  />
+	        <objectAnimator
+				android:propertyName="HourOf24Rotate"  
+				android:duration="600"
+				android:valueFrom="0.0"  
+				android:valueTo="30.0"  
+				android:valueType="floatType"
+				android:interpolator="@android:anim/decelerate_interpolator"  />
+	    </set>
+	    <set android:ordering="together">
+	        <objectAnimator
+				android:propertyName="SecondAlpha"  
+				android:duration="200"
+				android:startOffset="1820"
+				android:valueFrom="0"  
+				android:valueTo="255"  
+				android:valueType="intType"
+				android:interpolator="@android:anim/linear_interpolator"  />
+	        <objectAnimator
+				android:propertyName="SecondRotate"  
+				android:duration="400"
+				android:valueFrom="1"  
+				android:valueTo="400"  
+				android:valueType="intType"
+				android:interpolator="@android:anim/decelerate_interpolator"  />
+	    </set>
+    </set>
+</set>

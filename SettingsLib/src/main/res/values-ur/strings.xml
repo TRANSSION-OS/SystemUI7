@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wifi_fail_to_scan">نیٹ ورکس کیلئے اسکین نہيں کر سکتے ہیں</string>
+    <string name="wifi_security_none">کوئی نہیں</string>
+    <string name="wifi_remembered">محفوظ کردیا گیا</string>
+    <string name="wifi_disabled_generic">غیر فعال</string>
+    <string name="wifi_disabled_network_failure">‏IP کنفیگریشن کی ناکامی</string>
+    <string name="wifi_disabled_wifi_failure">‏WiFi کنکشن کی ناکامی</string>
+    <string name="wifi_disabled_password_failure">توثیق کا مسئلہ</string>
+    <string name="wifi_not_in_range">رینج میں نہیں ہے</string>
+    <string name="wifi_no_internet">انٹرنیٹ تک کسی رسائی کا پتہ نہیں چلا، خود بخود دوبارہ منسلک نہیں ہوگا۔</string>
+    <string name="saved_network"><xliff:g id="NAME">%1$s</xliff:g> کی جانب سے محفوظ کردہ</string>
+    <string name="connected_via_wfa">‏Wi‑Fi اسسٹنٹ کے ذریعے منسلک ہے</string>
+    <string name="connected_via_passpoint">‏منسلک بذریعہ ‎%1$s</string>
+    <string name="available_via_passpoint">‏دستیاب بذریعہ ‎%1$s</string>
+    <string name="wifi_connected_no_internet">منسلک، انٹرنیٹ نہیں ہے</string>
+    <string name="bluetooth_disconnected">منقطع ہو گیا</string>
+    <string name="bluetooth_disconnecting">منقطع کیا جارہا ہے…</string>
+    <string name="bluetooth_connecting">مربوط ہو رہا ہے…</string>
+    <string name="bluetooth_connected">مربوط</string>
+    <string name="bluetooth_pairing">جوڑا بنایا جا رہا ہے…</string>
+    <string name="bluetooth_connected_no_headset">مربوط (کوئی فون نہیں ہے)</string>
+    <string name="bluetooth_connected_no_a2dp">مربوط (کوئی میڈیا نہیں ہے)</string>
+    <string name="bluetooth_connected_no_map">مربوط (کسی پیغام تک رسائی نہیں ہے)</string>
+    <string name="bluetooth_connected_no_headset_no_a2dp">مربوط (کوئی فون یا میڈیا نہیں ہے)</string>
+    <string name="bluetooth_profile_a2dp">میڈيا آڈیو</string>
+    <string name="bluetooth_profile_headset">فون آڈیو</string>
+    <string name="bluetooth_profile_opp">فائل کی منتقلی</string>
+    <string name="bluetooth_profile_hid">ان پٹ آلہ</string>
+    <string name="bluetooth_profile_pan">انٹرنیٹ تک رسائی</string>
+    <string name="bluetooth_profile_pbap">رابطہ کا اشتراک</string>
+    <string name="bluetooth_profile_pbap_summary">رابطہ کے اشتراک کیلئے استعمال کریں</string>
+    <string name="bluetooth_profile_pan_nap">انٹرنیٹ کنکشن کا اشتراک کرنا</string>
+    <string name="bluetooth_profile_map">پیغام تک رسائی</string>
+    <string name="bluetooth_profile_sap">‏SIM رسائی</string>
+    <string name="bluetooth_a2dp_profile_summary_connected">میڈیا آڈیو سے مربوط</string>
+    <string name="bluetooth_headset_profile_summary_connected">فون آڈیو سے مربوط</string>
+    <string name="bluetooth_opp_profile_summary_connected">فائل منتقلی سرور سے مربوط ہو گیا ہے</string>
+    <string name="bluetooth_map_profile_summary_connected">نقشہ سے مربوط ہوگیا</string>
+    <string name="bluetooth_sap_profile_summary_connected">‏SAP سے منسلک</string>
+    <string name="bluetooth_opp_profile_summary_not_connected">فائل منتقلی سرور سے مربوط نہیں ہے</string>
+    <string name="bluetooth_hid_profile_summary_connected">ان پٹ آلہ سے مربوط</string>
+    <string name="bluetooth_pan_user_profile_summary_connected">انٹرنیٹ رسائی کیلئے آلہ سے مربوط ہو گیا</string>
+    <string name="bluetooth_pan_nap_profile_summary_connected">آلہ کے ساتھ مقامی انٹرنیٹ کنکشن کا اشتراک کر رہا ہے</string>
+    <string name="bluetooth_pan_profile_summary_use_for">انٹرنیٹ رسائی کیلئے استعمال</string>
+    <string name="bluetooth_map_profile_summary_use_for">نقشہ کیلئے استعمال کریں</string>
+    <string name="bluetooth_sap_profile_summary_use_for">‏SIM رسائی کے لئے استعمال کریں</string>
+    <string name="bluetooth_a2dp_profile_summary_use_for">میڈیا آڈیو کیلئے استعمال کریں</string>
+    <string name="bluetooth_headset_profile_summary_use_for">فون آڈیو کیلئے استعمال کریں</string>
+    <string name="bluetooth_opp_profile_summary_use_for">فائل منتقل کرنے کیلئے استعمال کریں</string>
+    <string name="bluetooth_hid_profile_summary_use_for">ان پٹ کیلئے استعمال</string>
+    <string name="bluetooth_pairing_accept">جوڑا بنائیں</string>
+    <string name="bluetooth_pairing_accept_all_caps">جوڑا بنائیں</string>
+    <string name="bluetooth_pairing_decline">منسوخ کریں</string>
+    <string name="bluetooth_pairing_will_share_phonebook">منسلک ہونے پر جوڑا بنانے سے آپ کے رابطوں اور کال کی سرگزشت تک رسائی حاصل ہو جاتی ہے۔</string>
+    <string name="bluetooth_pairing_error_message"><xliff:g id="DEVICE_NAME">%1$s</xliff:g> کے ساتھ جوڑا نہیں بنا سکا۔</string>
+    <string name="bluetooth_pairing_pin_error_message">‏غلط PIN یا پاس کلید کی وجہ سے <xliff:g id="DEVICE_NAME">%1$s</xliff:g> کے ساتھ جوڑا نہیں بنا سکا۔</string>
+    <string name="bluetooth_pairing_device_down_error_message"><xliff:g id="DEVICE_NAME">%1$s</xliff:g> کے ساتھ مواصلت نہیں ہو سکتی۔</string>
+    <string name="bluetooth_pairing_rejected_error_message"><xliff:g id="DEVICE_NAME">%1$s</xliff:g> نے جوڑا بنانے کو مسترد کر دیا۔</string>
+    <string name="accessibility_wifi_off">‏Wifi آف ہے۔</string>
+    <string name="accessibility_no_wifi">‏Wifi منقطع ہوگیا۔</string>
+    <string name="accessibility_wifi_one_bar">‏Wifi ایک بار۔</string>
+    <string name="accessibility_wifi_two_bars">‏Wifi دو بارز۔</string>
+    <string name="accessibility_wifi_three_bars">‏Wifi تین بارز۔</string>
+    <string name="accessibility_wifi_signal_full">‏Wifi سگنل پورا ہے۔</string>
+    <string name="process_kernel_label">اینڈرائیڈ OS</string>
+    <string name="data_usage_uninstalled_apps">ہٹائی گئی ایپس</string>
+    <string name="data_usage_uninstalled_apps_users">ہٹائی گئی ایپس اور صارفین</string>
+    <string name="tether_settings_title_usb">‏USB مربوط کرنا</string>
+    <string name="tether_settings_title_wifi">پورٹیبل ہاٹ اسپاٹ</string>
+    <string name="tether_settings_title_bluetooth">بلوٹوتھ مربوط کرنا</string>
+    <string name="tether_settings_title_usb_bluetooth">مربوط کرنا</string>
+    <string name="tether_settings_title_all">ٹیتھرنگ اور پورٹیبل ہاٹ سپاٹ</string>
+    <string name="managed_user_title">تما م کام کے اطلاقات</string>
+    <string name="user_guest">مہمان</string>
+    <string name="unknown">نامعلوم</string>
+    <string name="running_process_item_user_label">صارف: <xliff:g id="USER_NAME">%1$s</xliff:g></string>
+    <string name="launch_defaults_some">کچھ ڈیفالٹس سیٹ ہیں</string>
+    <string name="launch_defaults_none">کوئی ڈیفالٹس سیٹ نہیں ہیں</string>
+    <string name="tts_settings">ٹیکسٹ ٹو اسپیچ کی ترتیبات</string>
+    <string name="tts_settings_title">ٹیکسٹ ٹو اسپیچ آؤٹ پٹ</string>
+    <string name="tts_default_rate_title">اسپیچ کی شرح</string>
+    <string name="tts_default_rate_summary">متن بولے جانے کی رفتار</string>
+    <string name="tts_default_pitch_title">پچ</string>
+    <string name="tts_default_pitch_summary">سینتھیسائزڈ کے انداز کلام کو متاثر کر تی ہے</string>
+    <string name="tts_default_lang_title">زبان</string>
+    <string name="tts_lang_use_system">سسٹم کی زبان استعمال کریں</string>
+    <string name="tts_lang_not_selected">زبان منتخب نہیں کی گئی</string>
+    <string name="tts_default_lang_summary">زبانی متن کیلئے زبان کیلئے مخصوص آواز کو سیٹ کرتا ہے</string>
+    <string name="tts_play_example_title">ایک مثال سنیں</string>
+    <string name="tts_play_example_summary">اسپیچ سنتھیسس کا ایک مختصر مظاہرہ چلائیں</string>
+    <string name="tts_install_data_title">صوتی ڈیٹا انسٹال کریں</string>
+    <string name="tts_install_data_summary">اسپیچ سنتھیسس کیلئے درکار صوتی ڈیٹا انسٹال کریں</string>
+    <!-- no translation found for tts_engine_security_warning -->
+    <string name="tts_engine_network_required">اس زبان کو ٹیکسٹ ٹو اسپیچ کے آؤٹ پٹ کیلئے ایک کام کرنے والے کنکشن کی ضرورت ہے۔</string>
+    <string name="tts_default_sample_string">یہ تقریر کی ترکیب کی ایک مثال ہے</string>
+    <string name="tts_status_title">ڈیفالٹ زبان کا اسٹیٹس</string>
+    <string name="tts_status_ok"><xliff:g id="LOCALE">%1$s</xliff:g> مکمل طور پر تعاون یافتہ ہے</string>
+    <string name="tts_status_requires_network"><xliff:g id="LOCALE">%1$s</xliff:g> کو نیٹ ورک کنکشن کی ضرورت ہے</string>
+    <string name="tts_status_not_supported"><xliff:g id="LOCALE">%1$s</xliff:g> تعاون یافتہ نہیں ہے</string>
+    <string name="tts_status_checking">جانچ رہے ہیں۔۔۔</string>
+    <string name="tts_engine_settings_title"><xliff:g id="TTS_ENGINE_NAME">%s</xliff:g> کیلئے ترتیبات</string>
+    <string name="tts_engine_settings_button">انجن کی ترتیبات شروع کریں</string>
+    <string name="tts_engine_preference_section_title">ترجیحی انجن</string>
+    <string name="tts_general_section_title">عمومی</string>
+    <string name="tts_reset_speech_pitch_title">تقریرپچ پھر سیٹ کریں</string>
+    <string name="tts_reset_speech_pitch_summary">پچ جس پر پہلے سے طے شدہ متن بولی جاتی ہے پھر سیٹ کریں۔</string>
+    <string-array name="tts_rate_entries">
+        <item>بہت سست</item>
+        <item>سست</item>
+        <item>عام</item>
+        <item>تیز</item>
+        <item>تیز تر</item>
+        <item>بہت تیز</item>
+        <item>تیز</item>
+        <item>کافی تیز</item>
+        <item>سب سے تیز</item>
+    </string-array>
+    <string name="choose_profile">پروفائل منتخب کریں</string>
+    <string name="category_personal">ذاتی</string>
+    <string name="category_work">دفتر</string>
+    <string name="development_settings_title">ڈیولپر کے اختیارات</string>
+    <string name="development_settings_enable">ڈو یلپر اختیارات فعال بنا ئیں</string>
+    <string name="development_settings_summary">ایپ ڈویلپمنٹ کیلئے اختیارات سیٹ کریں</string>
+    <string name="development_settings_not_available">اس صارف کیلئے ڈیولپر کے اختیارات دستیاب نہیں ہیں</string>
+    <string name="vpn_settings_not_available">‏VPN ترتیبات اس صارف کیلئے دستیاب نہیں ہیں</string>
+    <string name="tethering_settings_not_available">ربط کی ترتیبات اس صارف کیلئے دستیاب نہیں ہیں</string>
+    <string name="apn_settings_not_available">رسائی کی جگہ کے نام کی ترتیبات اس صارف کیلئے دستیاب نہیں ہیں</string>
+    <string name="enable_adb">‏USB ڈیبگ کرنا</string>
+    <string name="enable_adb_summary">‏USB مربوط ہونے پر ڈيبگ کرنے کی وضع</string>
+    <string name="clear_adb_keys">‏USB ڈیبگ کرنے کی اجازت دہندگیوں کو منسوخ کریں</string>
+    <string name="bugreport_in_power">بگ رپورٹ کا شارٹ کٹ</string>
+    <string name="bugreport_in_power_summary">بگ رپورٹ لینے کیلئے پاور مینو میں ایک بٹن دکھائیں</string>
+    <string name="keep_screen_on">بیدار رکھیں</string>
+    <string name="keep_screen_on_summary">چارج ہوتے وقت اسکرین کبھی بھی سلیپ وضع میں نہيں جائے گی</string>
+    <string name="bt_hci_snoop_log">‏بلوٹوتھ HCI کا جاسوسی لاگ فعال کریں</string>
+    <string name="bt_hci_snoop_log_summary">‏سبھی بلوٹوتھ HCI کے پیکٹس ایک فائل میں قید کریں</string>
+    <string name="oem_unlock_enable">‏OEM اَن لاکنگ</string>
+    <string name="oem_unlock_enable_summary">بوٹ لوڈر کو غیر مقفل ہونے کی اجازت دیں</string>
+    <string name="confirm_enable_oem_unlock_title">‏OEM اَن لاکنگ کی اجازت دیں؟</string>
+    <string name="confirm_enable_oem_unlock_text">انتباہ: یہ ترتیب آن ہونے پر آلہ کے تحفظ کی خصوصیات اس آلہ پر کام نہیں کریں گی۔</string>
+    <string name="mock_location_app">فرضی مقام کی ایپ منتخب کریں</string>
+    <string name="mock_location_app_not_set">فرضی مقام کی کوئی ایپ سیٹ نہیں ہے</string>
+    <string name="mock_location_app_set">فرضی مقام کی ایپ: <xliff:g id="APP_NAME">%1$s</xliff:g></string>
+    <string name="debug_networking_category">نیٹ ورکنگ</string>
+    <string name="wifi_display_certification">وائرلیس ڈسپلے سرٹیفیکیشن</string>
+    <string name="wifi_verbose_logging">‏Wi‑Fi وربوس لاگنگ فعال کریں</string>
+    <string name="wifi_aggressive_handover">‏جارحانہ Wi‑Fi سے سیلولر ہینڈ اوور</string>
+    <string name="wifi_allow_scan_with_traffic">‏ہمیشہ Wi‑Fi روم اسکینز کی اجازت دیں</string>
+    <string name="mobile_data_always_on">سیلولر ڈیٹا کو ہمیشہ فعال رکھیں</string>
+    <string name="bluetooth_disable_absolute_volume">مطلق حجم غیر فعال بنا ئیں</string>
+    <string name="wifi_display_certification_summary">وائرلیس ڈسپلے سرٹیفیکیشن کیلئے اختیارات دکھائیں</string>
+    <string name="wifi_verbose_logging_summary">‏Wi‑Fi لاگنگ لیول میں اضافہ کریں، Wi‑Fi منتخب کنندہ میں فی SSID RSSI دکھائیں</string>
+    <string name="wifi_aggressive_handover_summary">‏فعال ہونے پر، جب Wi‑Fi سگنل کمزور ہوگا تو Wi‑Fi سیلولر پر ڈیٹا کنکشن بھیجنے کیلئے مزید جارحانہ کاروائی کرے گا۔</string>
+    <string name="wifi_allow_scan_with_traffic_summary">‏انٹرفیس پر موجود ڈیٹا ٹریفک کی مقدار کی بنیاد پر Wi‑Fi روم اسکینز کی اجازت دیں/اجازت نہ دیں</string>
+    <string name="select_logd_size_title">لاگر بفر کے سائز</string>
+    <string name="select_logd_size_dialog_title">فی لاگ بفر لاگر کے سائز منتخب کریں</string>
+    <string name="select_usb_configuration_title">‏USB کنفیگریشن منتخب کریں</string>
+    <string name="select_usb_configuration_dialog_title">‏USB کنفیگریشن منتخب کریں</string>
+    <string name="allow_mock_location">فرضی مقامات کی اجازت دیں</string>
+    <string name="allow_mock_location_summary">فرضی مقامات کی اجازت دیں</string>
+    <string name="debug_view_attributes">منظر انتساب کے معائنہ کو فعال کریں</string>
+    <string name="legacy_dhcp_client_summary">‏نئے Android DHCP کلائنٹ کی بجائے Lollipop کا DHCP کلائنٹ استعمال کریں۔</string>
+    <string name="mobile_data_always_on_summary">‏Wi‑Fi فعال ہونے پر بھی موبائل ڈیٹا کو ہمیشہ فعال رکھیں (تیزی سے نیٹ ورک سوئچ کرنے کیلئے)۔</string>
+    <string name="adb_warning_title">‏USB ڈیبگ کرنے کی اجازت دیں؟</string>
+    <string name="adb_warning_message">‏USB ڈیبگ کرنا صرف ڈیولپمنٹ کے مقاصد کیلئے ہے۔ اپنے کمپیوٹر اور اپنے آلہ کے درمیان ڈیٹا کاپی کرنے کیلئے اسے استعمال کریں، بغیر اطلاع کے اپنے آلہ پر ایپس انسٹال کریں اور لاگ ڈیٹا پڑھیں۔</string>
+    <string name="adb_keys_warning_message">‏اپنے ذریعہ پہلے سے اجازت یافتہ سبھی کمپیوٹرز سے USB ڈیبگ کرنے کی رسائی کو کالعدم کریں؟</string>
+    <string name="dev_settings_warning_title">ڈویلپمنٹ ترتیبات کی اجازت دیں؟</string>
+    <string name="dev_settings_warning_message">یہ ترتیبات صرف ڈویلپمنٹ استعمال کے ارادے سے ہیں۔ ان سے آپ کا آلہ اور اس پر موجود ایپلیکیشنز بریک ہو سکتی یا غلط برتاؤ کر سکتی ہیں۔</string>
+    <string name="verify_apps_over_usb_title">‏USB پر ایپس کی توثیق کریں</string>
+    <string name="verify_apps_over_usb_summary">‏نقصان دہ رویے کے مدنظر ADB/ADT کی معرفت انسٹال شدہ ایپس کی جانچ کریں۔</string>
+    <string name="bluetooth_disable_absolute_volume_summary">بلوٹوتھ مطلق حجم کی خصوصیت میں آ و از کے مسائل کی صورت میں نا قا بل  بلند آواز سے متعلق  یا کنٹرول کی کمی جیسے دور دراز آلات کے ساتھ نااہل کیا جاتا ہے ۔</string>
+    <string name="enable_terminal_title">مقامی ٹرمینل</string>
+    <string name="enable_terminal_summary">مقامی شیل رسائی پیش کرنے والی ٹرمینل ایپ فعال کریں</string>
+    <string name="hdcp_checking_title">‏HDCP چیکنگ</string>
+    <string name="hdcp_checking_dialog_title">‏HDCP چیکنگ برتاؤ سیٹ کریں</string>
+    <string name="debug_debugging_category">ڈیبگ کر رہا ہے</string>
+    <string name="debug_app">ڈیبگ ایپ منتخب کریں</string>
+    <string name="debug_app_not_set">کوئی ڈیبگ ایپلیکیشن سیٹ نہیں ہے</string>
+    <string name="debug_app_set">ڈیبگنگ ایپلیکیشن: <xliff:g id="APP_NAME">%1$s</xliff:g></string>
+    <string name="select_application">ایپلیکیشن منتخب کریں</string>
+    <string name="no_application">کچھ نہیں</string>
+    <string name="wait_for_debugger">ڈیبگر کا انتظار کریں</string>
+    <!-- no translation found for wait_for_debugger_summary -->
+    <string name="debug_input_category">ان پٹ</string>
+    <string name="debug_drawing_category">ڈرائنگ</string>
+    <string name="debug_hw_drawing_category">ہارڈ ویئر کے ذریعے تیز کردہ رینڈرنگ</string>
+    <string name="media_category">میڈیا</string>
+    <string name="debug_monitoring_category">مانیٹر کرنا</string>
+    <string name="strict_mode">سخت وضع فعال ہے</string>
+    <!-- no translation found for strict_mode_summary -->
+    <string name="pointer_location">پوائنٹر مقام</string>
+    <string name="pointer_location_summary">موجودہ ٹچ ڈیٹا دکھانے والا اسکرین اوور لے</string>
+    <string name="show_touches">ٹیپس دکھا ئیں</string>
+    <string name="show_touches_summary">ٹیپس کے لیے بصری فیڈ بیک دکھا ئیں</string>
+    <string name="show_screen_updates">سطح کے اپ ڈیٹس دکھائیں</string>
+    <string name="show_screen_updates_summary">اپ ڈیٹ ہونے پر ونڈو کی پوری سطحیں جھلملائیں</string>
+    <string name="show_hw_screen_updates">‏GPU منظر اپ ڈیٹس دکھائیں</string>
+    <string name="show_hw_screen_updates_summary">‏GPU کے ساتھ تیار ہونے پر ملاحظات ونڈوز کے اندر جھلملائیں</string>
+    <string name="show_hw_layers_updates">ہارڈویئر پرتوں کی اپ ڈیٹس دکھائیں</string>
+    <string name="show_hw_layers_updates_summary">ہارڈویئر پرتیں اپ ڈیٹ ہونے پر سبز رنگ میں جھلملائیں</string>
+    <string name="debug_hw_overdraw">‏GPU اوور ڈرا کو ڈیبگ کریں</string>
+    <string name="disable_overlays">‏HW اوور لیز غیر فعال کریں</string>
+    <string name="disable_overlays_summary">‏سکرین کی ساخت بنانے کیلئے ہمیشہ GPU استعمال کریں</string>
+    <string name="simulate_color_space">رنگ کی جگہ کو تحریک دیں</string>
+    <string name="enable_opengl_traces_title">‏OpenGL ٹریسز کو فعال کریں</string>
+    <string name="usb_audio_disable_routing">‏USB آڈیو روٹنگ غیر فعال کریں</string>
+    <string name="usb_audio_disable_routing_summary">‏USB آڈیو پیریفیرلز کیلئے خودکار روٹنگ غیرفعال کریں</string>
+    <string name="debug_layout">لے آؤٹ کی حدیں دکھائیں</string>
+    <string name="debug_layout_summary">کلپ باؤنڈز، حاشیے وغیرہ دکھائیں</string>
+    <string name="force_rtl_layout_all_locales">‏RTL لے آؤٹ سمت زبردستی نافذ کریں</string>
+    <string name="force_rtl_layout_all_locales_summary">‏سبھی زبانوں کیلئے اسکرین لے آؤٹ کی سمت کو RTL پر مجبور کریں</string>
+    <string name="show_cpu_usage">‏CPU استعمال دکھائیں</string>
+    <string name="show_cpu_usage_summary">‏موجودہ CPU استعمال دکھانے والا اسکرین اوورلے</string>
+    <string name="force_hw_ui">‏GPU رینڈرنگ زبردستی نافذ کریں</string>
+    <string name="force_hw_ui_summary">‏2D ڈرائنگ کیلئے GPU کا استعمال زبردستی نافذ کریں</string>
+    <string name="force_msaa">‏4x MSAA زبردستی نافذ کریں</string>
+    <string name="force_msaa_summary">‏OpenGL ES 2.0 ایپس میں 4x MSAA فعال کریں</string>
+    <string name="show_non_rect_clip">غیر مستطیل نما کلپ آپریشنز ڈیبگ کریں</string>
+    <string name="track_frame_time">‏پروفائل GPU رینڈرنگ</string>
+    <string name="window_animation_scale_title">ونڈو اینیمیشن اسکیل</string>
+    <string name="transition_animation_scale_title">منتقلی اینیمیشن اسکیل</string>
+    <string name="animator_duration_scale_title">اینیمیٹر دورانیے کا اسکیل</string>
+    <string name="overlay_display_devices_title">ثانوی ڈسپلیز کو تحریک دیں</string>
+    <string name="debug_applications_category">ایپس</string>
+    <string name="immediately_destroy_activities">سرگرمیوں کو نہ رکھیں</string>
+    <!-- no translation found for immediately_destroy_activities_summary -->
+    <string name="app_process_limit_title">پس منظر پروسیس کی حد</string>
+    <string name="show_all_anrs">‏سبھی ANRs کو دکھائیں</string>
+    <!-- no translation found for show_all_anrs_summary -->
+    <string name="force_allow_on_external">فورس نے اجا زت دی بیرونی ایپس پر</string>
+    <string name="force_allow_on_external_summary">کسی بھی ایپلی کیشن کو بیرو نی ذ خیرہ پر لکھنے کے لئے ایل بنا ئیں، قطع نظر اقدار صریح ۔</string>
+    <string name="force_resizable_activities">نیا سائز پذیر هونے کی سرگرمیوں پر مجبور</string>
+    <string name="force_resizable_activities_summary">تما م سر گر میو ں کو کثیر ونڈو کے لئےنیا سا ئز کر نے کے لئے کر یں، قطع نظر اقدار صریح ۔</string>
+    <string name="enable_freeform_support">فری فارم ونڈوز فعال بنائیں</string>
+    <string name="enable_freeform_support_summary">تجرباتی فری فا رم ونڈوز کے لیے معاونت اہل بنائیں ۔</string>
+    <string name="local_backup_password_title">ڈیسک ٹاپ کا بیک اپ پاس ورڈ</string>
+    <string name="local_backup_password_summary_none">ڈیسک ٹاپ کے مکمل بیک اپس فی الحال محفوظ کیے ہوئے نہیں ہیں</string>
+    <string name="local_backup_password_summary_change">تبدیل یا ڈیسک ٹاپ مکمل بیک اپ کے لئے پاس ورڈ کو ہٹانے کے لئے تھپتھپائیں</string>
+    <string name="local_backup_password_toast_success">بیک اپ کا نیا پاس ورڈ سیٹ کر دیا گیا</string>
+    <string name="local_backup_password_toast_confirmation_mismatch">نیا پاس ورڈ اور تصدیق مماثل نہیں ہے</string>
+    <string name="local_backup_password_toast_validation_failure">بیک اپ پاس ورڈ ترتیب دینے میں ناکامی</string>
+    <string-array name="color_mode_names">
+        <item>متحرک (طے شدہ)</item>
+        <item>قدرتی</item>
+        <item>معیاری</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>بہتر رنگ</item>
+        <item>قدرتی رنگ آ نکھ سے دیکھا</item>
+        <item>ڈیجیٹل مواد کے لئے مرضی کے رنگ</item>
+    </string-array>
+    <string name="inactive_apps_title">غیر فعال ایپس</string>
+    <string name="inactive_app_inactive_summary">غیر فعال. ٹاگل کرنے کے لئے تھپتھپائیں.</string>
+    <string name="inactive_app_active_summary">عمل۔ ٹوگل کو دبائیں۔</string>
+    <string name="runningservices_settings_title">چل رہی سروسز</string>
+    <string name="runningservices_settings_summary">فی الحال چل رہی سروسز دیکھیں اور انہیں کنٹرول کریں</string>
+    <string name="enable_webview_multiprocess">ملٹی پروسیسر ویب ویو</string>
+    <string name="enable_webview_multiprocess_desc">ویب ویو رانڈررس الگ الگ چلائیں</string>
+    <string name="select_webview_provider_title">ویب منظر کے نفا ذ</string>
+    <string name="select_webview_provider_dialog_title">ویب ویونفاذ سیٹ کریں</string>
+    <string name="select_webview_provider_toast_text">یہ انتخاب اب درست نہیں ہے. دوبارہ کوشش کریں۔</string>
+    <string name="convert_to_file_encryption">خفیہ کاری فائل میں تبدیل</string>
+    <string name="convert_to_file_encryption_enabled">تبدیل \ u2026</string>
+    <string name="convert_to_file_encryption_done">فا  ئل پہلے ہی خفیہ ہے</string>
+    <string name="title_convert_fbe">بنیا د پر مبنی خفیہ کاری کے لیے بدل رہا ہے ۔</string>
+    <!-- no translation found for convert_to_fbe_warning -->
+    <string name="button_convert_fbe">صاف اور تبدیل کر یں\u2026</string>
+    <string name="picture_color_mode">تصویر کے رنگ کے موڈ</string>
+    <string name="picture_color_mode_desc">آر جی بی استعمال کر یں</string>
+    <string name="daltonizer_mode_disabled">غیر فعال</string>
+    <string name="daltonizer_mode_monochromacy">یک رنگی (ایک ہی رنگ دیکھنے کا مرض)</string>
+    <string name="daltonizer_mode_deuteranomaly">سرخ اور سبز رنگ اندھا پن</string>
+    <string name="daltonizer_mode_protanomaly">سبز اور سرخ رنگ اندھا پن</string>
+    <string name="daltonizer_mode_tritanomaly">نیلا اور پیلا رنگ اندھا پن</string>
+    <string name="accessibility_display_daltonizer_preference_title">رنگ کی اصلاح</string>
+    <string name="accessibility_display_daltonizer_preference_subtitle">یہ خصوصیت تجرباتی ہے اور اس کی وجہ سے کاکردگی متاثر ہو سکتی ہے۔</string>
+    <string name="daltonizer_type_overridden"><xliff:g id="TITLE">%1$s</xliff:g> کے ذریعہ منسوخ کردیا گیا</string>
+    <string name="power_remaining_duration_only">"تقریبا <xliff:g id="TIME">%1$s</xliff:g> باقی ہیں"</string>
+    <string name="power_remaining_duration_only_short"><xliff:g id="time">%1$s</xliff:g> بائیں</string>
+    <!-- no translation found for power_discharging_duration -->
+    <!-- no translation found for power_discharging_duration_short -->
+    <!-- no translation found for power_charging -->
+    <!-- no translation found for power_charging_duration -->
+    <!-- no translation found for power_charging_duration_short -->
+    <!-- no translation found for power_charging_duration_ac -->
+    <!-- no translation found for power_charging_duration_ac_short -->
+    <!-- no translation found for power_charging_duration_usb -->
+    <!-- no translation found for power_charging_duration_usb_short -->
+    <!-- no translation found for power_charging_duration_wireless -->
+    <!-- no translation found for power_charging_duration_wireless_short -->
+    <string name="battery_info_status_unknown">نامعلوم</string>
+    <string name="battery_info_status_charging">چارج ہو رہی ہے</string>
+    <string name="battery_info_status_charging_ac">‏AC پر چارج ہو رہی ہے</string>
+    <string name="battery_info_status_charging_ac_short">چارج ہو رہی ہے</string>
+    <string name="battery_info_status_charging_usb">‏USB پر چارج ہورہی ہے</string>
+    <string name="battery_info_status_charging_usb_short">چارج ہو رہی ہے</string>
+    <string name="battery_info_status_charging_wireless">وائرلیس چارجنگ</string>
+    <string name="battery_info_status_charging_wireless_short">چارج ہو رہی ہے</string>
+    <string name="battery_info_status_discharging">چارج نہیں ہو رہی ہے</string>
+    <string name="battery_info_status_not_charging">چارج نہیں ہو رہی ہے</string>
+    <string name="battery_info_status_full">مکمل</string>
+    <string name="disabled_by_admin_summary_text">منتظم کی طرف سے کنٹرول</string>
+    <string name="enabled_by_admin">منتظم نے فعال</string>
+    <string name="disabled_by_admin">منتظم نے غیر فعال کر دیا</string>
+    <string name="home">ترتیبات ہوم</string>
+    <string-array name="battery_labels">
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <string name="charge_length_format"><xliff:g name="time" example="3 hours">%1$s</xliff:g> پہلے</string>
+    <string name="remaining_length_format"><xliff:g name="time" example="3 hours">%1$s</xliff:g> رہ گئے</string>
+    <string name="screen_zoom_summary_small">چھوٹا</string>
+    <string name="screen_zoom_summary_default">ڈیفالٹ</string>
+    <string name="screen_zoom_summary_large">بڑا</string>
+    <string name="screen_zoom_summary_very_large">بڑا</string>
+    <string name="screen_zoom_summary_extremely_large">سب سے بڑا</string>
+    <string name="screen_zoom_summary_custom">اپنی مر ضی کے مطا بق (<xliff:g id="densityDpi" example="160">%d</xliff:g>)</string>
+    <string name="help_feedback_label">مدد اور ردِ عمل</string>
+    <!-- no translation found for wifi_security_ft_psk -->
+    <!-- no translation found for wifi_security_ft_eap -->
+    <!-- no translation found for wifi_security_psk_sha256 -->
+    <!-- no translation found for wifi_security_eap_sha256 -->
+    <!-- no translation found for wifi_secured_first_item -->
+    <!-- no translation found for wifi_secured_second_item -->
+    <!-- no translation found for wifi_wps_available_first_item -->
+    <!-- no translation found for wifi_wps_available_second_item -->
+</resources>

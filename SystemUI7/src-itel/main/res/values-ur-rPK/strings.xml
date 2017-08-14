@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+* add new string defined by itel
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- linwujia add begin -->
+    <string name="click_return_telephone">کال پر لوٹنے کیلئے چھوئیں</string>
+    <string name="call_end">کال ختم ہوگئی</string>
+    <string name="call_fail">کال ناکام رہی</string>
+    <string name="keyguard_plugged_in_percent">چارجنگ <xliff:g id="number">%1$d</xliff:g>%%</string>
+    <string name="keyguard_bottom_date_day">"دن"</string>
+    <string name="take_screenshot">اسکرین شاٹ</string>
+    <string name="mem_info">RAM: <xliff:g id="ram_available">%1$s</xliff:g>MB / <xliff:g id="ram_total">%2$s</xliff:g>GB</string>
+    <string name="recents_clear_memory">کامیابی سے <xliff:g id="number">%d</xliff:g>M میموری خالی کرا لی گئی</string>
+    <string name="accident_touch_model">سمارٹ نقلی چھونے کو مسترد کرنے کا موڈ</string>
+    <string name="accident_touch_content">اخراج کا راستہ:\nسکرین کے اوپری حصے کو نہ ڈھانکیں  \nخروج کرنے کیلئے والیوم کم کرنے کے بٹن کو دیر تک دبائیں</string>
+    <!-- Winner add end -->
+    <!-- bo.yang add begin -->
+    <!-- recent task-->
+    <string name="qs_power_save">بجلی کی سپر بچت</string>
+    <string name="split_screen">دوہری سکرین</string>
+    <string name="lock_task">مقفل</string>
+    <!-- bo.yang add end -->
+    <!-- bo.yang add begin -->
+    <string name="unlock_task">غیر مقفل کریں</string>
+    <!-- bo.yang add end -->
+</resources>

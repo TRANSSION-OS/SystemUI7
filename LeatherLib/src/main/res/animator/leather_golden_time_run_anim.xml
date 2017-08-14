@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="together">
+    
+    <objectAnimator
+        android:propertyName="FiveBgRotate"  
+        android:duration="6000"
+	    android:valueFrom="0"  
+	    android:valueTo="1000"  
+	    android:valueType="intType"
+	    android:interpolator="@android:anim/linear_interpolator"
+	    android:repeatMode="restart"
+	    android:repeatCount="infinite"  />
+    <objectAnimator
+        android:propertyName="ThreeBgRotate"  
+        android:duration="12000"
+	    android:valueFrom="0"  
+	    android:valueTo="1000"  
+	    android:valueType="intType"
+	    android:interpolator="@android:anim/linear_interpolator"
+	    android:repeatMode="restart"
+	    android:repeatCount="infinite"  />
+    <objectAnimator
+        android:propertyName="SecondRotate"  
+        android:duration="1000"
+	    android:valueFrom="0"  
+	    android:valueTo="1000"  
+	    android:valueType="intType"
+	    android:interpolator="@android:anim/linear_interpolator"
+	    android:repeatMode="restart"
+	    android:repeatCount="infinite"  />
+</set>

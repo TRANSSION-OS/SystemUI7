@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pip_close">"PIP cufi"</string>
+    <string name="pip_fullscreen">"Argii Guutuu"</string>
+    <string name="pip_play">"Tapachiisi"</string>
+    <string name="pip_pause">"Yeroof dhaabi"</string>
+    <string name="pip_hold_home">"PIP to'achuuf  <b>Kaumsa</b> Tursi"</string>
+    <string name="pip_onboarding_title">"Fakkii-fakkii-kessaa"</string>
+    <string name="pip_onboarding_description">"Kun hangaa ati kan biraa bantuti vidiyyo kee agarsisa irra tursisa. To'achuf <b>Kaumsa</b> tuqii turii."</string>
+    <string name="pip_onboarding_button">"Argadhera"</string>
+    <string name="recents_tv_dismiss">"Balleessi"</string>
+</resources>

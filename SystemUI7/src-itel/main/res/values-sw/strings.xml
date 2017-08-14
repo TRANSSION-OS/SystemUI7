@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+* add new string defined by itel
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- linwujia add begin -->
+    <string name="keyguard_plugged_in_percent">Inachaji <xliff:g id="number">%1$d</xliff:g>%%</string>
+    <string name="click_return_telephone">Gusa ili kurudi kuwaita</string>
+    <string name="call_end">Wito kumalizika</string>
+    <string name="call_fail">Wito alishindwa</string>
+    <!-- linwujia add end -->
+    <string name="take_screenshot">Picha ya skrini</string>
+    <string name="recents_clear_memory">Mafanikio akalipa <xliff:g id="number">%d</xliff:g>m kumbukumbu</string>
+    <!-- Winner add begin -->
+    <string name="accident_touch_model">Smart False Touch Rejection Mode</string>
+    <string name="accident_touch_content">njia ya exit:\nJe, si kufunika juu ya screen\nLong Press Volume chini ya kifungo exit</string>
+    <!-- Winner add end -->
+    <!--talpa@andy 2017/4/13 21:14 add begin-->
+    <string name="quick_settings_data_connection_label">Data</string>
+    <!--talpa@andy 2017/4/13 21:14 add end-->
+    <!-- bo.yang add begin -->
+    <!-- recent task-->
+    <string name="split_screen">Screen Split</string>
+    <string name="lock_task">Funga</string>
+    <string name="unlock_task">Fungua</string>
+    <!-- bo.yang add end -->
+    <string name="keyguard_bottom_date_day">"Siku"</string>
+    <string name="mem_info">RAM: <xliff:g id="ram_available">%1$s</xliff:g>MB / <xliff:g id="ram_total">%2$s</xliff:g>GB</string>
+    <string name="qs_power_save">Uhifadhi Nguvu wa Hali ya Juu</string>
+</resources>

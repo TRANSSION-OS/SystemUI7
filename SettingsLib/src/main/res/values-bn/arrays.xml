@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="wifi_status">
+        <item></item>
+        <item>স্ক্যান করা হচ্ছে\u2026</item>
+        <item>সংযুক্ত হচ্ছে\u2026</item>
+        <item>প্রমাণীকরণ হচ্ছে\u2026</item>
+        <item>IP ঠিকানা প্রাপ্ত করা হচ্ছে\u2026</item>
+        <item>সংযুক্ত হয়েছে</item>
+        <item>স্থগিত করা হয়েছে</item>
+        <item>সংযোগ বিচ্ছিন্ন হচ্ছে\u2026</item>
+        <item>সংযোগ বিচ্ছিন্ন করা হয়েছে</item>
+        <item>অসফল</item>
+        <item>ব্লক করা</item>
+        <item>সাময়িকরূপে দুর্বল সংযোগ এড়ানো হচ্ছে</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>স্ক্যান করা হচ্ছে\u2026</item>
+        <item><xliff:g id="NETWORK_NAME">%1$s</xliff:g> এর সাথে সংযুক্ত হচ্ছে\u2026</item>
+        <item><xliff:g id="NETWORK_NAME">%1$s</xliff:g> দিয়ে প্রমাণীকরণ করা হচ্ছে\u2026</item>
+        <item><xliff:g id="NETWORK_NAME">%1$s</xliff:g> থেকে IP ঠিকানা জানা হচ্ছে\u2026</item>
+        <item><xliff:g id="NETWORK_NAME">%1$s</xliff:g> তে সংযুক্ত হয়েছে</item>
+        <item>স্থগিত করা হয়েছে</item>
+        <item><xliff:g id="NETWORK_NAME">%1$s</xliff:g> থেকে সংযোগ বিচ্ছিন্ন হচ্ছে\u2026</item>
+        <item>সংযোগ বিচ্ছিন্ন করা হয়েছে</item>
+        <item>অসফল</item>
+        <item>ব্লক করা</item>
+        <item>সাময়িকরূপে দুর্বল সংযোগ এড়ানো হচ্ছে</item>
+    </string-array>
+    <string-array name="hdcp_checking_titles">
+        <item>কখনই চেক করবেন না</item>
+        <item>শুধুমাত্র DRM সামগ্রীর জন্য HDCP চেক করুন</item>
+        <item>সর্বদা চেক করুন</item>
+    </string-array>
+    <string-array name="hdcp_checking_summaries">
+        <item>HDCP পরীক্ষণ কখনও ব্যবহার করবেন না</item>
+        <item>শুধুমাত্র DRM সামগ্রীর জন্য HDCP চেক করা ব্যবহার করুন</item>
+        <item>সর্বদা HDCP পরীক্ষণ ব্যবহার করুন</item>
+    </string-array>
+    <string-array name="select_logd_size_titles">
+        <item>বন্ধ করুন</item>
+        <item>"৬৪K"</item>
+        <item>"২৫৬K"</item>
+        <item>"১M"</item>
+        <item>"৪M"</item>
+        <item>"১৬M"</item>
+    </string-array>
+    <string-array name="select_logd_size_lowram_titles">
+        <item>বন্ধ করুন</item>
+        <item>"৬৪K"</item>
+        <item>"২৫৬K"</item>
+        <item>"১M"</item>
+    </string-array>
+    <string-array name="select_logd_size_summaries">
+        <item>বন্ধ করুন</item>
+        <item>লগ বাফার প্রতি 64K</item>
+        <item>লগ বাফার প্রতি 256K</item>
+        <item>লগ বাফার প্রতি 1M</item>
+        <item>লগ বাফার প্রতি 4M</item>
+        <item>লগ বাফার প্রতি 16M</item>
+    </string-array>
+    <string-array name="window_animation_scale_entries">
+        <item>অ্যানিমেশন বন্ধ করুন</item>
+        <item>অ্যানিমেশন স্কেল .৫x</item>
+        <item>অ্যানিমেশন স্কেল ১x</item>
+        <item>অ্যানিমেশন স্কেল ১.৫x</item>
+        <item>অ্যানিমেশন স্কেল ২x</item>
+        <item>অ্যানিমেশন স্কেল ৫x</item>
+        <item>অ্যানিমেশন স্কেল ১০x</item>
+    </string-array>
+    <string-array name="transition_animation_scale_entries">
+        <item>অ্যানিমেশন বন্ধ করুন</item>
+        <item>অ্যানিমেশন স্কেল .৫x</item>
+        <item>অ্যানিমেশন স্কেল ১x</item>
+        <item>অ্যানিমেশন স্কেল ১.৫x</item>
+        <item>অ্যানিমেশন স্কেল ২x</item>
+        <item>অ্যানিমেশন স্কেল ৫x</item>
+        <item>অ্যানিমেশন স্কেল ১০x</item>
+    </string-array>
+    <string-array name="animator_duration_scale_entries">
+        <item>অ্যানিমেশন বন্ধ করুন</item>
+        <item>অ্যানিমেশন স্কেল .৫x</item>
+        <item>অ্যানিমেশন স্কেল ১x</item>
+        <item>অ্যানিমেশন স্কেল ১.৫x</item>
+        <item>অ্যানিমেশন স্কেল ২x</item>
+        <item>অ্যানিমেশন স্কেল ৫x</item>
+        <item>অ্যানিমেশন স্কেল ১০x</item>
+    </string-array>
+    <string-array name="overlay_display_devices_entries">
+        <item>কোনো কিছুই নয়</item>
+        <item>480p</item>
+        <item>480p (নিরাপদ)</item>
+        <item>৭২০পি</item>
+        <item>720p (নিরাপদ)</item>
+        <item>1080p</item>
+        <item>1080p (নিরাপদ)</item>
+        <item>৪কে</item>
+        <item>4K (নিরাপদ)</item>
+        <item>4K (সম্পন্ন)</item>
+        <item>4K (সম্পন্ন, নিরাপদ)</item>
+        <item>720p, 1080p (ডুয়েল স্ক্রীন)</item>
+    </string-array>
+    <string-array name="enable_opengl_traces_entries">
+        <item>কোনো কিছুই নয়</item>
+        <item>Logcat</item>
+        <item>Systrace (গ্রাফিক্স)</item>
+        <item>glGetError উপরে স্ট্যাক কল করুন</item>
+    </string-array>
+    <string-array name="show_non_rect_clip_entries">
+        <item>বন্ধ করুন</item>
+        <item>নীল বঙের অ-আয়তক্ষেত্রাকার ক্লিপ অঞ্চল অঙ্কন করুন</item>
+        <item>সবুজ রঙে অঙ্কন করা পরীক্ষিত কমান্ডগুলি হাইলাইট করুন</item>
+    </string-array>
+    <string-array name="track_frame_time_entries">
+        <item>বন্ধ করুন</item>
+        <item>দন্ড হিসাবে স্ক্রীনে</item>
+        <item>adb shell dumpsys gfxinfo এ</item>
+    </string-array>
+    <string-array name="debug_hw_overdraw_entries">
+        <item>বন্ধ করুন</item>
+        <item>অতিবর্ণনা এলাকা দেখান</item>
+        <item>বর্ণান্ধতার জন্য এলাকা দেখান</item>
+    </string-array>
+    <string-array name="app_process_limit_entries">
+        <item>মানক সীমা</item>
+        <item>কোন ব্যাকগ্রাউন্ড প্রক্রিয়া নেই</item>
+        <item>১টি প্রক্রিয়ার বেশি নয়</item>
+        <item>২টি প্রক্রিয়ার বেশী নয়</item>
+        <item>৩টি প্রক্রিয়ার বেশি নয়</item>
+        <item>৪টি প্রক্রিয়ার বেশি নয়</item>
+    </string-array>
+    <string-array name="usb_configuration_titles">
+        <item>চার্জ হচ্ছে</item>
+        <item>এমটিপি (মিডিয়া ট্রান্সফার প্রোটোকল)</item>
+        <item>পিটিপি (পিকচার ট্রান্সফার প্রোটোকল)</item>
+        <item>RNDIS (ইউএসবি ইথারনেট)</item>
+        <item>অডিও উৎস</item>
+        <item>MIDI</item>
+    </string-array>
+</resources>

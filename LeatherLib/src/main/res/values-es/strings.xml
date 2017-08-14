@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- no translation found for app_name -->
+    <string name="leather_theme">"Tema"</string>
+    <string name="audio_profile">Perfiles de audio</string>
+    <string name="normal">General</string>
+    <string name="meeting">Reunión</string>
+    <string name="mute">"Silencio"</string>
+    <string name="outdoor">Exteriores</string>
+</resources>

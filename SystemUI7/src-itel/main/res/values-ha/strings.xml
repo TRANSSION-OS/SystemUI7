@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+* add new string defined by itel
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- linwujia add begin -->
+    <string name="keyguard_plugged_in_percent">Cajin <xliff:g id="number">%1$d</xliff:g>%%</string>
+    <string name="click_return_telephone">Ku taɓa komawa zuwa kira</string>
+    <string name="call_end">kira ƙare</string>
+    <string name="call_fail">kira kasa</string>
+    <!-- linwujia add end -->
+    <string name="take_screenshot">Screenshot</string>
+    <string name="recents_clear_memory">Samu nasarar barrantar <xliff:g id="number">%d</xliff:g>M memory</string>
+    <!--talpa@andy 2017/4/13 21:14 add begin-->
+    <string name="quick_settings_data_connection_label">Data</string>
+    <!--talpa@andy 2017/4/13 21:14 add end-->
+    <!-- bo.yang add begin -->
+    <!-- recent task-->
+    <string name="split_screen">tsaga Screen</string>
+    <string name="lock_task">kulle</string>
+    <string name="unlock_task">buše</string>
+    <!-- bo.yang add end -->
+</resources>

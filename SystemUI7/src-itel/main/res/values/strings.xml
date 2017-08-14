@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+* add new string defined by itel
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--linwujia add begin-->
+    <string name="click_return_telephone">Touch to return to call</string>
+    <string name="call_end">Call ended</string>
+    <string name="call_fail">Call failed</string>
+    <string name="keyguard_plugged_in_percent">Charging  <xliff:g id="number">%1$d</xliff:g>%%</string>
+    <string name="keyguard_bottom_date_day">day</string>
+    <!--linwujia add end-->
+    <string name="take_screenshot">Screenshot</string>
+
+    <!-- bo.yang1 modify mem_info hint-->
+    <string name="mem_info"><xliff:g id="ram_available">%1$s</xliff:g>MB available | <xliff:g id="ram_total">%2$s</xliff:g>GB in total</string>
+     <string name="recents_clear_memory">Successfully cleared <xliff:g id="number">%d</xliff:g>M memory</string>
+    <!-- Winner add begin -->
+    <string name="accident_touch_model">Smart False Touch Rejection Mode</string>
+    <string name="accident_touch_content">The way to exit:\nDo not cover the top of the screen \nLong Press the Volume down button to exit</string>
+    <!-- Winner add end -->
+     <!--added by chen zhengjun-->
+    <string name="qs_power_save">Super Power Saving</string> <!-- Super Power Saving -->
+    <!-- recent task-->
+    <string name="split_screen">Split Screen</string>
+    <string name="lock_task">Lock</string>
+    <string name="unlock_task">Unlock</string>
+    <string name="battery_level_ltr">%s%%</string>
+    <string name="battery_level_rtl">%%%s</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="car_lockscreen_disclaimer_title">بحفاظت گاڑی چلائیں</string>
+    <string name="car_lockscreen_disclaimer_text">ڈرائیونگ کے حالات سے مکمل طور پر آگاہ رہیں اور ہمیشہ قابلِ اطلاق قوانین کی پیروی کریں۔ ہدایات غلط، نامکمل، خطرناک، غیرموزوں، ممنوع، یا پھر انتظامیہ کے کنٹرول کردہ علاقوں سے گزرنے پر مبنی ہو سکتی ہیں۔ ہو سکتا ہے کاروباری معلومات بھی غلط یا نامکمل ہوں۔ ڈیٹا رئیل ٹائم (یعنی اُسی وقت کا براہِ راست) نہیں ہوتا، اور مقام کی درستگی کی گارنٹی نہیں دی جا سکتی۔ دورانِ ڈرائیونگ اپنی موبائل ڈیوائس نہ پکڑیں نہ ہی Android خود کار کے علاوہ استعمال کیلئے تیار کردہ ایپس استعمال کریں۔</string>
+</resources>

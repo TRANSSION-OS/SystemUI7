@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- Background to use for toasts -->
+    <attr name="toastFrameBackground" format="reference" />
+</resources>

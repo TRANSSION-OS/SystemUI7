@@ -1,0 +1,83 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.3'
+    }
+}
+
+
+
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+ext {
+    compileSdkVersion = 24
+    buildToolsVersion = "25.0.1"
+    minSdkVersion = 24
+    targetSdkVersion = 24
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+
+
+    gradle.projectsEvaluated {
+        tasks.withType(JavaCompile){
+            options.compilerArgs.add('-Xbootclasspath/p:SystemUI7/libs/framework.jar')
+        }
+    }
+
+}
+
+/**
+ * 更新iml文件中的SDK依赖顺序,否则IDE会报错
+ * (每个AS版本生成的iml可能会有差别，版本编译前可以先屏蔽启用这个函数)
+ * @param imlFilePath
+ * @return
+ */
+def pushDownSDK(imlFilePath){
+    def imlFile = file(imlFilePath)
+    println "--------------------------------------------------------------------------------------"
+    println "PushDown FilePath: $imlFilePath"
+    try {
+        def parsedXml = (new XmlParser()).parse(imlFile)
+
+        //def  sourceFolderIndexOf = parsedXml.component[1].orderEntry.findIndexOf{it.'@type' == 'sourceFolder'}
+        def  jdkIndexOf = parsedXml.component[1].orderEntry.findIndexOf {it.'@type' == 'jdk'}
+
+        if ( jdkIndexOf <= 1) {
+           // println("重新调整顺序，sourceFolderIndexOf:$sourceFolderIndexOf,jdkIndexOf:$jdkIndexOf")
+            def jdkNode = parsedXml.component[1].orderEntry.find { it.'@type' == 'jdk' }
+            parsedXml.component[1].remove(jdkNode)
+            new Node(parsedXml.component[1], 'orderEntry', ['type': 'jdk', 'jdkName': "Android API 24 Platform", 'jdkType': 'Android SDK'])
+            def writer = new StringWriter()
+            new XmlNodePrinter(new PrintWriter(writer)).print(parsedXml)
+            imlFile.text = writer.toString()
+        }
+        else {
+          //  println("已调整过，无需重新调整")
+        }
+
+    } catch (FileNotFoundException e) {
+        //println  e.printStackTrace()
+    }
+    println "--------------------------------------------------------------------------------------"
+}
+
+
+gradle.buildFinished {
+    // 注意以下的顺序，避免产生循环依赖
+    pushDownSDK("SystemUI7/SystemUI7-SystemUI7.iml");
+    pushDownSDK("Keyguard/Keyguard.iml");
+    pushDownSDK("SettingsLib/SettingsLib.iml");
+    pushDownSDK("LeatherLib/LeatherLib.iml")
+}

@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="wifi_fail_to_scan">"Cimdaawwanif sakkata'u hin dandenye"</string>
+    <string name="wifi_security_none">"Homaa"</string>
+    <string name="wifi_remembered">"Kuffamera"</string>
+    <string name="wifi_disabled_generic">"Hojii dhabsifamera"</string>
+    <string name="wifi_disabled_network_failure">"Kuffati qinda'ina IP"</string>
+    <string name="wifi_disabled_wifi_failure">"Kuffati qunnamti WiFi"</string>
+    <string name="wifi_disabled_password_failure">"Rakkoo mirkaneessa"</string>
+    <string name="wifi_not_in_range">"Dangaa kessa hin jiru"</string>
+    <string name="wifi_no_internet">"Tajjajili interneti hin argamine. Ofnaan qunnamu hin dandenye"</string>
+    <string name="saved_network">"Kan kuffame <xliff:g id="name">%1$s</xliff:g>ttini"</string>
+    <string name="connected_via_wfa">"Kara gargara Wi\u2011Fi tiin qunamera"</string>
+    <string name="connected_via_passpoint">"Karaa %1$s tiin qunameraa"</string>
+    <string name="available_via_passpoint">"Karaa %1$s tiin jira"</string>
+    <string name="wifi_connected_no_internet">"Qunameraa, intarnetiin hin jiru"</string>
+    <string name="bluetooth_disconnected">"Addan cittera"</string>
+    <string name="bluetooth_disconnecting">"Qunnamttin addaan citaa jira\u2026"</string>
+    <string name="bluetooth_connecting">"Quunnamti uuma jira\u2026"</string>
+    <string name="bluetooth_connected">"Quunnameera"</string>
+    <string name="bluetooth_pairing">"Walitti hidhaa jira\u2026"</string>
+    <string name="bluetooth_connected_no_headset">"Quunnameera (bilbilli hin jiru )"</string>
+    <string name="bluetooth_connected_no_a2dp">"Quunnameera (Sabqunnamtin hin jiru)"</string>
+    <string name="bluetooth_connected_no_map">"Quunnameera (gahinsii ergaa hin jiru)"</string>
+    <string name="bluetooth_connected_no_headset_no_a2dp">"Quunnameera (bilbilli ykn sabqunnamtin hin jiru)"</string>
+    <string name="bluetooth_profile_a2dp">"Sabqunnamti sagalee"</string>
+    <string name="bluetooth_profile_headset">"Bilbila sagalee"</string>
+    <string name="bluetooth_profile_opp">"Faayila dabarsuu"</string>
+    <string name="bluetooth_profile_hid">"Meeshaa naqa"</string>
+    <string name="bluetooth_profile_pan">"Gahiinsa interneta"</string>
+    <string name="bluetooth_profile_pbap">"Galmeewwan maqaa hirra jirra"</string>
+    <string name="bluetooth_profile_pbap_summary">"Galmeewwan maqaa hirruf fayyadami"</string>
+    <string name="bluetooth_profile_pan_nap">"Quunnamtii internet hirmaachuu"</string>
+    <string name="bluetooth_profile_map">"Gahiinsa ergaa"</string>
+    <string name="bluetooth_profile_sap">"Gahinsaa SIM"</string>
+    <string name="bluetooth_a2dp_profile_summary_connected">"Gara sabqunnamti sagaleetti quunnameera"</string>
+    <string name="bluetooth_headset_profile_summary_connected">"Gara bilbila sagalee quunnameera"</string>
+    <string name="bluetooth_opp_profile_summary_connected">"Gara faayila dabarsa kadimatti quunnameera"</string>
+    <string name="bluetooth_map_profile_summary_connected">"Kaarta waliin quunnameera"</string>
+    <string name="bluetooth_sap_profile_summary_connected">"SAP waliin qunameraa"</string>
+    <string name="bluetooth_opp_profile_summary_not_connected">"Gara faayila dabarsa kadimatti hin quunnamne"</string>
+    <string name="bluetooth_hid_profile_summary_connected">"Gara meeshaa naaqati quunnameera"</string>
+    <string name="bluetooth_pan_user_profile_summary_connected">"Gahiinsaa Internetaf meeshaatti quunnameera"</string>
+    <string name="bluetooth_pan_nap_profile_summary_connected">"Quunnamtii Internet naannoo meeshaa waliin hiraachuu"</string>
+    <string name="bluetooth_pan_profile_summary_use_for">"Gahinsaa Internetif fayyadami"</string>
+    <string name="bluetooth_map_profile_summary_use_for">"Kaartaf fayyadami"</string>
+    <string name="bluetooth_sap_profile_summary_use_for">"Gahinsa SIM ttif fayyadami"</string>
+    <string name="bluetooth_a2dp_profile_summary_use_for">"Gahinsaa sagaleef fayyadami"</string>
+    <string name="bluetooth_headset_profile_summary_use_for">"Sagalee bilbilaaf fayyadami"</string>
+    <string name="bluetooth_opp_profile_summary_use_for">"Faayila dabarsuuf fayyadami"</string>
+    <string name="bluetooth_hid_profile_summary_use_for">"Naqaf fayyadami"</string>
+    <string name="bluetooth_pairing_accept">"CIMDAA\'I"</string>
+    <string name="bluetooth_pairing_accept_all_caps">"CIMDAA\'I"</string>
+    <string name="bluetooth_pairing_decline">"DHISII"</string>
+    <string name="bluetooth_pairing_will_share_phonebook">"Cimdessun gahinsaa qunnamtiwwaan fi senna wamicha yerro qunnamu ni deggara"</string>
+    <string name="bluetooth_pairing_error_message">"<xliff:g id="device_name">%1$s</xliff:g> waalin cimdeessu hin dandenye."</string>
+    <string name="bluetooth_pairing_pin_error_message">"<xliff:g id="device_name">%1$s</xliff:g> waalin cimdeessu hin dandenye sababni isaas doggogora PIN ykn fuurtuu dabarsituu dha."</string>
+    <string name="bluetooth_pairing_device_down_error_message">"<xliff:g id="device_name">%1$s</xliff:g> waliin quunnamuu hin dandenye."</string>
+    <string name="bluetooth_pairing_rejected_error_message">"Walitti hidhuun  <xliff:g id="device_name">%1$s</xliff:g> dhaan balafaamera."</string>
+    <string name="accessibility_wifi_off">"Wifi cufi"</string>
+    <string name="accessibility_no_wifi">"Qunnamttin Wifi addaan citera."</string>
+    <string name="accessibility_wifi_one_bar">"Kabala Wifi tokko."</string>
+    <string name="accessibility_wifi_two_bars">"Kabalawwan Wifi lama."</string>
+    <string name="accessibility_wifi_three_bars">"Kabalawwan Wifi sadii."</string>
+    <string name="accessibility_wifi_signal_full">"Asattoon Wifi guutuu dha."</string>
+    <string name="process_kernel_label">"OS Andirooyid"</string>
+    <string name="data_usage_uninstalled_apps">"Apps badan"</string>
+    <string name="data_usage_uninstalled_apps_users">"Apps fi fayyadamtoota badan"</string>
+    <string name="tether_settings_title_usb">"USB walitti hidhuu"</string>
+    <string name="tether_settings_title_wifi">"Hotspot kan socha'u"</string>
+    <string name="tether_settings_title_bluetooth">"Biluutuuzii walitti hidhuu"</string>
+    <string name="tether_settings_title_usb_bluetooth">"Hidhu"</string>
+    <string name="tether_settings_title_all">"Walitti hidhuu fi hotspot kan socha'u"</string>
+    <string name="managed_user_title">"Appota hojji hunda"</string>
+    <string name="user_guest">"Kessumaa"</string>
+    <string name="unknown">"Hin bekkamuu"</string>
+    <string name="running_process_item_user_label">"Fayyadamaa:  <xliff:g id="user_name">%1$s</xliff:g>"</string>
+    <string name="launch_defaults_some">"Barraman tokko tokko mijjatera"</string>
+    <string name="launch_defaults_none">"Baramaawwan fillataman hin jirani"</string>
+    <string name="tts_settings">"Hojimaatawwan barreeffama-gara-dubbii"</string>
+    <string name="tts_settings_title">"Bahaa barreeffama-gara-dubbii"</string>
+    <string name="tts_default_rate_title">"Saffisa duubi"</string>
+    <string name="tts_default_rate_summary">"Saffisa barreeffamni itti dubbatamu"</string>
+    <string name="tts_default_pitch_title">"Sagalee"</string>
+    <string name="tts_default_pitch_summary">"Sagalee hasaa walitti qabamee hojjatamee midhaa"</string>
+    <string name="tts_default_lang_title">"Afaan"</string>
+    <string name="tts_lang_use_system">"Afaan sirna fayyadami"</string>
+    <string name="tts_lang_not_selected">"Afaan hin filatamne"</string>
+    <string name="tts_default_lang_summary">"Sagalee Afaan-addaa barreeffama dubbifamuf mijeessi"</string>
+    <string name="tts_play_example_title">"Fakkeenyaa dhaggeeffadhu"</string>
+    <string name="tts_play_example_summary">"Barnoota dubbii hubachuu gabaabaa taphadhu"</string>
+    <string name="tts_install_data_title">"Daata sagallee fe'i"</string>
+    <string name="tts_install_data_summary">"Daata sagalee sagalee baruf barbachisu fe'i"</string>
+    <string name="tts_engine_security_warning">"Injiiniin dubbii hubaatuu barreeffama dubbifamu hundaa sassaabee, daataa dhuunfaa fi jechaa darbinsa fi lakkoofsa kaardii liqii ni sassaaba. Kan maddu injiinii  <xliff:g id="tts_plugin_engine_name">%s</xliff:g> irraa ti. Faayidaa injiinii dubbii baruu kanaa banu?"</string>
+    <string name="tts_engine_network_required">"Bahaa barrefama-gara-duubitti afaani kun qunnamtti cimdaa hojjetu ni barbada."</string>
+    <string name="tts_default_sample_string">"Kun fakkeenya dubbii baruu ti"</string>
+    <string name="tts_status_title">"Haala afaanii baramaa"</string>
+    <string name="tts_status_ok">"<xliff:g id="locale" example="English(UnitedStates)">%1$s</xliff:g> guutummaan guututti deeggerameera"</string>
+    <string name="tts_status_requires_network">"<xliff:g id="locale" example="English(UnitedStates)">%1$s</xliff:g> qunnamtti cimdaa barbaada"</string>
+    <string name="tts_status_not_supported">"<xliff:g id="locale" example="English(UnitedStates)">%1$s</xliff:g> hin deeggeramne"</string>
+    <string name="tts_status_checking">""</string>
+    <string name="tts_engine_settings_title">"Hojimaata kan  <xliff:g id="tts_engine_name">%s</xliff:g>"</string>
+    <string name="tts_engine_settings_button">"Hojimaatawwan injiinii jalqabsisi"</string>
+    <string name="tts_engine_preference_section_title">"Injiinii filatamaa"</string>
+    <string name="tts_general_section_title">"Waliigalaa"</string>
+    <string name="tts_reset_speech_pitch_title">"Qal'inaa haasaa debisii mijjessi"</string>
+    <string name="tts_reset_speech_pitch_summary">"Akkataa qal'inaa barreffamni baramattii hasawamuu debisii mijjessi."</string>
+    <string-array name="tts_rate_entries">
+        <item>"Baay\'ee harkifataa"</item>
+        <item>"Suuta"</item>
+        <item>"Idilee"</item>
+        <item>"Ariifataa"</item>
+        <item>"Baay'ee arifata"</item>
+        <item>"Baay'ee baay'ee arifataa"</item>
+        <item>"Si'ataa"</item>
+        <item>"Baay'ee si'ataa"</item>
+        <item>"Akka malee saffisaa"</item>
+    </string-array>
+    <string name="choose_profile">"Dannaa filadhuu"</string>
+    <string name="category_personal">"Dhunfa"</string>
+    <string name="category_work">"Hojii"</string>
+    <string name="development_settings_title">"Filannoowwan hojjetaa"</string>
+    <string name="development_settings_enable">"Fillanowwan umma dandessisi"</string>
+    <string name="development_settings_summary">"Mijeessi filannoowwan kan app ijaaru"</string>
+    <string name="development_settings_not_available">"Filannoon uumaa fayyadamaa kanaaf hin jiran"</string>
+    <string name="vpn_settings_not_available">"Hojjimatoni VPN fayyadama kanaf hin jirran"</string>
+    <string name="tethering_settings_not_available">"Hojjimatin hidhaa fayyadama kanaf hin jirru"</string>
+    <string name="apn_settings_not_available">"Maqqan tuqqa gahinsaa fayyadama kanaf hin jirru"</string>
+    <string name="enable_adb">"USB diibagiing"</string>
+    <string name="enable_adb_summary">"Halaa dibagii yeroo USB qunamuu"</string>
+    <string name="clear_adb_keys">"Dhugomsawwan USB dibagingii waami"</string>
+    <string name="bugreport_in_power">"Qaxxamura gabaasa dogantaa"</string>
+    <string name="bugreport_in_power_summary">"Baffata hannisa irrati qabduu aggarsiisi gabbasa dogantaa fudhachuf."</string>
+    <string name="keep_screen_on">"Damaqqii egii"</string>
+    <string name="keep_screen_on_summary">"Yeroo charjii argiin gonkumma hin cissu"</string>
+    <string name="bt_hci_snoop_log">"Dilbaa snupii blutuzii HCI hojachisii"</string>
+    <string name="bt_hci_snoop_log_summary">"Faayila keessatti qarqabawwan HCI biluutuuzii hundaa qabi"</string>
+    <string name="oem_unlock_enable">"OEM banna jira"</string>
+    <string name="oem_unlock_enable_summary">"Fe'e kassa akka banamu eyyami"</string>
+    <string name="confirm_enable_oem_unlock_title">"OEM bannu eyyamu?"</string>
+    <string name="confirm_enable_oem_unlock_text">"Akkekachisa: Yerro hojjimatin kun banna ta'u tajjajili eggumsa mesha, mesha kana irrati hin argamu."</string>
+    <string name="mock_location_app">"App bakka mokii filladhu"</string>
+    <string name="mock_location_app_not_set">"Appn bakka mokii mijjefame hin jiru"</string>
+    <string name="mock_location_app_set">"App bakka Mokii: <xliff:g id="app_name">%1$s</xliff:g>"</string>
+    <string name="debug_networking_category">"Cimmdessu"</string>
+    <string name="wifi_display_certification">"Mirkaneessa agarsiisa wadaroo malee"</string>
+    <string name="wifi_verbose_logging">"Wi\u2011Fi Verbose galchu banni"</string>
+    <string name="wifi_aggressive_handover">"Wi\u2011Fi Kan duubbi jallatu sellularati dabbarsu"</string>
+    <string name="wifi_allow_scan_with_traffic">"Yerro hunda Wi\u2011Fi akka Roam sakkata'u eyyami"</string>
+    <string name="mobile_data_always_on">"Daataan sellulari yeroo hunda dammaqa dha"</string>
+    <string name="bluetooth_disable_absolute_volume">"Sagalee dhuugaa hin dandessisiin"</string>
+    <string name="wifi_display_certification_summary">"Filannoowwan raaga agarsiisa wadaroo malee agarsiisi"</string>
+    <string name="wifi_verbose_logging_summary">"Saddarka gallumsa Wi\u2011Fi guddisi, futtu Wi\u2011Fi irra SSID RSSI Agarsiisi"</string>
+    <string name="wifi_aggressive_handover_summary">"Yarro bannamu. Yerro asattoo Wi\u2011Fi gad anna qabbatu Wi\u2011Fi qunnamti daataa sellulari fudhachuf fedha hin qabbu."</string>
+    <string name="wifi_allow_scan_with_traffic_summary">"Bayyina traffika daataa qunnama irrati jiru irrati hunda'aun xinxalla roam  Wi\u2011Fi Eyyami/Dhorkii"</string>
+    <string name="select_logd_size_title">"Hanga qabiyee logarii"</string>
+    <string name="select_logd_size_dialog_title">"Hanga logarii qabiyee dilbatin filadhu"</string>
+    <string name="select_usb_configuration_title">"USB mijjesu filladhu"</string>
+    <string name="select_usb_configuration_dialog_title">"USB mijjesu filladhu"</string>
+    <string name="allow_mock_location">"Bakkewwan mookii eeyyami"</string>
+    <string name="allow_mock_location_summary">"Bakkewwan mookii eeyyami"</string>
+    <string name="debug_view_attributes">"Amala xinxaaluu agarsisuu eeyamii"</string>
+    <string name="legacy_dhcp_client_summary">"Mammila DHCP Lollipop irra fayyadami hamma mammila androyyidi DHCP fayyadamtu."</string>
+    <string name="mobile_data_always_on_summary">"Yeroo hundaa daataa mobayilaa hojachisii,  (Jijiramaa cimdaa safisatiif) yeroo Wi\u2011Fi hojatuu ilee."</string>
+    <string name="adb_warning_title">"USB sakkata'uu eeyyamuu?"</string>
+    <string name="adb_warning_message">"USB diibagiing tajaajila ijaaruuf oolu qofaa dha. Daataa kompiyuutaraa fi meeshaa gidduu garagalchuf fayyadami. Meeshaa kee irratti apps yaadachiiftuu malee fe'ii akkasumas daataa loogii dubbisi."</string>
+    <string name="adb_keys_warning_message">"Kompiyuutaroota kanaan dura eeyyamte irraa gara usb dibagiingii seenuu dhorkuu?"</string>
+    <string name="dev_settings_warning_title">"Hojjimata ijaarsa eyyamu?"</string>
+    <string name="dev_settings_warning_message">"Hojimaatni kunneen kan oolan ijaaruuf qofaa dha. Meeshaa fi app kee akka jeeqamu taasisuu danda'a."</string>
+    <string name="verify_apps_over_usb_title">"USB irratti apps mirkaneessi"</string>
+    <string name="verify_apps_over_usb_summary">"Appota kaara ADB/ADT fe'aman ammalota midhaa ummanif mirkanessi."</string>
+    <string name="bluetooth_disable_absolute_volume_summary">"Sababaa sagaleetiif meshalee nannoo kan akkaa sagalee guddaa fudhatamaa hin qabne ykn to'annaa hin qabne waliin amalaa dhuuga bilutuzii hin dandessisiin."</string>
+    <string name="enable_terminal_title">"Tarminaalii naannoo"</string>
+    <string name="enable_terminal_summary">"App tarminaalii seensa sheelii naannoo kennu bani"</string>
+    <string name="hdcp_checking_title">"HDCP mirkaneessa jira"</string>
+    <string name="hdcp_checking_dialog_title">"Amala HDCP mirkaneessuu mijeessi"</string>
+    <string name="debug_debugging_category">"Yaala jira"</string>
+    <string name="debug_app">"App diibagingi filladhu"</string>
+    <string name="debug_app_not_set">"Appilikeeshinii diibagingi mijeeffame hin jiru"</string>
+    <string name="debug_app_set">"Appilikeeshinii diibagingi:  <xliff:g id="app_name">%1$s</xliff:g>"</string>
+    <string name="select_application">"Appilikeeshinii filadhu"</string>
+    <string name="no_application">"Homaayyuu"</string>
+    <string name="wait_for_debugger">"Yaala eega jira"</string>
+    <string name="wait_for_debugger_summary">"Appilikeeshinii diibagi ta'e diibaggeriin osso hojjira hin oliin durati akka maxxanu taasisa"</string>
+    <string name="debug_input_category">"Galchii"</string>
+    <string name="debug_drawing_category">"Kaasuu"</string>
+    <string name="debug_hw_drawing_category">"Dhiyeessii haardiweeriin saffisiisu"</string>
+    <string name="media_category">"Sabqunnamti"</string>
+    <string name="debug_monitoring_category">"To'achuu"</string>
+    <string name="strict_mode">"Toftaa daangeffamaa banameera"</string>
+    <string name="strict_mode_summary">"Toftaa app tiriidii ijoon gochaa dheeraa yeroo hojjetu ibsa argii agarsiisi"</string>
+    <string name="pointer_location">"Agarsiiftuu bakka"</string>
+    <string name="pointer_location_summary">"Argii irratti dabaluun tuqii ammaa daataa agarsiisaa jira"</string>
+    <string name="show_touches">"Kan tuqqaman agarsisi"</string>
+    <string name="show_touches_summary">"Tuquudhaaf dubdebii ilalamaan agarsisii"</string>
+    <string name="show_screen_updates">"Obdii ammayyaa agarsiisi"</string>
+    <string name="show_screen_updates_summary">"Yeroo haaromsu ifa fooda guutu agarsiisi"</string>
+    <string name="show_hw_screen_updates">"GPU argi hammayyeessi"</string>
+    <string name="show_hw_screen_updates_summary">"GPU waliin yeroo bahu ifa fooda keessatti agarsiisi"</string>
+    <string name="show_hw_layers_updates">"Haardiweerii obdii hammayyeessa agarsiisi"</string>
+    <string name="show_hw_layers_updates_summary">"Flash hardware obdii magariisa yeroo isaan ammayyeessa"</string>
+    <string name="debug_hw_overdraw">"GPU irrattikaasuu yaali"</string>
+    <string name="disable_overlays">"HW irrattidabalu cufi"</string>
+    <string name="disable_overlays_summary">"Argii kompooziitii yeroo hundaa GPU fayyadami"</string>
+    <string name="simulate_color_space">"Bakka hallu fakkachisi"</string>
+    <string name="enable_opengl_traces_title">"Duuka GL bani"</string>
+    <string name="usb_audio_disable_routing">"Saggale USB kara agarsisu cuffi"</string>
+    <string name="usb_audio_disable_routing_summary">"Kara gara Mesha sagalee USB ofnaa jijiruu hojaa dhabsisii"</string>
+    <string name="debug_layout">"Taa'umsa baawundiiwwan agarsiisi"</string>
+    <string name="debug_layout_summary">"Xummura kiliipi, qarqara kkf. Agarsiisi"</string>
+    <string name="force_rtl_layout_all_locales">"Kallattii taa'umsa RTL dirqisisi"</string>
+    <string name="force_rtl_layout_all_locales_summary">"Nannowwa hundaaf kallattii taa'umsa RTL argii dirqisisi"</string>
+    <string name="show_cpu_usage">"Itti fayyadama CPU agarsiisi"</string>
+    <string name="show_cpu_usage_summary">"Argii irratti dabaluu agarsiisu kan ammaa CPU itti fayyadama"</string>
+    <string name="force_hw_ui">"GPU kennu dirqisisi"</string>
+    <string name="force_hw_ui_summary">"Fayyadaminsa GPU kan 2d kaasuu dirqisisi"</string>
+    <string name="force_msaa">"4x MSAA dirqisisi"</string>
+    <string name="force_msaa_summary">"Apps 4x MSAA in OpenGL ES 2.0 irrati bani"</string>
+    <string name="show_non_rect_clip">"Dalagoota kiliipi rogaa afur hin tane diibagi godhi"</string>
+    <string name="track_frame_time">"Dana GPU haa kennu"</string>
+    <string name="window_animation_scale_title">"Hanga sochii fakkina fooda"</string>
+    <string name="transition_animation_scale_title">"Hanga sochii fakkina cehumsaa"</string>
+    <string name="animator_duration_scale_title">"Hanga turti fakkesa"</string>
+    <string name="overlay_display_devices_title">"Mul'isoota sadarkaa lammafa fakkesi"</string>
+    <string name="debug_applications_category">"Appoota"</string>
+    <string name="immediately_destroy_activities">"Gochoota hin tursiin"</string>
+    <string name="immediately_destroy_activities_summary">"Fayyadamaan akka baheen gochaa kamiyyuu balleessi"</string>
+    <string name="app_process_limit_title">"Daangaa adeemsa duube"</string>
+    <string name="show_all_anrs">"ANRs hunda agarsiisi"</string>
+    <string name="show_all_anrs_summary">"Apps duubeef app duubi deebi hin kenine agarsiisi"</string>
+    <string name="force_allow_on_external">"Alaatti appoota humnaan eyyamii"</string>
+    <string name="force_allow_on_external_summary">"Appoota kamiyyuu ifaa osoo hin basiin akkaa kuffanno alaattii barrreffaman godhi"</string>
+    <string name="force_resizable_activities">"Dallagawwan akka hangi issani jijjijiramu godhi"</string>
+    <string name="force_resizable_activities_summary">"Dallagawwan hundi akka argii gargaraf mijjatuti godhi,"</string>
+    <string name="enable_freeform_support">"Foddaa irraa kan ballesuu dandesissi"</string>
+    <string name="enable_freeform_support_summary">"Foddaa yalitiif gargarssaa hojachisii"</string>
+    <string name="local_backup_password_title">"Jecha darbinsa dilbessu kompiyutara minjala"</string>
+    <string name="local_backup_password_summary_none">"Kompiyutara minjala guutu dilbessun amma hin eggamne"</string>
+    <string name="local_backup_password_summary_change">"Dilbessa desktopi guttuf jecha darbinsa jijjiri ykn haqii"</string>
+    <string name="local_backup_password_toast_success">"Jechi darbinsa kan dilbessu amma mijateera"</string>
+    <string name="local_backup_password_toast_confirmation_mismatch">"Jechi darbinsa haara fi kan mirkaneeffame wal hin fakkatu"</string>
+    <string name="local_backup_password_toast_validation_failure">"Jecha darbinsa dilbeessu mijeessu hin dandenye"</string>
+    <string-array name="color_mode_names">
+        <item>"Kirkirsaa (baramaa)"</item>
+        <item>"Umaama"</item>
+        <item>"Durtii"</item>
+    </string-array>
+    <string-array name="color_mode_descriptions">
+        <item>"Hallu foyyefama"</item>
+        <item>"Halluwwaan umaama akka ijjan ellalamaniti"</item>
+        <item>"Hallun qabbiye dijjitalaf sirrefamera"</item>
+    </string-array>
+    <string name="inactive_apps_title">"App dammaqa hin tanne"</string>
+    <string name="inactive_app_inactive_summary">"Cuffama. Toggilif tuqqi"</string>
+    <string name="inactive_app_active_summary">"Dammaqaa. Toggilif tuqqi"</string>
+    <string name="runningservices_settings_title">"Tajaajiloota hojjechaa jira"</string>
+    <string name="runningservices_settings_summary">"Tajaajjiloota amma hojjechaa jiran ilaali fi to'adhu"</string>
+    <string name="enable_webview_multiprocess">"Agarsisa marsariti dallaga bayye"</string>
+    <string name="enable_webview_multiprocess_desc">"Rendarii mulissaa marsaretii kopha hojachisii"</string>
+    <string name="select_webview_provider_title">"Ijjarsa agarsisa marsariti"</string>
+    <string name="select_webview_provider_dialog_title">"Agarsisa marsariti ijjaru mijjesi"</string>
+    <string name="select_webview_provider_toast_text">"Fillanon kun kana bodda fayyida hin qabu. Debbisi yalli"</string>
+    <string name="convert_to_file_encryption">"Gara fayyila iccitesuti jijjiri"</string>
+    <string name="convert_to_file_encryption_enabled">"Jijjiri\u2026"</string>
+    <string name="convert_to_file_encryption_done">"Durranu fayyili iccitefamera"</string>
+    <string name="title_convert_fbe">"Gara iccitessu fayila irrati hunda'e"</string>
+    <string name="convert_to_fbe_warning">"Fayyilaa iccitessaan wal qabateef qoqqodinsaa daataa jijjirii. \n!!Akekachiisa!! Kun dataa kee hundaa ballessu danda'aa.\n Ammalli kun alpha dha, akkasumas sirrittii hojjachu dhisuu danda'aa.\nItti fufuuf tuqi\'mucusessii\u2026\'"</string>
+    <string name="button_convert_fbe">"Haxxayi ergaasi garagalchi\u2026"</string>
+    <string name="picture_color_mode">"Toftaa haalu fakki"</string>
+    <string name="picture_color_mode_desc">"SRGB fayyadami"</string>
+    <string name="daltonizer_mode_disabled">"Hojii dhabsifamera"</string>
+    <string name="daltonizer_mode_monochromacy">"Hallu tokko"</string>
+    <string name="daltonizer_mode_deuteranomaly">"Deuteranomalii (Dima-Magarisaa)"</string>
+    <string name="daltonizer_mode_protanomaly">"Protanomalii (Dima-Magarisaa)"</string>
+    <string name="daltonizer_mode_tritanomaly">"Tritanomalii (Cuquliisa-Kelloo)"</string>
+    <string name="accessibility_display_daltonizer_preference_title">"Sirressa hallu"</string>
+    <string name="accessibility_display_daltonizer_preference_subtitle">"Dallagan kun yallidhani akkasumas dandetti midhu danda'a"</string>
+    <string name="daltonizer_type_overridden">"Ittin faccisamera  <xliff:g id="title" example="Simulatecolorspace">%1$s</xliff:g>"</string>
+    <string name="power_remaining_duration_only">"Tilmaman <xliff:g id="time">%1$s</xliff:g> hafe"</string>
+    <string name="power_remaining_duration_only_short">"<xliff:g id="time">%1$s</xliff:g> hafe"</string>
+    <string name="power_discharging_duration">"<xliff:g id="level">%1$s</xliff:g> - tilmaman <xliff:g id="time">%2$s</xliff:g> hafe"</string>
+    <string name="power_discharging_duration_short">"<xliff:g id="level">%1$s</xliff:g> - <xliff:g id="time">%2$s</xliff:g> hafe"</string>
+    <string name="power_charging">"<xliff:g id="level">%1$s</xliff:g> - <xliff:g id="state">%2$s</xliff:g>"</string>
+    <string name="power_charging_duration">"<xliff:g id="level">%1$s</xliff:g> - <xliff:g id="time">%2$s</xliff:g> hanga guttuti"</string>
+    <!-- no translation found for power_charging_duration_short -->
+    <string name="power_charging_duration_ac">"<xliff:g id="level">%1$s</xliff:g> - <xliff:g id="time">%2$s</xliff:g> hanga AC irrati guttuti"</string>
+    <!-- no translation found for power_charging_duration_ac_short -->
+    <string name="power_charging_duration_usb">"<xliff:g id="level">%1$s</xliff:g> - <xliff:g id="time">%2$s</xliff:g> Hanga USB irrati guttuti"</string>
+    <!-- no translation found for power_charging_duration_usb_short -->
+    <string name="power_charging_duration_wireless">"<xliff:g id="level">%1$s</xliff:g> - <xliff:g id="time">%2$s</xliff:g>Hanga dhiboo male irra guttuti"</string>
+    <!-- no translation found for power_charging_duration_wireless_short -->
+    <string name="battery_info_status_unknown">"Hin bekkamuu"</string>
+    <string name="battery_info_status_charging">"Charjii godha jira"</string>
+    <string name="battery_info_status_charging_ac">"AC irrati charjii godha jira"</string>
+    <string name="battery_info_status_charging_ac_short">"Charjii godha jira"</string>
+    <string name="battery_info_status_charging_usb">"USB irran charjessa jira"</string>
+    <string name="battery_info_status_charging_usb_short">"Charjii godha jira"</string>
+    <string name="battery_info_status_charging_wireless">"Shiboo malle charjii godhi"</string>
+    <string name="battery_info_status_charging_wireless_short">"Charjii godha jira"</string>
+    <string name="battery_info_status_discharging">"Charjii gocha hin jiru."</string>
+    <string name="battery_info_status_not_charging">"Charjii gocha hin jiru."</string>
+    <string name="battery_info_status_full">"Guutuu"</string>
+    <string name="disabled_by_admin_summary_text">"Bulchaatin to'atama"</string>
+    <string name="enabled_by_admin">"Bulchaatin dandessifame"</string>
+    <string name="disabled_by_admin">"Bulchaatin hojji dhabsifame"</string>
+    <string name="home">"Ka'umsa hojjimatawwani"</string>
+    <!--<string-array name="battery_labels">
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>-->
+    <string name="charge_length_format">"<xliff:g name="time" example="3 hours">%1$s</xliff:g> duraa"</string>
+    <string name="remaining_length_format">"<xliff:g name="time" example="3 hours">%1$s</xliff:g> hafe"</string>
+    <string name="screen_zoom_summary_small">"Xiqqaa"</string>
+    <string name="screen_zoom_summary_default">"Barrama"</string>
+    <string name="screen_zoom_summary_large">"Guddaa"</string>
+    <string name="screen_zoom_summary_very_large">"Gudda"</string>
+    <string name="screen_zoom_summary_extremely_large">"Bayee guddaa"</string>
+    <string name="screen_zoom_summary_custom">"Mammila (<xliff:g id="densityDpi" example="160">%d</xliff:g>)"</string>
+    <string name="help_feedback_label">"Gargarsaa fi Dubdeebii"</string>
+    <!-- no translation found for wifi_security_ft_psk -->
+    <!-- no translation found for wifi_security_ft_eap -->
+    <!-- no translation found for wifi_security_psk_sha256 -->
+    <!-- no translation found for wifi_security_eap_sha256 -->
+    <!-- no translation found for wifi_secured_first_item -->
+    <!-- no translation found for wifi_secured_second_item -->
+    <string name="wifi_wps_available_first_item">"WPS kan jiran"</string>
+    <string name="wifi_wps_available_second_item">"\u0020(WPS kan jiran)"</string>
+</resources>

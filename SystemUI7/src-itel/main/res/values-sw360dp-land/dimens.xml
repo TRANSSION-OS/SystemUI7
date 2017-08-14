@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--chenzhengjun added start-->
+    <dimen name="itel_text_drag_margin_left">25dp</dimen>
+    <dimen name="itel_text_drag_margin_top">210dp</dimen>
+    <dimen name="itel_text_drag_size">12sp</dimen>
+    <dimen name="itel_text_drag_offset_top">2.5dp</dimen>
+    <dimen name="itel_text_drag_offset_bottom">40dp</dimen>
+    <!--chenzhengjun added end-->
+
+</resources>

@@ -1,0 +1,35 @@
+<com.android.systemui.statusbar.phoneleather.LeatherWindowView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF000000"
+    android:id="@+id/leatherlayout" >
+    
+     <!-- <com.android.systemui.statusbar.phoneleather.ClockView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:id="@+id/clockview" >
+     </com.android.systemui.statusbar.phoneleather.ClockView> -->
+     <include layout="@layout/leather_viewpager"/>
+     
+     <!--<com.android.systemui.statusbar.phoneleather.LeatherMenuWindowView
+         android:layout_width="@dimen/leather_menu_radius"
+         android:layout_height="@dimen/leather_menu_radius"
+         android:layout_marginTop="@dimen/leather_margin_top"
+         android:layout_centerHorizontal="true"
+         android:visibility="gone"
+         android:id="@+id/menu">
+         <include layout="@layout/leather_menu" />
+     </com.android.systemui.statusbar.phoneleather.LeatherMenuWindowView>-->
+     
+     <!--<com.android.systemui.statusbar.phoneleather.AudioProfilesWindowView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:visibility="gone"
+         android:id="@+id/footer">
+         <include layout="@layout/audioprofiles_setting"/>
+     </com.android.systemui.statusbar.phoneleather.AudioProfilesWindowView>-->
+     
+     <include layout="@layout/leather_topic"/>
+
+</com.android.systemui.statusbar.phoneleather.LeatherWindowView>

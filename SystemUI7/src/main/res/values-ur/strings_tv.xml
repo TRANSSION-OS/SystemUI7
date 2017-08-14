@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="pip_close">پی آئی پی بند کریں ۔</string>
+    <string name="pip_fullscreen">پورا اسکرین</string>
+    <string name="pip_play">کھیلیں</string>
+    <string name="pip_pause">موقوف کریں</string>
+    <string name="pip_hold_home">"‏PIP کنٹرول کرنے کیلئے ""ہوم"" پکڑے رکھیں"</string>
+    <string name="pip_onboarding_title">تصویر میں تصویر</string>
+    <string name="pip_onboarding_description">"یہ آپ کی ویڈیو تب تک دکھاتا رہتا ہے جب تک آپ کوئی دوسری نہیں چلاتے۔ اسے کنٹرول کرنے کیلئے ""ہوم"" دبائیں اور پکڑے رہیں۔"</string>
+    <string name="pip_onboarding_button">سمجھ آ گئی</string>
+    <string name="recents_tv_dismiss">مسترد</string>
+</resources>

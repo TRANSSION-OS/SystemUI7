@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"    
+    android:id="@+id/leather_menu_content"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    <ImageView 
+        android:padding="@dimen/leahter_menu_down_padding"
+        android:layout_width="@dimen/leather_menu_down"
+        android:layout_height="@dimen/leather_menu_down"
+        android:layout_marginTop="@dimen/leather_menu_down_margin_top"
+        android:id="@+id/leather_menu_down"
+        android:src="@drawable/leather_menu_down"/>
+   <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/leather_menu_button_margin_top"
+        android:orientation="horizontal">
+        <LinearLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal"      
+	        android:orientation="vertical">
+	        
+	        <Button android:layout_width="@dimen/leather_menu_button_width"
+	            android:layout_height="@dimen/leather_menu_button_width"
+	            android:id="@+id/leather_menu_topic"
+	            android:background="@drawable/leather_menu_topic"/>
+	        
+	        <TextView android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="@dimen/leather_menu_text_margin_top"
+	            android:textSize="@dimen/leather_menu_textSize"
+	            android:textColor="@color/leather_menu_textColor"
+	            android:id="@+id/leather_menu_topic_text"
+	            android:singleLine="true"
+	            android:ellipsize="end"
+	            android:maxWidth="@dimen/leather_menu_button_width"
+	            android:text="@string/leather_theme"/>
+	    </LinearLayout>
+	    <LinearLayout 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal"
+	        android:layout_marginStart="@dimen/leather_menu_button_margin_start"
+	        android:orientation="vertical">
+	        
+	        <Button android:layout_width="@dimen/leather_menu_button_width"
+	            android:layout_height="@dimen/leather_menu_button_width"
+	            android:id="@+id/leather_menu_profiles"
+	            android:background="@drawable/leather_menu_profiles"/>
+	        
+	        <TextView android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="@dimen/leather_menu_text_margin_top"
+	            android:textSize="@dimen/leather_menu_textSize"
+	            android:textColor="@color/leather_menu_textColor"
+	            android:id="@+id/leather_menu_profile_text"
+	            android:singleLine="true"
+	            android:ellipsize="end"
+	            android:maxWidth="@dimen/leather_menu_button_width"
+	            android:text="@string/audio_profile"/>
+	    </LinearLayout>
+    </LinearLayout>
+    
+    
+
+</LinearLayout>

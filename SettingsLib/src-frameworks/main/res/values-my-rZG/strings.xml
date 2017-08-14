@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="lockscreen_emergency_call">အေရးေပၚ ေခၚဆိုမႈ</string>
+    <string name="emergency_calls_only">အေရးေပၚ ေခၚဆိုျခင္းမ်ား အတြက္သာ</string>
+    <string name="volume_unknown">အသံ အတိုး၊အက်ယ္</string>
+    <string name="ime_action_send">ပို႔ပါ</string>
+    <string name="action_bar_up_description">အေပၚသို႔ လွည့္လည္ပါ</string>
+    <string name="media_route_controller_disconnect">ခ်ိတ္ဆက္မႈျဖဳတ္ရန္</string>
+</resources>

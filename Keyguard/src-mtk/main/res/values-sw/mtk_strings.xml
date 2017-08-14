@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="keyguard_domestic_zone_name">Beijing</string>
+    <string name="every_day">"Kila siku"</string>
+    <string name="never">"Katu"</string>
+    <string name="default_label">"Kengele"</string>
+    <string name="voiceui_notify_string">Unaweza kusema</string>
+    <string name="voiceui_control_poweroff_alarm">Kudhibiti kengele ya kuzima</string>
+    <string name="voiceui_or">Au</string>
+    <string name="keyguard_accessibility_alarm_unlock">Kengele ya kuzima</string>
+    <string name="alarm_alert_dismiss_text">Gairi</string>
+    <string name="alarm_alert_snooze_text">"Sinzia"</string>
+    <string name="description_direction_left">"Sogeza kushoto kwa <xliff:g id="TARGET_DESCRIPTION">%s</xliff:g> ."</string>
+    <string name="description_direction_right">"Telezesha kidole kulia ili <xliff:g id="TARGET_DESCRIPTION">%s</xliff:g>."</string>
+    <string name="keyguard_password_entering_puk_code">Ingiza msimbo wa PUK</string>
+    <string name="keyguard_password_wrong_puk_code">Msimbo wa PUK batili!</string>
+    <string name="invalidPuk">Ingiza tarakimu 8</string>
+    <string name="keyguard_password_enter_new_pin_code">Ingiza PIN mpya</string>
+    <string name="keyguard_password_Confirm_pin_code">"Thibitisha PIN mpya"</string>
+    <string name="sim_permanently_locked">Kuingiza msimbo wa PUK batili zaidi ya mara 10,SIM kadi itafungwa milele.</string>
+    <string name="retries_left">Saliyo:<xliff:g id="number">%d</xliff:g></string>
+    <string name="simlock_slot_locked_message">Nafasi imefungwa milele</string>
+    <string name="simlock_entersimmelock">Ingiza kitasa cha  SIM ME</string>
+    <string name="slot_id">Nafasi <xliff:g id="number">%d</xliff:g>:</string>
+    <string name="new_simcard">SIM kadi mpya</string>
+    <string name="lockscreen_missing_sim_dialog_message">"Sim kadi imetenganishwa.Tafadhali hakikisha SIM kadi yako imeunganishwa vizuri.</string>
+    <string name="sim_card_changed_dialog_title">Sim kadi imebadilishwa</string>
+    <string name="change_setting_for_onenewsim">SIM kadi mpya ime gunduliwa.Imewekwa lebo kama.</string>
+    <string name="change_setting_for_twonewsim">SIM kadi mpya zime gunduliwa.Zimewekwa lebo kama.</string>
+    <string name="sim_card_removed">Sim kadi imetolewa</string>
+    <string name="sim_card_swapped">Sim kadi imebadilishwa</string>
+    <string name="change_settings">Badili</string>
+    <string name="keyguard_voice_call">Wito sauti</string>
+    <string name="keyguard_sms">Mawasiliano:</string>
+    <string name="keyguard_data">Muunganisho wa data.</string>
+    <string name="dismiss">Gairi</string>
+    <string name="keyguard_wrong_code_input">Msimbo batili</string>
+    <string name="keyguard_code_length_prompt">Ingiza dijiti 4-8</string>
+    <string name="keyguard_code_donnot_mismatch">Usilinganishe</string>
+    <string name="network_searching">Inatafuta mtandao</string>
+    <string name="searching_simcard">Utafutaji…</string>
+    <string name="keyguard_close">"Funga"</string>
+    <string name="default_sim_setting_prompt">Mpangilio mpya  wa chaguo-msingi :</string>
+    <string name="keyguard_video_call">Simu ya video</string>
+    <string name="lockscreen_pattern_wrong">"Jaribu tena"</string>
+    <string name="invalid_sim_title">Sim kadi batili</string>
+    <string name="invalid_sim_message">Kadi ya UIM/SIM haitambuliki</string>
+    <string name="lockscreen_sim_locked_message_short">Sim kadi imefungwa</string>
+    <string name="keyguard_alwaysask">Uliza siku zote</string>
+    <string name="keyguard_data_none">Zima</string>
+    <string name="keyguard_sim_auto">"Otomatiki"</string>
+    <string name="keyguard_internal_call">Wito wa ndani</string>
+    <string name="keyguard_not_set">Haijawekwa</string>
+    <string name="voice_unlock_service_error">Kasoro  la huduma ya sauti!</string>
+    <string name="voice_unlock_password_wrong">Pole, haiwezi tambua sauti yako.</string>
+    <string name="voice_unlock_noisy">Kuna kelele sana siwezi kusikia vizuri.</string>
+    <string name="voice_unlock_weak">Sauti yako haisikiki.</string>
+    <string name="voice_unlock_media_playing">Kufungua sauti kumelemazwa wakati midia ina chezwa.</string>
+    <string name="voiceunlock_multiple_failures">Majaribio ya kufungua upeo sauti umezidi .</string>
+    <string name="voiceunlock_accessibility_voice_unlock">Kufungua sauti.</string>
+    <string name="dm_prompt">Ukingo umefungwa tayari</string>
+    <string name="ppl_prompt">Tafadhali ingiza nywila ya usiri wa usalama ili ufungue.</string>
+    <string name="sd_accessing_swtich_user_title">Badili mtumiaji</string>
+    <string name="sd_accessing_swtich_user_message">Data zote ambazo hazija hifadhiwa zita potea au zitavurugwa.</string>
+    <string name="kg_emergency_call_label">"Dharura"</string>
+    <string name="kg_slot_id">Nafasi <xliff:g id="number">%d</xliff:g>:\u0020</string>
+    <string name="kg_detecting_simcard">Utafutaji…</string>
+    <string name="kg_new_simcard">SIM kadi mpya</string>
+</resources>

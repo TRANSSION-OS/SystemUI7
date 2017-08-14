@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- recents-->
+    <dimen name="recents_task_view_page_width">197dp</dimen>
+    <dimen name="recents_task_view_page_height">337dp</dimen>
+    <dimen name="recents_task_view_page_margin">10dp</dimen>
+    <!-- recents divider mode-->
+    <dimen name="recents_task_view_divider_page_width">130dp</dimen>
+    <dimen name="recents_task_view_divider_page_height">222.3dp</dimen>
+    <dimen name="recents_task_view_divider_page_margin">10dp</dimen>
+
+    <dimen name="recents_talpa_task_view_header_width">24dp</dimen>
+    <dimen name="recents_talpa_task_view_header_height">24dp</dimen>
+    <dimen name="recents_talpa_task_view_header_title_margin">12dp</dimen>
+    <dimen name="recents_talpa_task_view_header_margin_bottom">12dp</dimen>
+    <dimen name="recents_talpa_task_view_memory_show_margin_top">10dp</dimen>
+    <dimen name="recents_talpa_task_view_operate_btn_move_h">20dp</dimen>
+    <dimen name="recents_talpa_task_view_operate_swipe_h">88dp</dimen>
+    <dimen name="recents_talpa_list_view_margin_top">-12dp</dimen>
+
+    <!--chenzhengjun added start-->
+    <dimen name="itel_text_drag_margin_left">32dp</dimen>
+    <dimen name="itel_text_drag_margin_top">292dp</dimen>
+    <dimen name="itel_text_drag_size">12sp</dimen>
+    <dimen name="itel_text_drag_offset_top">5dp</dimen>
+    <dimen name="itel_text_drag_offset_bottom">40dp</dimen>
+    <!--chenzhengjun added end-->
+
+    <!--wangying add begin-->
+    <integer name="keyguard_charging_frame_width">570</integer>
+    <integer name="keyguard_charging_frame_height">309</integer>
+    <integer name="keyguard_charging_circle_width">270</integer>
+    <integer name="keyguard_charging_circle_Height">270</integer>
+    <dimen name="keyguard_charging_particle_width">360dp</dimen>
+    <dimen name="keyguard_charging_particle_height">640dp</dimen>
+    <dimen name="keyguard_charging_particle_init_size">631.5dp</dimen>
+
+    <!--wangying add end-->
+</resources>

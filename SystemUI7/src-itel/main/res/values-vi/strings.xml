@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+* add new string defined by itel
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- bo.yang add begin -->
+    <string name="keyguard_bottom_date_day">ngày</string>
+    <string name="mem_info">RAM: <xliff:g id="ram_available">%1$s</xliff:g>MB / <xliff:g id="ram_total">%2$s</xliff:g>GB</string>
+    <string name="recents_clear_memory">Đã dọn dẹp thành công <xliff:g id="number">%d</xliff:g>M bộ nhớ</string>
+    <string name="click_return_telephone">Chạm để quay lại cuộc gọi</string>
+    <string name="call_end">gọi kết thúc</string>
+    <string name="call_fail">Gọi thất bại</string>
+    <string name="qs_power_save">Siêu tiết kiệm điện</string>
+    <string name="split_screen">Màn hình chia nhỏ</string>
+    <string name="lock_task">Khóa</string>
+    <string name="unlock_task">Mở khóa</string>
+    <!-- bo.yang add end -->
+    <string name="take_screenshot">Ảnh chụp màn hình</string>
+</resources>

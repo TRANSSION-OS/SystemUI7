@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.phoneleather.LeatherMusicView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:leather="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout android:layout_width="@dimen/leather_menu_radius"
+        android:layout_height="@dimen/leather_menu_radius"
+		android:layout_gravity="center_horizontal"
+		android:background="@drawable/leather_music_bg"
+		android:gravity="center_horizontal"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="@dimen/leather_margin_top">
+
+		<com.android.systemui.statusbar.phoneleather.CircleImageView android:layout_width="119dp"
+			android:layout_height="119dp"
+			android:layout_centerInParent="true"
+			android:id="@+id/record"/>
+
+		<com.android.systemui.statusbar.phoneleather.LeatherMusicProgressBar android:layout_width="128dp"
+			android:layout_height="128dp"
+			android:layout_centerInParent="true"
+			android:id="@+id/progressbar"
+			leather:progressbar_width="@dimen/leather_music_progress_bar"
+			leather:progressbar_background_color="#1AFFFFFF"
+			leather:progressbar_front_start_color="#FC4936"
+			leather:progressbar_front_end_color="#F7104A"/>
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/leather_music_loading"
+			android:src="@drawable/leather_music_loading"
+			android:layout_centerInParent="true"
+			android:visibility="gone"/>
+
+        <LinearLayout
+		     android:layout_width="match_parent"
+		     android:layout_height="wrap_content"
+		     android:layout_marginTop="142dp"
+		     android:layout_marginLeft="27dp"
+		     android:layout_marginRight="27dp"
+		     android:orientation="horizontal"
+			 android:id="@+id/operation_layout">
+		     <ImageButton android:layout_width="wrap_content"
+		         android:layout_height="wrap_content"
+		         android:id="@+id/leather_music_previous"
+		         android:background="@null"
+		         android:src="@drawable/leather_music_previous"/>
+
+		     <ImageButton android:layout_width="wrap_content"
+		         android:layout_height="wrap_content"
+		         android:layout_marginLeft="84.5dp"
+		         android:layout_marginRight="84.5dp"
+		         android:id="@+id/leather_music_play"
+		         android:background="@null"
+		         android:src="@drawable/leather_music_start"/>
+
+		     <ImageButton android:layout_width="wrap_content"
+		         android:layout_height="wrap_content"
+		         android:id="@+id/leather_music_next"
+		         android:background="@null"
+		         android:src="@drawable/leather_music_next"/>
+	 	</LinearLayout>
+
+		 <TextView android:layout_width="140dp"
+		     android:layout_height="wrap_content"
+		     android:layout_marginTop="66dp"
+		     android:layout_centerHorizontal="true"
+			 android:gravity="center_horizontal"
+		     android:id="@+id/leather_music_name"
+			 android:layout_below="@id/operation_layout"
+		     android:textSize="18sp"
+		     android:textColor="#cacaca"
+		     android:singleLine="true"
+		     android:ellipsize="end"/>
+
+		 <TextView android:layout_width="80dp"
+		     android:layout_height="wrap_content"
+			 android:layout_below="@id/leather_music_name"
+		     android:layout_marginTop="6dp"
+			 android:layout_centerHorizontal="true"
+		     android:gravity="center_horizontal"
+		     android:id="@+id/leather_music_artist"
+		     android:textSize="14sp"
+		     android:textColor="#cacaca"
+		     android:singleLine="true"
+		     android:ellipsize="end"/>
+    </RelativeLayout>
+    
+</com.android.systemui.statusbar.phoneleather.LeatherMusicView>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="status_bar_green">#00CC00</color>
+    <color name="itel_batterymeter_charge_color">#FF0CC444</color>
+    <color name="itel_batterymeter_frame_color">#FFFFFF</color>
+    <color name="itel_batterymeter_returncall_color">#7FFFFFFF</color>
+    <color name="recents_task_talpa_view_show_memory_color">#66FFFFFF</color>
+    <color name="itel_notification_bg">#70000000</color>
+    <color name="charging_animation_background">#DC000000</color>
+    <color name="keyguard_accident_touch_text_color">#FFB2B2B2</color>
+    <color name="itel_text_drag_text_color">#EBEBEB</color> <!--40% white-->
+    <color name="itel_remote_input_hint">#383838</color>
+    <color name="itel_notification_msg_txt_color">#383838</color>
+    <color name="itel_notification_msg_edit_bg">#f8f8f8</color>
+    <color name="itel_notification_content_bg">#e7e7e7</color>
+    <color name="itel_notification_header_bg">#f0f0f0</color>
+	<color name="itel_notification_primary_text_color">#343434</color>
+    <color name="itel_notification_subtext_color">#aaaaaa</color>
+
+    <!--linwujia add begin -->
+    <color name="itel_battery_charging_color">#2DD000</color>
+    <color name="itel_battery_powersave_color">#FF9000</color>
+    <!--linwujia add end -->
+    <!--talpa@andy add begin-->
+    <color name="qs_customizer_transition">#05FFFFFF</color>
+    <color name="qs_customizer_menu_bg">#FF444444</color>
+    <!--talpa@andy add end-->
+</resources>
+

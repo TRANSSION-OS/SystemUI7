@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--linwujia add begin -->
+    <dimen name="return_call_size">168dp</dimen>
+    <dimen name="itel_keyguard_battery_level_margin_end">2dp</dimen>
+    <!--linwujia add end-->
+    <!-- talpa@andy add @{ -->
+    <dimen name="status_bar_header_height">153.5dp</dimen>
+    <dimen name="keyguard_charging_sign_size">16sp</dimen>
+    <dimen name="keyguard_charging_text_size">30sp</dimen>
+    <!-- @} -->
+</resources>

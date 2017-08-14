@@ -1,0 +1,16 @@
+.gradle
+.idea
+gradle
+outputs
+intermediates
+tmp
+local.properties 
+/build
+/Android.mk
+/src
+/SettingsLib/build/
+/SystemUI7/build/
+/LeatherLib/build/
+/Keyguard/build/
+/MagzineLockScreenLib/build/
+
