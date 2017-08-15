@@ -13,4 +13,9 @@ local.properties
 /LeatherLib/build/
 /Keyguard/build/
 /MagzineLockScreenLib/build/
+/Keyguard/Keyguard.iml
+/LeatherLib/LeatherLib.iml
+/SettingsLib/SettingsLib.iml
+/SystemUI7/SystemUI7-SystemUI7.iml
+
 

@@ -45,13 +45,14 @@ public class SystemBars extends SystemUI implements ServiceMonitor.Callbacks {
     private BaseStatusBar mStatusBar;
 
     @Override
-    public void start() {
+    public void start() { //启动SystemBars
         if (DEBUG) Log.d(TAG, "start");
         mServiceMonitor = new ServiceMonitor(TAG, DEBUG,
                 mContext, Settings.Secure.BAR_SERVICE_COMPONENT, this);
-        mServiceMonitor.start();  // will call onNoService if no remote service is found
+        mServiceMonitor.start();  // will call onNoService if no remote service is found //如果服务没有启动的话就调用onNoService()方法，进入 onNoService() 方法
     }
 
+    //方法中调用了CreateStatusBarFromConfig()
     @Override
     public void onNoService() {
         if (DEBUG) Log.d(TAG, "onNoService");
@@ -84,8 +85,13 @@ public class SystemBars extends SystemUI implements ServiceMonitor.Callbacks {
         }
     }
 
+    //该方法中先读取 value/config.xml 文件中 config_statusBarComponent 的值,
+    // 这里为：com.android.systemui.statusbar.phone.PhoneStatusBar，
+    // 然后通过反射得到了 PhoneStatusBar 对象，最后的 mStartus.start() 也就等于 PhoneStatusBar.start()，
+    // 进入该方法，会发现，里面调用了super.start()，也就是先执行了父类的 start()
     private void createStatusBarFromConfig() {
         if (DEBUG) Log.d(TAG, "createStatusBarFromConfig");
+        //com.android.systemui.statusbar.phone.PhoneStatusBar
         final String clsName = mContext.getString(R.string.config_statusBarComponent);
         if (clsName == null || clsName.length() == 0) {
             throw andLog("No status bar component configured", null);

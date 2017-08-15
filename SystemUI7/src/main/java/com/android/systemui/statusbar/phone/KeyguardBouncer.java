@@ -51,6 +51,7 @@ import static com.android.keyguard.KeyguardSecurityModel.SecurityMode;
 /**
  * A class which manages the bouncer on the lockscreen.
  */
+//屏解锁界面，根据用户设置的解锁方式不同，展示不同的解锁模式
 public class KeyguardBouncer {
 
     final static private String TAG = "KeyguardBouncer";

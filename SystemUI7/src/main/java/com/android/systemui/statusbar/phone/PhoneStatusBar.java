@@ -3516,7 +3516,7 @@ public class PhoneStatusBar extends BaseStatusBar implements DemoMode,
     }
 
     @Override
-    public void createAndAddWindows() {
+    public void createAndAddWindows() { //PhoneStatusBar 实现父类函数
         addStatusBarWindow();
         addAccidentTouchWindow();
         if (LeatherUtil.isSupportLeather()){
@@ -3536,7 +3536,7 @@ public class PhoneStatusBar extends BaseStatusBar implements DemoMode,
     }
 
     private void addStatusBarWindow() {
-        makeStatusBarView();
+        makeStatusBarView();//构建statusBar视图
         mStatusBarWindowManager = new StatusBarWindowManager(mContext);
         mRemoteInputController = new RemoteInputController(mStatusBarWindowManager,
                 mHeadsUpManager);

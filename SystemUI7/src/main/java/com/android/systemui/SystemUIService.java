@@ -42,9 +42,9 @@ public class SystemUIService extends Service {
     FloatKeyView mFloatKeyView;
 
     @Override
-    public void onCreate() {
+    public void onCreate() {//启动SystemUI
         super.onCreate();
-        ((SystemUIApplication) getApplication()).startServicesIfNeeded();
+        ((SystemUIApplication) getApplication()).startServicesIfNeeded();//启动系统服务
         if (TalpaUtils.isSPRDPlatform()) {
             // SPRD: Bug 598664  display only for owner
             if (SystemProperties.get("ro.product.assistanttouch").equals("") && UserHandle.myUserId() == UserHandle.USER_OWNER) {

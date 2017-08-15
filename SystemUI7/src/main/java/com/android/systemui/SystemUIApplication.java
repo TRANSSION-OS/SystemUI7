@@ -44,7 +44,7 @@ public class SystemUIApplication extends Application {
     /**
      * The classes of the stuff to start.
      */
-    private final Class<?>[] SERVICES = new Class[] {
+    private final Class<?>[] SERVICES = new Class[] {//SystemUI 整体结构
             com.android.systemui.tuner.TunerService.class,
             com.android.systemui.keyguard.KeyguardViewMediator.class,
             com.android.systemui.recents.Recents.class,
@@ -138,7 +138,7 @@ public class SystemUIApplication extends Application {
     }
 
     private void startServicesIfNeeded(Class<?>[] services) {
-        if (mServicesStarted) {
+        if (mServicesStarted) { //如果已经启动了，返回。
             return;
         }
 
@@ -153,7 +153,11 @@ public class SystemUIApplication extends Application {
 
         Log.v(TAG, "Starting SystemUI services for user " +
                 Process.myUserHandle().getIdentifier() + ".");
-        final int N = services.length;
+        final int N = services.length;//SystemUI 相关的类的反射 个数
+        //存到了 service[] 里，然后赋值给cl，
+        // 紧接着将通过反射将其转化为具体类的对象，
+        // 存到了mService[i]数组里，最后对象调 start() 方法启动相关类的服务，
+        // 启动完成后，回调 onBootCompleted( ) 方法。
         for (int i=0; i<N; i++) {
             Class<?> cl = services[i];
             if (DEBUG) Log.d(TAG, "loading: " + cl);
@@ -169,13 +173,13 @@ public class SystemUIApplication extends Application {
             mServices[i].mContext = this;
             mServices[i].mComponents = mComponents;
             if (DEBUG) Log.d(TAG, "running: " + mServices[i]);
-            mServices[i].start();
+            mServices[i].start();//mService[i] 里的值不同时，调用的 start() 方法也不相同;启动不同的SystemUI组件
 
             if (mBootCompleted) {
                 mServices[i].onBootCompleted();
             }
         }
-        mServicesStarted = true;
+        mServicesStarted = true;//启动完毕标志位
     }
 
     @Override
